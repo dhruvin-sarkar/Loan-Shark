@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CraftingRecipe" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1_recipe"]
+
+[resource]
+script = ExtResource("1_recipe")
+recipe_name = "Blood Tide Charm"
+result_charm_id = "charm_blood_tide"
+result_type = "enchantment"
+materials_required = {
+"mat_small_bone": 4,
+"mat_fish_bone": 3
+}
+effect_description = "Enchants rod with Blood Tide (Rare+ spawn weight +30%, hazard rate +50%)."
+texture_path = "res://Assets/Items/charm_blood_tide.png"

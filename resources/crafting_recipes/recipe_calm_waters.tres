@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CraftingRecipe" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1_recipe"]
+
+[resource]
+script = ExtResource("1_recipe")
+recipe_name = "Calm Waters Charm"
+result_charm_id = "charm_calm_waters"
+result_type = "enchantment"
+materials_required = {
+"mat_coral": 4,
+"mat_seaweed": 3,
+"mat_sea_glass": 2
+}
+effect_description = "Enchants rod with Calm Waters (Reel oscillation amplitude -30%)."
+texture_path = "res://Assets/Items/charm_calm_waters.png"

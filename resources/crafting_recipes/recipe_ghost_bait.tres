@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CraftingRecipe" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1_recipe"]
+
+[resource]
+script = ExtResource("1_recipe")
+recipe_name = "Ghost Bait Charm"
+result_charm_id = "charm_ghost_bait"
+result_type = "enchantment"
+materials_required = {
+"mat_biolum": 3,
+"mat_kelp": 3
+}
+effect_description = "Enchants rod with Ghost Bait (Night-only fish spawn during daytime too)."
+texture_path = "res://Assets/Items/charm_ghost_bait.png"

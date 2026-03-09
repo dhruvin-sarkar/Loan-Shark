@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CraftingRecipe" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1_recipe"]
+
+[resource]
+script = ExtResource("1_recipe")
+name = "Luck Charm"
+description = "Craft a charm that improves catch chance."
+result_id = "charm_luck"
+requirements = [
+{"id": "mat_pearl", "count": 2},
+{"id": "mat_sea_glass", "count": 3},
+{"id": "mat_small_bone", "count": 5}
+]

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CraftingRecipe" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1_recipe"]
+
+[resource]
+script = ExtResource("1_recipe")
+recipe_name = "Deep Charm"
+result_charm_id = "charm_deep"
+result_type = "sell"
+materials_required = {
+"mat_abyssal": 2,
+"mat_fish_bone": 1
+}
+effect_description = "+35% sell price on deep family fish."
+texture_path = "res://Assets/Items/charm_deep.png"

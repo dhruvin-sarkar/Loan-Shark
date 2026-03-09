@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CraftingRecipe" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1_recipe"]
+
+[resource]
+script = ExtResource("1_recipe")
+recipe_name = "Echo Line Charm"
+result_charm_id = "charm_echo_line"
+result_type = "enchantment"
+materials_required = {
+"mat_coral": 3,
+"mat_sea_glass": 2,
+"mat_driftwood": 2
+}
+effect_description = "Enchants rod with Echo Line (After each catch, +15% weight for same species on next 3 casts)."
+texture_path = "res://Assets/Items/charm_echo_line.png"

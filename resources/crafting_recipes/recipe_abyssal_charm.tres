@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CraftingRecipe" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1_recipe"]
+
+[resource]
+script = ExtResource("1_recipe")
+name = "Abyssal Charm"
+description = "Craft a powerful spawn charm from deep materials."
+result_id = "charm_abyssal"
+requirements = [
+{"id": "mat_abyssal", "count": 1},
+{"id": "mat_biolum", "count": 3},
+{"id": "mat_pearl", "count": 2}
+]

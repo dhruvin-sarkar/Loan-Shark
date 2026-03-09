@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CraftingRecipe" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1_recipe"]
+
+[resource]
+script = ExtResource("1_recipe")
+recipe_name = "Fortune Hook Charm"
+result_charm_id = "charm_fortune_hook"
+result_type = "enchantment"
+materials_required = {
+"mat_pearl": 4,
+"mat_sea_glass": 3
+}
+effect_description = "Enchants rod with Fortune Hook (Every 7th cast guaranteed rare+ fish)."
+texture_path = "res://Assets/Items/charm_fortune_hook.png"
