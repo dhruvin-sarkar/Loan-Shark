@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SpawnTable" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/systems/spawn_table.gd" id="1_spawn"]
+
+[resource]
+script = ExtResource("1_spawn")
+zone_name = "zone4"
+fish_weights = {
+"lanternfish": 25,
+"fangtooth": 18,
+"deep_angler": 14,
+"barreleye": 12,
+"gulper_eel": 8,
+"dragonfish_adult": 6,
+"frilled_shark": 4,
+"sea_angel": 3,
+"goldfish_modifier": 2,
+"midnight_leviathan": 1
+}
+night_only_fish = ["midnight_leviathan"]

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="SpawnTable" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/systems/spawn_table.gd" id="1_spawn"]
+
+[resource]
+script = ExtResource("1_spawn")
+zone_name = "zone1"
+fish_weights = {
+"sardine": 25,
+"perch": 20,
+"shrimp": 18,
+"flounder": 15,
+"bass": 12,
+"jellyfish": 10,
+"crab": 8,
+"pufferfish": 6,
+"clownfish": 5,
+"seahorse": 4
+}
