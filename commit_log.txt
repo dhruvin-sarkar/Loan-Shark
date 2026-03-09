@@ -1,0 +1,27 @@
+﻿a48427d Initial commit
+fe448b6 chore: project config, export presets, and git setup
+4c65dce feat: GameState autoload — debt, cash, inventory, day/night vars
+ef21672 feat: SceneManager transitions and AudioManager music/SFX system
+e363481 feat: SaveSystem — JSON save/load to user://save.json
+0b25a1c feat: FishDatabase autoload — fish lookup table and instance factory
+5a4b926 data: Zone 1 fish resources — sardine, bass, crab, clownfish, seahorse, pufferfish, flounder, perch, shrimp, jellyfish
+a6fd959 data: Zone 2 fish resources — snapper, moray, grouper, trumpetfish, spiny lobster, stonefish, octopus, needlefish, batfish, ghost crab
+d1adda8 data: Zone 3 fish resources — anglerfish, giant moray, oarfish, viperfish, dragonfish juv, rugose crab, coelacanth, abyssal shrimp, stone crab, phantom eel
+a182b12 data: Zone 4 fish resources — gulper eel, dragonfish adult, deep anglerfish, barreleye, fangtooth, frilled shark, goldfish modifier, lanternfish, sea angel, midnight leviathan
+e5ddb2a data: spawn tables for all 4 zones with base integer weights
+ae6bcd0 feat: ItemDatabase — all rods, bait, knives, zone access rules
+ce4adc2 data: all 10 rod resources — starter, amateur, intermediate, pro tiers
+106a73b data: all 14 material resources — shells, coral, seaweed, sea glass, driftwood, bones, pearls, ink, scales, teeth, spines, gems, ancient artifacts
+f56e447 feat: ModifierStack — spawn and sell multiplier pipeline, modifier fish effects
+725b15f feat: 600-second day/night cycle — morning, afternoon, dusk, night phases
+382f416 feat: hazard spawner — zone-based rates for jellyfish, eel, shark, octopus, turtle, leviathan
+2523542 feat: beach foraging — 14 material types, night-only spawns, day reset
+646238f feat: all minigames — cast, reel, catch, filet with mechanics and scoring
+7c73c6d feat: TutorialManager with 15 steps and Greed Meter depth pressure system
+0019f30 feat: crafting system — 24 charm recipes with exact material quantities
+366c527 feat: remaining system scripts — fish spawner, debt system, resource classes
+ec9c239 feat: all scene files — main, town, beach, dock, ocean zones, UI screens, minigames
+66a30ac assets: all game assets — sprites, fonts, music tracks, SFX
+395207a chore: Godot addons — AsepriteWizard, godot-rapier2d, ziva_agent
+3b23688 chore: Godot import metadata for all assets
+079d1b4 feat: player character and Sentry error tracking integration

@@ -1,0 +1,1461 @@
+﻿C:\Game projects\Loan-Shark\.gitattributes
+C:\Game projects\Loan-Shark\.gitignore
+C:\Game projects\Loan-Shark\icon.svg
+C:\Game projects\Loan-Shark\icon.svg.import
+C:\Game projects\Loan-Shark\LICENSE
+C:\Game projects\Loan-Shark\project.godot
+C:\Game projects\Loan-Shark\project_files.txt
+C:\Game projects\Loan-Shark\README.md
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\LICENSE
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\plugin.cfg
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\plugin.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\plugin.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\aseprite\aseprite.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\aseprite\aseprite.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\aseprite\file_exporter.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\aseprite\file_exporter.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\config\config.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\config\config.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\config\config_dialog.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\config\config_dialog.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\config\config_dialog.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\config\logger.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\config\logger.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\config\result_codes.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\config\result_codes.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\config\wizard_config.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\config\wizard_config.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\creators\base_sprite_resource_creator.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\creators\base_sprite_resource_creator.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\creators\animation_player\animation_creator.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\creators\animation_player\animation_creator.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\creators\animation_player\sprite_animation_creator.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\creators\animation_player\sprite_animation_creator.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\creators\animation_player\texture_rect_animation_creator.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\creators\animation_player\texture_rect_animation_creator.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\creators\sprite_frames\sprite_frames_creator.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\creators\sprite_frames\sprite_frames_creator.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\creators\static_texture\texture_creator.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\creators\static_texture\texture_creator.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\export\export_plugin.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\export\export_plugin.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\export\metadata_export_plugin.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\files\file_lifecycle_listeners.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\files\file_lifecycle_listeners.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\file_system_helper.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\multiple_import_plugin_base.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\multiple_import_plugin_base.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\noop_import_plugin.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\noop_import_plugin.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\sprite_frames_import_plugin.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\sprite_frames_import_plugin.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\sprite_frames_multiple_import_plugin.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\sprite_frames_multiple_import_plugin.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\static_texture_import_plugin.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\static_texture_import_plugin.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\static_texture_import_plugin_base.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\static_texture_import_plugin_base.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\static_texture_multiple_import_plugin.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\static_texture_multiple_import_plugin.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\tileset_texture_import_plugin.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\tileset_texture_import_plugin.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\helpers\bakery.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\helpers\bakery.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\helpers\file_system_helper.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\helpers\file_system_helper.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\split_layer_importers\layer_import_plugin.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\split_layer_importers\layer_import_plugin.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\split_layer_importers\layer_texture_import_plugin.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\importers\split_layer_importers\layer_texture_import_plugin.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\base_inspector_dock.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\base_inspector_dock.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\dock_fields.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\dock_fields.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\dock_fields.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\layer_select_field.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\layer_select_field.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\layer_select_field.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\multi_layer_select_field.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\multi_layer_select_field.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\multi_layer_select_field.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\animated_sprite\animated_sprite_inspector_dock.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\animated_sprite\animated_sprite_inspector_dock.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\animated_sprite\animated_sprite_inspector_dock.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\animated_sprite\inspector_plugin.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\animated_sprite\inspector_plugin.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\sprite\inspector_plugin.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\sprite\inspector_plugin.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\sprite\sprite_inspector_dock.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\sprite\sprite_inspector_dock.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\sprite\sprite_inspector_dock.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\as_wizard_dock_container.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\as_wizard_dock_container.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\as_wizard_dock_container.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\as_wizard_window.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\as_wizard_window.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\as_wizard_window.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\imported_sprite_frames.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\imported_sprite_frames.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\imported_sprite_frames.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\resource_tree_multiple_items.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\resource_tree_multiple_items.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\resource_tree_multiple_items.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\resource_tree_single_item.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\resource_tree_single_item.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\resource_tree_single_item.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\sprite_frames_import_history.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\sprite_frames_import_history.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\sprite_frames_import_history.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\wizard_import_helper.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\wizard_import_helper.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\wizard_nodes\details.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\wizard_nodes\details.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\wizard_nodes\details.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\wizard_nodes\import_date.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\wizard_nodes\import_date.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\wizard_nodes\import_date.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\wizard_nodes\list_actions.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\wizard_nodes\list_actions.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\wizard_nodes\list_actions.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\wizard_nodes\output_path.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\wizard_nodes\source_path.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\wizard_nodes\source_path.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\docks\wizard\wizard_nodes\source_path.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\imports_manager\aseprite_imports_manager.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\imports_manager\aseprite_imports_manager.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\imports_manager\aseprite_imports_manager.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\imports_manager\dock_imports_panel.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\imports_manager\dock_imports_panel.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\imports_manager\dock_imports_panel.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\imports_manager\import_helper.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\imports_manager\import_helper.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\imports_manager\import_panels.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\imports_manager\import_panels.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\imports_manager\import_panels.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\imports_manager\tree_filter_field.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\imports_manager\tree_filter_field.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\imports_manager\tree_selection_multiple_items.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\imports_manager\tree_selection_multiple_items.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\imports_manager\tree_selection_multiple_items.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\imports_manager\tree_selection_single_item.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\imports_manager\tree_selection_single_item.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\imports_manager\tree_selection_single_item.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\shared\animation_player_drop_button.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\shared\animation_player_drop_button.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\shared\animation_player_drop_button.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\shared\dir_drop_button.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\shared\dir_drop_button.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\shared\dir_drop_button.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\shared\source_drop_button.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\shared\source_drop_button.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\shared\source_drop_button.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\shared\tree\inline_warning_panel.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\shared\tree\inline_warning_panel.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\shared\tree\inline_warning_panel.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\shared\tree\resource_tree.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\shared\tree\resource_tree.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\shared\tree\resource_tree.tscn
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\shared\tree\tree_selection_confirmation_warning.gd
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\shared\tree\tree_selection_confirmation_warning.gd.uid
+C:\Game projects\Loan-Shark\addons\AsepriteWizard\interface\shared\tree\tree_selection_confirmation_warning.tscn
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\circle_mesh.tres
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\faucet_2d.gd
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\faucet_2d.gd.uid
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\fluid_2d_circle.gd
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\fluid_2d_circle.gd.uid
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\fluid_2d_rectangle.gd
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\fluid_2d_rectangle.gd.uid
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\fluid_2d_renderer.gd
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\fluid_2d_renderer.gd.uid
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\fluid_2d_shader_renderer.gd
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\fluid_2d_shader_renderer.gd.uid
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\godot-rapier2d.gdextension
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\godot-rapier2d.gdextension.uid
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\LICENSE
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\logo_square_2d.png
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\logo_square_2d.png.import
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\plugin.info.cfg
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\Radial2D.svg
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\Radial2D.svg.import
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\THIRDPARTY.txt
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\water_shader.gdshader
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\water_shader.gdshader.uid
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\water_shader.tres
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\bin\godot_rapier.wasm
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\bin\libgodot_rapier.android.aarch64-linux-android.so
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\bin\libgodot_rapier.android.armv7-linux-androideabi.so
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\bin\libgodot_rapier.android.i686-linux-android.so
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\bin\libgodot_rapier.android.x86_64-linux-android.so
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\bin\libgodot_rapier.linux.aarch64-unknown-linux-gnu.so
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\bin\libgodot_rapier.linux.armv7-unknown-linux-gnueabihf.so
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\bin\libgodot_rapier.linux.i686-unknown-linux-gnu.so
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\bin\libgodot_rapier.linux.x86_64-unknown-linux-gnu.so
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\bin\libgodot_rapier.windows.aarch64-pc-windows-msvc.dll
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\bin\libgodot_rapier.windows.i686-pc-windows-msvc.dll
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\bin\libgodot_rapier.windows.x86_64-pc-windows-msvc.dll
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\bin\libgodot_rapier.ios.arm64.framework\Info.plist
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\bin\libgodot_rapier.ios.arm64.framework\libgodot_rapier.ios.arm64
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\bin\libgodot_rapier.ios.x86_64.framework\Info.plist
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\bin\libgodot_rapier.ios.x86_64.framework\libgodot_rapier.ios.x86_64
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\bin\libgodot_rapier.macos.framework\libgodot_rapier.macos.dylib
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\bin\libgodot_rapier.macos.framework\Resources\Info.plist
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\bin\libgodot_rapier.macos.framework\_CodeSignature\CodeResources
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\bin\wasm-nothreads\godot_rapier.wasm
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\custom_nodes\rapier_animatable_body_2d.gd
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\custom_nodes\rapier_animatable_body_2d.gd.uid
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\custom_nodes\rapier_area_2d.gd
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\custom_nodes\rapier_area_2d.gd.uid
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\custom_nodes\rapier_character_body_2d.gd
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\custom_nodes\rapier_character_body_2d.gd.uid
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\custom_nodes\rapier_damped_spring_joint_2d.gd
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\custom_nodes\rapier_damped_spring_joint_2d.gd.uid
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\custom_nodes\rapier_groove_joint_2d.gd
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\custom_nodes\rapier_groove_joint_2d.gd.uid
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\custom_nodes\rapier_physical_bone_2d.gd
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\custom_nodes\rapier_physical_bone_2d.gd.uid
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\custom_nodes\rapier_pin_joint_2d.gd
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\custom_nodes\rapier_pin_joint_2d.gd.uid
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\custom_nodes\rapier_rigid_body_2d.gd
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\custom_nodes\rapier_rigid_body_2d.gd.uid
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\custom_nodes\rapier_static_body_2d.gd
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\custom_nodes\rapier_static_body_2d.gd.uid
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\icons\Fluid2D.svg
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\icons\Fluid2D.svg.import
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\icons\StateManager2D.svg
+C:\Game projects\Loan-Shark\addons\godot-rapier2d\icons\StateManager2D.svg.import
+C:\Game projects\Loan-Shark\addons\pretty-gd\LICENSE
+C:\Game projects\Loan-Shark\addons\pretty-gd\plugin.cfg
+C:\Game projects\Loan-Shark\addons\pretty-gd\pretty-gd.gd
+C:\Game projects\Loan-Shark\addons\pretty-gd\pretty-gd.gd.uid
+C:\Game projects\Loan-Shark\addons\pretty-gd\pretty.gd
+C:\Game projects\Loan-Shark\addons\pretty-gd\pretty.gd.uid
+C:\Game projects\Loan-Shark\addons\pretty-gd\README.md
+C:\Game projects\Loan-Shark\addons\ziva_agent\README.md
+C:\Game projects\Loan-Shark\addons\ziva_agent\ziva_agent.gdextension
+C:\Game projects\Loan-Shark\addons\ziva_agent\ziva_agent.gdextension.uid
+C:\Game projects\Loan-Shark\addons\ziva_agent\bin\windows_x86_64\libziva_agent.windows.release.x86_64.dll
+C:\Game projects\Loan-Shark\addons\ziva_agent\bin-deps\windows_x86_64\rg.exe
+C:\Game projects\Loan-Shark\addons\ziva_agent\db\migrations\0000_spooky_vargas.sql
+C:\Game projects\Loan-Shark\addons\ziva_agent\db\migrations\0001_tough_pestilence.sql
+C:\Game projects\Loan-Shark\addons\ziva_agent\db\migrations\0002_thick_meggan.sql
+C:\Game projects\Loan-Shark\addons\ziva_agent\db\migrations\0003_melted_cassandra_nova.sql
+C:\Game projects\Loan-Shark\addons\ziva_agent\db\migrations\0004_clumsy_beyonder.sql
+C:\Game projects\Loan-Shark\addons\ziva_agent\db\migrations\0005_rename_create_script_tool.sql
+C:\Game projects\Loan-Shark\addons\ziva_agent\db\migrations\0006_great_spacker_dave.sql
+C:\Game projects\Loan-Shark\addons\ziva_agent\db\migrations\0007_lumpy_turbo.sql
+C:\Game projects\Loan-Shark\addons\ziva_agent\db\migrations\0008_rename_view_script_to_read.sql
+C:\Game projects\Loan-Shark\addons\ziva_agent\db\migrations\0009_vengeful_black_bird.sql
+C:\Game projects\Loan-Shark\addons\ziva_agent\db\migrations\meta\0000_snapshot.json
+C:\Game projects\Loan-Shark\addons\ziva_agent\db\migrations\meta\0001_snapshot.json
+C:\Game projects\Loan-Shark\addons\ziva_agent\db\migrations\meta\0002_snapshot.json
+C:\Game projects\Loan-Shark\addons\ziva_agent\db\migrations\meta\0003_snapshot.json
+C:\Game projects\Loan-Shark\addons\ziva_agent\db\migrations\meta\0004_snapshot.json
+C:\Game projects\Loan-Shark\addons\ziva_agent\db\migrations\meta\0005_snapshot.json
+C:\Game projects\Loan-Shark\addons\ziva_agent\db\migrations\meta\0006_snapshot.json
+C:\Game projects\Loan-Shark\addons\ziva_agent\db\migrations\meta\0007_snapshot.json
+C:\Game projects\Loan-Shark\addons\ziva_agent\db\migrations\meta\0008_snapshot.json
+C:\Game projects\Loan-Shark\addons\ziva_agent\db\migrations\meta\0009_snapshot.json
+C:\Game projects\Loan-Shark\addons\ziva_agent\db\migrations\meta\_journal.json
+C:\Game projects\Loan-Shark\addons\ziva_agent\dist\index.html
+C:\Game projects\Loan-Shark\Assets\audio\SeaBreeze.m4a
+C:\Game projects\Loan-Shark\Assets\audio\SeaBreeze.ogg
+C:\Game projects\Loan-Shark\Assets\BackDrops\an orange city.png
+C:\Game projects\Loan-Shark\Assets\BackDrops\an orange city.png.import
+C:\Game projects\Loan-Shark\Assets\BackDrops\Jungle Aseprite.aseprite
+C:\Game projects\Loan-Shark\Assets\BackDrops\Jungle.png
+C:\Game projects\Loan-Shark\Assets\BackDrops\Jungle.png.import
+C:\Game projects\Loan-Shark\Assets\BackDrops\Nightcity Animation.gif
+C:\Game projects\Loan-Shark\Assets\BackDrops\Nightcity Aseprite.aseprite
+C:\Game projects\Loan-Shark\Assets\BackDrops\Nightcity.png
+C:\Game projects\Loan-Shark\Assets\BackDrops\Nightcity.png.import
+C:\Game projects\Loan-Shark\Assets\BackDrops\Orange city Aseprite.aseprite
+C:\Game projects\Loan-Shark\Assets\BackDrops\README.txt
+C:\Game projects\Loan-Shark\Assets\BackDrops\Something in the middle.aseprite
+C:\Game projects\Loan-Shark\Assets\BackDrops\something in the middle.png
+C:\Game projects\Loan-Shark\Assets\BackDrops\something in the middle.png.import
+C:\Game projects\Loan-Shark\Assets\BackDrops\Undersea.png
+C:\Game projects\Loan-Shark\Assets\BackDrops\Undersea.png.import
+C:\Game projects\Loan-Shark\Assets\BackDrops\Underwater.aseprite
+C:\Game projects\Loan-Shark\Assets\charfree\char_walk_left.gif
+C:\Game projects\Loan-Shark\Assets\charfree\char_walk_right.gif
+C:\Game projects\Loan-Shark\Assets\charfree\global.png
+C:\Game projects\Loan-Shark\Assets\charfree\global.png.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Read Me.txt
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\thumbnail.png
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\thumbnail.png.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Sound Effects\alien remarks 2.mp3
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Sound Effects\alien remarks 2.mp3.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Sound Effects\alien remarks 3.mp3
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Sound Effects\alien remarks 3.mp3.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Sound Effects\alien remarks.mp3
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Sound Effects\alien remarks.mp3.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Sound Effects\phantom.mp3
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Sound Effects\phantom.mp3.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Sound Effects\presence behind.mp3
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Sound Effects\presence behind.mp3.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Sound Effects\shadow.mp3
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Sound Effects\shadow.mp3.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Sound Effects\stalker.mp3
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Sound Effects\stalker.mp3.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Sound Effects\underwater world.mp3
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Sound Effects\underwater world.mp3.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Tracks\Cuddle Clouds.mp3
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Tracks\Cuddle Clouds.mp3.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Tracks\Drifting Memories.mp3
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Tracks\Drifting Memories.mp3.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Tracks\Evening Harmony.mp3
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Tracks\Evening Harmony.mp3.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Tracks\Floating Dream.mp3
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Tracks\Floating Dream.mp3.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Tracks\Forgotten Biomes.mp3
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Tracks\Forgotten Biomes.mp3.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Tracks\Gentle Breeze.mp3
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Tracks\Gentle Breeze.mp3.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Tracks\Golden Gleam.mp3
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Tracks\Golden Gleam.mp3.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Tracks\Polar Lights.mp3
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Tracks\Polar Lights.mp3.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Tracks\Strange Worlds.mp3
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Tracks\Strange Worlds.mp3.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Tracks\Sunlight Through Leaves.mp3
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Tracks\Sunlight Through Leaves.mp3.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Tracks\Wanderer's Tale.mp3
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Tracks\Wanderer's Tale.mp3.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Tracks\Whispering Woods.mp3
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\mp3\Tracks\Whispering Woods.mp3.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Sound Effects\alien remarks 2.ogg
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Sound Effects\alien remarks 2.ogg.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Sound Effects\alien remarks 3.ogg
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Sound Effects\alien remarks 3.ogg.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Sound Effects\alien remarks.ogg
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Sound Effects\alien remarks.ogg.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Sound Effects\phantom.ogg
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Sound Effects\phantom.ogg.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Sound Effects\presence behind.ogg
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Sound Effects\presence behind.ogg.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Sound Effects\shadow.ogg
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Sound Effects\shadow.ogg.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Sound Effects\stalker.ogg
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Sound Effects\stalker.ogg.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Sound Effects\underwater world.ogg
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Sound Effects\underwater world.ogg.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Tracks\Cuddle Clouds.ogg
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Tracks\Cuddle Clouds.ogg.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Tracks\Drifting Memories.ogg
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Tracks\Drifting Memories.ogg.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Tracks\Evening Harmony.ogg
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Tracks\Evening Harmony.ogg.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Tracks\Floating Dream.ogg
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Tracks\Floating Dream.ogg.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Tracks\Forgotten Biomes.ogg
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Tracks\Forgotten Biomes.ogg.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Tracks\Gentle Breeze.ogg
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Tracks\Gentle Breeze.ogg.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Tracks\Golden Gleam.ogg
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Tracks\Golden Gleam.ogg.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Tracks\Polar Lights.ogg
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Tracks\Polar Lights.ogg.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Tracks\Strange Worlds.ogg
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Tracks\Strange Worlds.ogg.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Tracks\Sunlight Through Leaves.ogg
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Tracks\Sunlight Through Leaves.ogg.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Tracks\Wanderers Tale.ogg
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Tracks\Wanderers Tale.ogg.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Tracks\Whispering Woods.ogg
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\ogg\Tracks\Whispering Woods.ogg.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Sound Effects\alien remarks 2.wav
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Sound Effects\alien remarks 2.wav.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Sound Effects\alien remarks 3.wav
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Sound Effects\alien remarks 3.wav.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Sound Effects\alien remarks.wav
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Sound Effects\alien remarks.wav.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Sound Effects\phantom.wav
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Sound Effects\phantom.wav.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Sound Effects\presence behind.wav
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Sound Effects\presence behind.wav.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Sound Effects\shadow.wav
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Sound Effects\shadow.wav.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Sound Effects\stalker.wav
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Sound Effects\stalker.wav.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Sound Effects\underwater world.wav
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Sound Effects\underwater world.wav.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Tracks\Cuddle Clouds.wav
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Tracks\Cuddle Clouds.wav.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Tracks\Drifting Memories.wav
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Tracks\Drifting Memories.wav.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Tracks\Evening Harmony.wav
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Tracks\Evening Harmony.wav.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Tracks\Floating Dream.wav
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Tracks\Floating Dream.wav.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Tracks\Forgotten Biomes.wav
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Tracks\Forgotten Biomes.wav.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Tracks\Gentle Breeze.wav
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Tracks\Gentle Breeze.wav.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Tracks\Golden Gleam.wav
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Tracks\Golden Gleam.wav.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Tracks\Polar Lights.wav
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Tracks\Polar Lights.wav.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Tracks\Strange Worlds.wav
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Tracks\Strange Worlds.wav.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Tracks\Sunlight Through Leaves.wav
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Tracks\Sunlight Through Leaves.wav.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Tracks\Wanderer's Tale.wav
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Tracks\Wanderer's Tale.wav.import
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Tracks\Whispering Woods.wav
+C:\Game projects\Loan-Shark\Assets\CozyTunes(Pro)\Audio\wav\Tracks\Whispering Woods.wav.import
+C:\Game projects\Loan-Shark\Assets\fishing_free\global.png
+C:\Game projects\Loan-Shark\Assets\fishing_free\global.png.import
+C:\Game projects\Loan-Shark\Assets\fishing_free\global_free_recoloured.png
+C:\Game projects\Loan-Shark\Assets\fishing_free\global_free_recoloured.png.import
+C:\Game projects\Loan-Shark\Assets\fishing_free\item list.txt
+C:\Game projects\Loan-Shark\Assets\fishing_free\license.txt
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\COUPON.pdf
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\COUPON.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\COUPON.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\Free Assets Craftpix!.url
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\License.txt
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\readme.txt
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Action_panel.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Action_panel.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Buttons.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Buttons.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\character_panel.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\character_panel.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Circle_menu.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Circle_menu.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Craft.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Craft.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Decorative_cracks.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Decorative_cracks.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Equipment.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Equipment.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Icons.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Icons.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Inventory.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Inventory.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Levels.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Levels.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Main_menu.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Main_menu.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Main_tiles.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Main_tiles.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Numbers.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Numbers.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Numbers_levels.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Numbers_levels.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Settings.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Settings.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Shop.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Shop.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Text1.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Text1.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Text2.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Text2.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Win_loose.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PNG\Win_loose.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PSD\Action_panel.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PSD\Buttons.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PSD\character_panel.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PSD\Circle_menu.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PSD\Craft.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PSD\Equipment.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PSD\Icons.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PSD\Inventory.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PSD\Levels.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PSD\Main_menu.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PSD\Settings.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PSD\Shop.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\PSD\Win_loose.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\._COUPON.pdf
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\._COUPON.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\._COUPON.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\._Free Assets Craftpix!.url
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\._License.txt
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\._PNG
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\._PSD
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\._readme.txt
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Action_panel.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Action_panel.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Buttons.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Buttons.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._character_panel.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._character_panel.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Circle_menu.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Circle_menu.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Craft.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Craft.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Decorative_cracks.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Decorative_cracks.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Equipment.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Equipment.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Icons.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Icons.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Inventory.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Inventory.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Levels.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Levels.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Main_menu.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Main_menu.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Main_tiles.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Main_tiles.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Numbers.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Numbers.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Numbers_levels.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Numbers_levels.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Settings.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Settings.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Shop.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Shop.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Text1.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Text1.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Text2.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Text2.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Win_loose.png
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PNG\._Win_loose.png.import
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PSD\._Action_panel.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PSD\._Buttons.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PSD\._character_panel.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PSD\._Circle_menu.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PSD\._Craft.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PSD\._Equipment.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PSD\._Icons.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PSD\._Inventory.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PSD\._Levels.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PSD\._Main_menu.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PSD\._Settings.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PSD\._Shop.psd
+C:\Game projects\Loan-Shark\Assets\Free-Basic-Pixel-Art-UI-for-RPG\__MACOSX\PSD\._Win_loose.psd
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\Font.txt
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\License.txt
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\1 Fisherman\Fisherman_attack.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\1 Fisherman\Fisherman_attack.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\1 Fisherman\Fisherman_death.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\1 Fisherman\Fisherman_death.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\1 Fisherman\Fisherman_fish.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\1 Fisherman\Fisherman_fish.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\1 Fisherman\Fisherman_hook.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\1 Fisherman\Fisherman_hook.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\1 Fisherman\Fisherman_hurt.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\1 Fisherman\Fisherman_hurt.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\1 Fisherman\Fisherman_idle.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\1 Fisherman\Fisherman_idle.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\1 Fisherman\Fisherman_row.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\1 Fisherman\Fisherman_row.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\1 Fisherman\Fisherman_walk.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\1 Fisherman\Fisherman_walk.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\2 Character animation\GraveRobber_fish.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\2 Character animation\GraveRobber_fish.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\2 Character animation\GraveRobber_hook.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\2 Character animation\GraveRobber_hook.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\2 Character animation\GraveRobber_row.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\2 Character animation\GraveRobber_row.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\2 Character animation\SteamMan_fish.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\2 Character animation\SteamMan_fish.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\2 Character animation\SteamMan_hook.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\2 Character animation\SteamMan_hook.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\2 Character animation\SteamMan_row.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\2 Character animation\SteamMan_row.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\2 Character animation\Woodcutter_fish.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\2 Character animation\Woodcutter_fish.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\2 Character animation\Woodcutter_hook.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\2 Character animation\Woodcutter_hook.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\2 Character animation\Woodcutter_row.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\2 Character animation\Woodcutter_row.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Boat.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Boat.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Boat2.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Boat2.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Fish-rod.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Fish-rod.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Fishbarrel1.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Fishbarrel1.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Fishbarrel2.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Fishbarrel2.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Fishbarrel3.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Fishbarrel3.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Fishbarrel4.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Fishbarrel4.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Fishing_hut.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Fishing_hut.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Grass1.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Grass1.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Grass2.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Grass2.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Grass3.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Grass3.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Grass4.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Grass4.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Pier_Tiles.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Pier_Tiles.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Stay.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Stay.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Water.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Water.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Catch\1.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Catch\1.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Catch\2.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Catch\2.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Catch\3.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Catch\3.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Catch\4.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Catch\4.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Catch\5.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Catch\5.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Catch\6.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Catch\6.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Catch\7.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Catch\7.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Catch\8.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Catch\8.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Catch\Barrel.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Catch\Barrel.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Catch\Box.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Catch\Box.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Catch\Chest.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\3 Objects\Catch\Chest.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_01.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_01.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_02.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_02.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_03.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_03.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_04.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_04.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_05.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_05.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_06.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_06.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_07.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_07.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_08.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_08.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_09.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_09.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_10.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_10.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_11.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_11.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_12.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_12.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_13.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_13.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_14.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_14.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_15.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_15.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_16.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_16.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_17.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_17.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_18.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_18.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_19.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_19.png.import
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_20.png
+C:\Game projects\Loan-Shark\Assets\free-fishing-game-assets-pixel-art-pack\4 Icons\Icons_20.png.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\8bit-water-currenty.png
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\8bit-water-currenty.png.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\8bit-water-currenty.svg
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\8bit-water-currenty.svg.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\8bit-water-flat.png
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\8bit-water-flat.png.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\8bit-water-flat.svg
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\8bit-water-flat.svg.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\8bit-water-ripply.png
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\8bit-water-ripply.png.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\8bit-water-ripply.svg
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\8bit-water-ripply.svg.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\8bit-water-smallwave.png
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\8bit-water-smallwave.png.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\8bit-water-smallwave.svg
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\8bit-water-smallwave.svg.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\8bit-water-texture-sq.png
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\8bit-water-texture-sq.png.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\8bit-water-wavy.png
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\8bit-water-wavy.png.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\8bit-water-wavy.svg
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\8bit-water-wavy.svg.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\fresh-water-(example).mp3
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\fresh-water-(example).mp3.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\fresh-water-fulldemo.mp3
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\fresh-water-fulldemo.mp3.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\fresh-water-fulldemo.ogg
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\fresh-water-fulldemo.ogg.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\fresh-water-fulldemo.wav
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\fresh-water-fulldemo.wav.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\freshwater00.wav
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\freshwater00.wav.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\freshwater01.wav
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\freshwater01.wav.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\freshwater02.wav
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\freshwater02.wav.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\freshwater03.wav
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\freshwater03.wav.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\freshwater04.wav
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\freshwater04.wav.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\freshwater05.wav
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\freshwater05.wav.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\freshwater06.wav
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\freshwater06.wav.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\freshwater07.wav
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\freshwater07.wav.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\freshwater08.wav
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\freshwater08.wav.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\freshwater09.wav
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\freshwater09.wav.import
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\freshwater10.wav
+C:\Game projects\Loan-Shark\Assets\fresh-water-tiles-music\freshwater10.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\LICENSE.pdf
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\m4a\JDSherbert - Ultimate UI SFX Pack - Cancel - 1.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\m4a\JDSherbert - Ultimate UI SFX Pack - Cancel - 2.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\m4a\JDSherbert - Ultimate UI SFX Pack - Cursor - 1.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\m4a\JDSherbert - Ultimate UI SFX Pack - Cursor - 2.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\m4a\JDSherbert - Ultimate UI SFX Pack - Cursor - 3.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\m4a\JDSherbert - Ultimate UI SFX Pack - Cursor - 4.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\m4a\JDSherbert - Ultimate UI SFX Pack - Cursor - 5.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\m4a\JDSherbert - Ultimate UI SFX Pack - Error - 1.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\m4a\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\m4a\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\m4a\JDSherbert - Ultimate UI SFX Pack - Select - 1.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\m4a\JDSherbert - Ultimate UI SFX Pack - Select - 2.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\m4a\JDSherbert - Ultimate UI SFX Pack - Swipe - 1.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\m4a\JDSherbert - Ultimate UI SFX Pack - Swipe - 2.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Cancel - 1.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Cancel - 1.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Cancel - 2.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Cancel - 2.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Cursor - 1.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Cursor - 1.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Cursor - 2.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Cursor - 2.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Cursor - 3.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Cursor - 3.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Cursor - 4.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Cursor - 4.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Cursor - 5.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Cursor - 5.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Error - 1.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Error - 1.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Select - 1.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Select - 1.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Select - 2.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Select - 2.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Swipe - 1.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Swipe - 1.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Swipe - 2.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\mp3\JDSherbert - Ultimate UI SFX Pack - Swipe - 2.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Cancel - 1.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Cancel - 1.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Cancel - 2.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Cancel - 2.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Cursor - 1.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Cursor - 1.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Cursor - 2.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Cursor - 2.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Cursor - 3.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Cursor - 3.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Cursor - 4.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Cursor - 4.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Cursor - 5.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Cursor - 5.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Error - 1.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Error - 1.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Select - 1.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Select - 1.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Select - 2.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Select - 2.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Swipe - 1.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Swipe - 1.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Swipe - 2.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\ogg\JDSherbert - Ultimate UI SFX Pack - Swipe - 2.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cancel - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cancel - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cancel - 2.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cancel - 2.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 2.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 2.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 3.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 3.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 4.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 4.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 5.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 5.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Error - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Error - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Select - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Select - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Select - 2.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Select - 2.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Swipe - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Swipe - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Swipe - 2.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Swipe - 2.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cancel - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cancel - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cancel - 2.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cancel - 2.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 2.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 2.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 3.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 3.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 4.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 4.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 5.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 5.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Error - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Error - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Select - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Select - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Select - 2.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Select - 2.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Swipe - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Swipe - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Swipe - 2.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Mono\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Swipe - 2.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\m4a\JDSherbert - Ultimate UI SFX Pack - Cancel - 1.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\m4a\JDSherbert - Ultimate UI SFX Pack - Cancel - 2.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\m4a\JDSherbert - Ultimate UI SFX Pack - Cursor - 1.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\m4a\JDSherbert - Ultimate UI SFX Pack - Cursor - 2.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\m4a\JDSherbert - Ultimate UI SFX Pack - Cursor - 3.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\m4a\JDSherbert - Ultimate UI SFX Pack - Cursor - 4.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\m4a\JDSherbert - Ultimate UI SFX Pack - Cursor - 5.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\m4a\JDSherbert - Ultimate UI SFX Pack - Error - 1.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\m4a\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\m4a\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\m4a\JDSherbert - Ultimate UI SFX Pack - Select - 1.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\m4a\JDSherbert - Ultimate UI SFX Pack - Select - 2.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\m4a\JDSherbert - Ultimate UI SFX Pack - Swipe - 1.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\m4a\JDSherbert - Ultimate UI SFX Pack - Swipe - 2.m4a
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Cancel - 1.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Cancel - 1.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Cancel - 2.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Cancel - 2.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Cursor - 1.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Cursor - 1.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Cursor - 2.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Cursor - 2.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Cursor - 3.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Cursor - 3.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Cursor - 4.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Cursor - 4.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Cursor - 5.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Cursor - 5.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Error - 1.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Error - 1.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Select - 1.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Select - 1.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Select - 2.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Select - 2.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Swipe - 1.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Swipe - 1.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Swipe - 2.mp3
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\mp3\JDSherbert - Ultimate UI SFX Pack - Swipe - 2.mp3.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Cancel - 1.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Cancel - 1.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Cancel - 2.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Cancel - 2.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Cursor - 1.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Cursor - 1.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Cursor - 2.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Cursor - 2.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Cursor - 3.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Cursor - 3.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Cursor - 4.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Cursor - 4.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Cursor - 5.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Cursor - 5.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Error - 1.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Error - 1.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Select - 1.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Select - 1.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Select - 2.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Select - 2.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Swipe - 1.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Swipe - 1.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Swipe - 2.ogg
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\ogg\JDSherbert - Ultimate UI SFX Pack - Swipe - 2.ogg.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cancel - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cancel - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cancel - 2.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cancel - 2.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 2.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 2.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 3.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 3.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 4.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 4.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 5.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 5.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Error - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Error - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Select - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Select - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Select - 2.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Select - 2.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Swipe - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Swipe - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Swipe - 2.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (HD)\JDSherbert - Ultimate UI SFX Pack - Swipe - 2.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cancel - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cancel - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cancel - 2.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cancel - 2.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 2.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 2.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 3.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 3.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 4.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 4.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 5.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Cursor - 5.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Error - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Error - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Select - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Select - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Select - 2.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Select - 2.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Swipe - 1.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Swipe - 1.wav.import
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Swipe - 2.wav
+C:\Game projects\Loan-Shark\Assets\JDSherbert-UltimateUISFXPack\Free\Stereo\wav (SD)\JDSherbert - Ultimate UI SFX Pack - Swipe - 2.wav.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\License.txt
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\1\Attack.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\1\Attack.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\1\Death.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\1\Death.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\1\Hurt.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\1\Hurt.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\1\Idle.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\1\Idle.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\1\Walk.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\1\Walk.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\2\Attack.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\2\Attack.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\2\Death.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\2\Death.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\2\Hurt.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\2\Hurt.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\2\Idle.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\2\Idle.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\2\Walk.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\2\Walk.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\3\Attack.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\3\Attack.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\3\Death.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\3\Death.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\3\Hurt.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\3\Hurt.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\3\Idle.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\3\Idle.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\3\Walk.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\3\Walk.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\4\Attack.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\4\Attack.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\4\Death.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\4\Death.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\4\Hurt.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\4\Hurt.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\4\Idle.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\4\Idle.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\4\Walk.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\4\Walk.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\5\Attack.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\5\Attack.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\5\Death.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\5\Death.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\5\Hurt.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\5\Hurt.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\5\Idle.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\5\Idle.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\5\Walk.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\5\Walk.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\6\Attack.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\6\Attack.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\6\Death.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\6\Death.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\6\Hurt.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\6\Hurt.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\6\Idle.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\6\Idle.png.import
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\6\Walk.png
+C:\Game projects\Loan-Shark\Assets\octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art\6\Walk.png.import
+C:\Game projects\Loan-Shark\Assets\ThaleahFat\ThaleahFat.ttf
+C:\Game projects\Loan-Shark\Assets\ThaleahFat\ThaleahFat.ttf.import
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\underwater-fantasy-files\.DS_Store
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\underwater-fantasy-files\looking-for-more.pdf
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\underwater-fantasy-files\public-license.pdf
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\underwater-fantasy-files\Assets\.DS_Store
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\underwater-fantasy-files\Assets\PNG\.DS_Store
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\underwater-fantasy-files\Assets\PNG\underwater-fantasy-preview.png
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\underwater-fantasy-files\Assets\PNG\underwater-fantasy-preview.png.import
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\underwater-fantasy-files\Assets\PNG\layers\far.png
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\underwater-fantasy-files\Assets\PNG\layers\far.png.import
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\underwater-fantasy-files\Assets\PNG\layers\foregound-merged.png
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\underwater-fantasy-files\Assets\PNG\layers\foregound-merged.png.import
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\underwater-fantasy-files\Assets\PNG\layers\foreground-1.png
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\underwater-fantasy-files\Assets\PNG\layers\foreground-1.png.import
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\underwater-fantasy-files\Assets\PNG\layers\foreground-2.png
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\underwater-fantasy-files\Assets\PNG\layers\foreground-2.png.import
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\underwater-fantasy-files\Assets\PNG\layers\sand.png
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\underwater-fantasy-files\Assets\PNG\layers\sand.png.import
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\underwater-fantasy-files\Assets\PSD\.DS_Store
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\underwater-fantasy-files\Assets\PSD\underwater-fantasy.psd
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\__MACOSX\._underwater-fantasy-files
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\__MACOSX\underwater-fantasy-files\._.DS_Store
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\__MACOSX\underwater-fantasy-files\._looking-for-more.pdf
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\__MACOSX\underwater-fantasy-files\._public-license.pdf
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\__MACOSX\underwater-fantasy-files\Assets\._.DS_Store
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\__MACOSX\underwater-fantasy-files\Assets\._PNG
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\__MACOSX\underwater-fantasy-files\Assets\._PSD
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\__MACOSX\underwater-fantasy-files\Assets\PNG\._.DS_Store
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\__MACOSX\underwater-fantasy-files\Assets\PNG\._layers
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\__MACOSX\underwater-fantasy-files\Assets\PNG\._underwater-fantasy-preview.png
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\__MACOSX\underwater-fantasy-files\Assets\PNG\._underwater-fantasy-preview.png.import
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\__MACOSX\underwater-fantasy-files\Assets\PNG\layers\._far.png
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\__MACOSX\underwater-fantasy-files\Assets\PNG\layers\._far.png.import
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\__MACOSX\underwater-fantasy-files\Assets\PNG\layers\._foregound-merged.png
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\__MACOSX\underwater-fantasy-files\Assets\PNG\layers\._foregound-merged.png.import
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\__MACOSX\underwater-fantasy-files\Assets\PNG\layers\._foreground-1.png
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\__MACOSX\underwater-fantasy-files\Assets\PNG\layers\._foreground-1.png.import
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\__MACOSX\underwater-fantasy-files\Assets\PNG\layers\._foreground-2.png
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\__MACOSX\underwater-fantasy-files\Assets\PNG\layers\._foreground-2.png.import
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\__MACOSX\underwater-fantasy-files\Assets\PNG\layers\._sand.png
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\__MACOSX\underwater-fantasy-files\Assets\PNG\layers\._sand.png.import
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\__MACOSX\underwater-fantasy-files\Assets\PSD\._.DS_Store
+C:\Game projects\Loan-Shark\Assets\underwater-fantasy-files\__MACOSX\underwater-fantasy-files\Assets\PSD\._underwater-fantasy.psd
+C:\Game projects\Loan-Shark\Assets\Underwater_Parallax\ReadMe.txt
+C:\Game projects\Loan-Shark\Assets\Underwater_Parallax\Sinky_Sub_BG.png
+C:\Game projects\Loan-Shark\Assets\Underwater_Parallax\Sinky_Sub_BG.png.import
+C:\Game projects\Loan-Shark\Assets\Underwater_Parallax\Sinky_Sub_Cliffs.png
+C:\Game projects\Loan-Shark\Assets\Underwater_Parallax\Sinky_Sub_Cliffs.png.import
+C:\Game projects\Loan-Shark\Assets\Underwater_Parallax\Sinky_Sub_CloseRockKelp.png
+C:\Game projects\Loan-Shark\Assets\Underwater_Parallax\Sinky_Sub_CloseRockKelp.png.import
+C:\Game projects\Loan-Shark\Assets\Underwater_Parallax\Sinky_Sub_Floor.png
+C:\Game projects\Loan-Shark\Assets\Underwater_Parallax\Sinky_Sub_Floor.png.import
+C:\Game projects\Loan-Shark\Assets\Underwater_Parallax\Sinky_Sub_GodRays.png
+C:\Game projects\Loan-Shark\Assets\Underwater_Parallax\Sinky_Sub_GodRays.png.import
+C:\Game projects\Loan-Shark\Assets\Underwater_Parallax\Sinky_Sub_Ruins_Whale.png
+C:\Game projects\Loan-Shark\Assets\Underwater_Parallax\Sinky_Sub_Ruins_Whale.png.import
+C:\Game projects\Loan-Shark\resources\bait_data\bait_abyssal_essence.tres
+C:\Game projects\Loan-Shark\resources\bait_data\bait_blood_worm.tres
+C:\Game projects\Loan-Shark\resources\bait_data\bait_clam.tres
+C:\Game projects\Loan-Shark\resources\bait_data\bait_earthworm.tres
+C:\Game projects\Loan-Shark\resources\bait_data\bait_eel_tail.tres
+C:\Game projects\Loan-Shark\resources\bait_data\bait_fish_roe.tres
+C:\Game projects\Loan-Shark\resources\bait_data\bait_glow_worm.tres
+C:\Game projects\Loan-Shark\resources\bait_data\bait_luminous_lure.tres
+C:\Game projects\Loan-Shark\resources\bait_data\bait_maggot.tres
+C:\Game projects\Loan-Shark\resources\bait_data\bait_pearl_dust.tres
+C:\Game projects\Loan-Shark\resources\bait_data\bait_sand_shrimp.tres
+C:\Game projects\Loan-Shark\resources\bait_data\bait_squid.tres
+C:\Game projects\Loan-Shark\resources\charm_data\charm_bony.tres
+C:\Game projects\Loan-Shark\resources\charm_data\charm_cephalopod.tres
+C:\Game projects\Loan-Shark\resources\charm_data\charm_crustacean.tres
+C:\Game projects\Loan-Shark\resources\charm_data\charm_crustacean_enchant.tres
+C:\Game projects\Loan-Shark\resources\charm_data\charm_deep.tres
+C:\Game projects\Loan-Shark\resources\charm_data\charm_deep_enchant.tres
+C:\Game projects\Loan-Shark\resources\charm_data\charm_durable.tres
+C:\Game projects\Loan-Shark\resources\charm_data\charm_eel.tres
+C:\Game projects\Loan-Shark\resources\charm_data\charm_finns_favor.tres
+C:\Game projects\Loan-Shark\resources\charm_data\charm_golden_scale.tres
+C:\Game projects\Loan-Shark\resources\charm_data\charm_legendary_enchant.tres
+C:\Game projects\Loan-Shark\resources\charm_data\charm_legendary_lure.tres
+C:\Game projects\Loan-Shark\resources\charm_data\charm_lucky.tres
+C:\Game projects\Loan-Shark\resources\charm_data\charm_lure.tres
+C:\Game projects\Loan-Shark\resources\charm_data\charm_master.tres
+C:\Game projects\Loan-Shark\resources\charm_data\charm_merchant.tres
+C:\Game projects\Loan-Shark\resources\charm_data\charm_net.tres
+C:\Game projects\Loan-Shark\resources\charm_data\charm_night_caller.tres
+C:\Game projects\Loan-Shark\resources\charm_data\charm_pelagic.tres
+C:\Game projects\Loan-Shark\resources\charm_data\charm_power.tres
+C:\Game projects\Loan-Shark\resources\charm_data\charm_rare_finder.tres
+C:\Game projects\Loan-Shark\resources\charm_data\charm_reef.tres
+C:\Game projects\Loan-Shark\resources\charm_data\charm_silver_hook.tres
+C:\Game projects\Loan-Shark\resources\charm_data\charm_swift.tres
+C:\Game projects\Loan-Shark\resources\charm_data\enchantment_charms\charm_depth.tres
+C:\Game projects\Loan-Shark\resources\charm_data\enchantment_charms\charm_hazard.tres
+C:\Game projects\Loan-Shark\resources\charm_data\enchantment_charms\charm_luck.tres
+C:\Game projects\Loan-Shark\resources\charm_data\sell_charms\charm_coral.tres
+C:\Game projects\Loan-Shark\resources\charm_data\sell_charms\charm_gold.tres
+C:\Game projects\Loan-Shark\resources\charm_data\sell_charms\charm_shell.tres
+C:\Game projects\Loan-Shark\resources\charm_data\spawn_charms\charm_abyssal.tres
+C:\Game projects\Loan-Shark\resources\charm_data\spawn_charms\charm_kelp.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_abyssal_charm.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_blood_charm.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_blood_tide.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_bony_lure.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_calm_tide.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_calm_waters.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_coral_charm.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_crustacean_call.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_deep_charm.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_deep_lure.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_depth_pulse.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_echo_line.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_eel_ward.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_fortune_bait.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_fortune_hook.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_frenzy_charm.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_ghost_bait.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_gold_charm.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_ink_charm.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_kelp_charm.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_luck_charm.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_night_charm.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_shell_charm.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_siren_charm.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_tide_blessing.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_tide_charm.tres
+C:\Game projects\Loan-Shark\resources\crafting_recipes\recipe_weighted_sink.tres
+C:\Game projects\Loan-Shark\resources\dialogue\finn_days.dialogue
+C:\Game projects\Loan-Shark\resources\dialogue\merchant.dialogue
+C:\Game projects\Loan-Shark\resources\dialogue\npc_fisherman_hints.dialogue
+C:\Game projects\Loan-Shark\resources\dialogue\npc_townsfolk_a.dialogue
+C:\Game projects\Loan-Shark\resources\dialogue\npc_townsfolk_b.dialogue
+C:\Game projects\Loan-Shark\resources\dialogue\npc_townsfolk_c.dialogue
+C:\Game projects\Loan-Shark\resources\dialogue\old_sal.dialogue
+C:\Game projects\Loan-Shark\resources\dialogue\shopkeeper_day1.dialogue
+C:\Game projects\Loan-Shark\resources\fish_data\small_sardine.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone1\bass.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone1\clownfish.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone1\crab.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone1\flounder.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone1\jellyfish_edible.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone1\perch.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone1\pufferfish.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone1\sardine.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone1\seahorse.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone1\shrimp.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone2\batfish.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone2\ghost_crab.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone2\grouper.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone2\moray_eel_small.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone2\needlefish.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone2\octopus_small.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone2\snapper.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone2\spiny_lobster.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone2\stonefish.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone2\trumpet_fish.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone3\abyssal_shrimp.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone3\anglerfish.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone3\coelacanth.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone3\dragonfish_juvenile.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone3\moray_eel_large.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone3\oarfish.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone3\phantom_eel.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone3\rugose_crab.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone3\stone_crab.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone3\viperfish.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone4\barreleye.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone4\deep_angler.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone4\dragonfish_adult.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone4\fangtooth.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone4\frilled_shark.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone4\goldfish_modifier.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone4\gulper_eel.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone4\lanternfish.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone4\midnight_leviathan.tres
+C:\Game projects\Loan-Shark\resources\fish_data\zone4\sea_angel.tres
+C:\Game projects\Loan-Shark\resources\knife_data\knife_abyssal.tres
+C:\Game projects\Loan-Shark\resources\knife_data\knife_coral.tres
+C:\Game projects\Loan-Shark\resources\knife_data\knife_obsidian.tres
+C:\Game projects\Loan-Shark\resources\knife_data\knife_rusty.tres
+C:\Game projects\Loan-Shark\resources\material_data\mat_abyssal.tres
+C:\Game projects\Loan-Shark\resources\material_data\mat_biolum.tres
+C:\Game projects\Loan-Shark\resources\material_data\mat_coral.tres
+C:\Game projects\Loan-Shark\resources\material_data\mat_driftwood.tres
+C:\Game projects\Loan-Shark\resources\material_data\mat_fish_bone.tres
+C:\Game projects\Loan-Shark\resources\material_data\mat_fossil.tres
+C:\Game projects\Loan-Shark\resources\material_data\mat_ink_sac.tres
+C:\Game projects\Loan-Shark\resources\material_data\mat_kelp.tres
+C:\Game projects\Loan-Shark\resources\material_data\mat_pearl.tres
+C:\Game projects\Loan-Shark\resources\material_data\mat_scale.tres
+C:\Game projects\Loan-Shark\resources\material_data\mat_seaweed.tres
+C:\Game projects\Loan-Shark\resources\material_data\mat_sea_glass.tres
+C:\Game projects\Loan-Shark\resources\material_data\mat_shell.tres
+C:\Game projects\Loan-Shark\resources\material_data\mat_small_bone.tres
+C:\Game projects\Loan-Shark\resources\rod_data\rod_abyssal.tres
+C:\Game projects\Loan-Shark\resources\rod_data\rod_amateur_shell.tres
+C:\Game projects\Loan-Shark\resources\rod_data\rod_bone.tres
+C:\Game projects\Loan-Shark\resources\rod_data\rod_coral.tres
+C:\Game projects\Loan-Shark\resources\rod_data\rod_deep.tres
+C:\Game projects\Loan-Shark\resources\rod_data\rod_driftwood.tres
+C:\Game projects\Loan-Shark\resources\rod_data\rod_fossil.tres
+C:\Game projects\Loan-Shark\resources\rod_data\rod_kelp_weave.tres
+C:\Game projects\Loan-Shark\resources\rod_data\rod_leviathan.tres
+C:\Game projects\Loan-Shark\resources\rod_data\rod_oracle.tres
+C:\Game projects\Loan-Shark\resources\spawn_tables\spawn_table_zone1.tres
+C:\Game projects\Loan-Shark\resources\spawn_tables\spawn_table_zone2.tres
+C:\Game projects\Loan-Shark\resources\spawn_tables\spawn_table_zone3.tres
+C:\Game projects\Loan-Shark\resources\spawn_tables\spawn_table_zone4.tres
+C:\Game projects\Loan-Shark\scenes\Main.tscn
+C:\Game projects\Loan-Shark\scenes\effects\BiolumParticle.tscn
+C:\Game projects\Loan-Shark\scenes\effects\BubbleTrail.tscn
+C:\Game projects\Loan-Shark\scenes\effects\CatchFlash.tscn
+C:\Game projects\Loan-Shark\scenes\effects\CoinParticle.tscn
+C:\Game projects\Loan-Shark\scenes\effects\DayNightOverlay.tscn
+C:\Game projects\Loan-Shark\scenes\effects\DepthFog.tscn
+C:\Game projects\Loan-Shark\scenes\effects\LeviathanShake.tscn
+C:\Game projects\Loan-Shark\scenes\effects\SharkWarningVignette.tscn
+C:\Game projects\Loan-Shark\scenes\effects\WaterSplash.tscn
+C:\Game projects\Loan-Shark\scenes\effects\ZoneTransitionWipe.tscn
+C:\Game projects\Loan-Shark\scenes\entities\FishingLine.tscn
+C:\Game projects\Loan-Shark\scenes\entities\Hook.tscn
+C:\Game projects\Loan-Shark\scenes\entities\Player.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\FishBase.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone1\Fish_Bass.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone1\Fish_Clownfish.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone1\Fish_Crab.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone1\Fish_Flounder.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone1\Fish_JellyfishEdible.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone1\Fish_Perch.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone1\Fish_Pufferfish.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone1\Fish_Sardine.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone1\Fish_Seahorse.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone1\Fish_Shrimp.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone2\Fish_Batfish.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone2\Fish_GhostCrab.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone2\Fish_Grouper.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone2\Fish_MoraySmall.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone2\Fish_Needlefish.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone2\Fish_OctopusSmall.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone2\Fish_Snapper.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone2\Fish_SpinyLobster.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone2\Fish_Stonefish.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone2\Fish_TrumpetFish.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone3\Fish_AbyssalShrimp.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone3\Fish_Anglerfish.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone3\Fish_Coelacanth.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone3\Fish_DragonFishJuvenile.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone3\Fish_MorayLarge.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone3\Fish_Oarfish.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone3\Fish_PhantomEel.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone3\Fish_RugoseCrab.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone3\Fish_StoneCrab.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone3\Fish_Viperfish.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone4\Fish_Barreleye.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone4\Fish_DeepAngler.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone4\Fish_DragonFishAdult.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone4\Fish_Fangtooth.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone4\Fish_FrilledShark.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone4\Fish_GoldfishModifier.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone4\Fish_GulperEel.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone4\Fish_Lanternfish.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone4\Fish_MidnightLeviathan.tscn
+C:\Game projects\Loan-Shark\scenes\entities\fish\zone4\Fish_SeaAngel.tscn
+C:\Game projects\Loan-Shark\scenes\entities\hazards\HazardBase.tscn
+C:\Game projects\Loan-Shark\scenes\entities\hazards\Hazard_Eel.tscn
+C:\Game projects\Loan-Shark\scenes\entities\hazards\Hazard_Jellyfish.tscn
+C:\Game projects\Loan-Shark\scenes\entities\hazards\Hazard_Octopus.tscn
+C:\Game projects\Loan-Shark\scenes\entities\hazards\Hazard_Shark.tscn
+C:\Game projects\Loan-Shark\scenes\entities\hazards\Hazard_Turtle.tscn
+C:\Game projects\Loan-Shark\scenes\entities\npcs\NPCBase.tscn
+C:\Game projects\Loan-Shark\scenes\entities\npcs\NPC_Fisherman.tscn
+C:\Game projects\Loan-Shark\scenes\entities\npcs\NPC_Shopkeeper.tscn
+C:\Game projects\Loan-Shark\scenes\entities\npcs\NPC_Townsfolk_A.tscn
+C:\Game projects\Loan-Shark\scenes\entities\npcs\NPC_Townsfolk_B.tscn
+C:\Game projects\Loan-Shark\scenes\entities\npcs\NPC_Townsfolk_C.tscn
+C:\Game projects\Loan-Shark\scenes\minigames\CastMinigame.tscn
+C:\Game projects\Loan-Shark\scenes\minigames\CatchMinigame.tscn
+C:\Game projects\Loan-Shark\scenes\minigames\FiletMinigame.tscn
+C:\Game projects\Loan-Shark\scenes\minigames\ReelMinigame.tscn
+C:\Game projects\Loan-Shark\scenes\ui\Codex.tscn
+C:\Game projects\Loan-Shark\scenes\ui\CraftingMenu.tscn
+C:\Game projects\Loan-Shark\scenes\ui\DayEndSummary.tscn
+C:\Game projects\Loan-Shark\scenes\ui\DebtPayPopup.tscn
+C:\Game projects\Loan-Shark\scenes\ui\DialogueBox.tscn
+C:\Game projects\Loan-Shark\scenes\ui\FishCaughtPopup.tscn
+C:\Game projects\Loan-Shark\scenes\ui\GameOverScreen.tscn
+C:\Game projects\Loan-Shark\scenes\ui\HUD.tscn
+C:\Game projects\Loan-Shark\scenes\ui\Inventory.tscn
+C:\Game projects\Loan-Shark\scenes\ui\MainMenu.tscn
+C:\Game projects\Loan-Shark\scenes\ui\PauseMenu.tscn
+C:\Game projects\Loan-Shark\scenes\ui\SellConfirmPopup.tscn
+C:\Game projects\Loan-Shark\scenes\ui\SettingsMenu.tscn
+C:\Game projects\Loan-Shark\scenes\ui\Shop.tscn
+C:\Game projects\Loan-Shark\scenes\ui\TransitionLayer.tscn
+C:\Game projects\Loan-Shark\scenes\ui\TutorialArrow.tscn
+C:\Game projects\Loan-Shark\scenes\ui\TutorialPrompt.tscn
+C:\Game projects\Loan-Shark\scenes\ui\WinScreen.tscn
+C:\Game projects\Loan-Shark\scenes\world\Beach.tscn
+C:\Game projects\Loan-Shark\scenes\world\Dock.tscn
+C:\Game projects\Loan-Shark\scenes\world\Town.tscn
+C:\Game projects\Loan-Shark\scenes\world\ocean\Ocean.tscn
+C:\Game projects\Loan-Shark\scenes\world\ocean\OceanZone1_Shallows.tscn
+C:\Game projects\Loan-Shark\scenes\world\ocean\OceanZone2_KelpForest.tscn
+C:\Game projects\Loan-Shark\scenes\world\ocean\OceanZone3_SunkenRuins.tscn
+C:\Game projects\Loan-Shark\scenes\world\ocean\OceanZone4_BiolumDeep.tscn
+C:\Game projects\Loan-Shark\scripts\autoloads\AudioManager.gd
+C:\Game projects\Loan-Shark\scripts\autoloads\AudioManager.gd.uid
+C:\Game projects\Loan-Shark\scripts\autoloads\DialogueSystem.gd
+C:\Game projects\Loan-Shark\scripts\autoloads\FishDatabase.gd
+C:\Game projects\Loan-Shark\scripts\autoloads\FishDatabase.gd.uid
+C:\Game projects\Loan-Shark\scripts\autoloads\FishingSystem.gd
+C:\Game projects\Loan-Shark\scripts\autoloads\GameState.gd
+C:\Game projects\Loan-Shark\scripts\autoloads\GameState.gd.uid
+C:\Game projects\Loan-Shark\scripts\autoloads\ItemDatabase.gd
+C:\Game projects\Loan-Shark\scripts\autoloads\ItemDatabase.gd.uid
+C:\Game projects\Loan-Shark\scripts\autoloads\ModifierStack.gd
+C:\Game projects\Loan-Shark\scripts\autoloads\SceneManager.gd
+C:\Game projects\Loan-Shark\scripts\autoloads\SceneManager.gd.uid
+C:\Game projects\Loan-Shark\scripts\autoloads\TutorialManager.gd
+C:\Game projects\Loan-Shark\scripts\autoloads\TutorialManager.gd.uid
+C:\Game projects\Loan-Shark\scripts\effects\biolum_particle.gd
+C:\Game projects\Loan-Shark\scripts\effects\bubble_trail.gd
+C:\Game projects\Loan-Shark\scripts\effects\catch_flash.gd
+C:\Game projects\Loan-Shark\scripts\effects\coin_particle.gd
+C:\Game projects\Loan-Shark\scripts\effects\day_night_overlay.gd
+C:\Game projects\Loan-Shark\scripts\effects\depth_fog.gd
+C:\Game projects\Loan-Shark\scripts\effects\leviathan_shake.gd
+C:\Game projects\Loan-Shark\scripts\effects\shark_warning_vignette.gd
+C:\Game projects\Loan-Shark\scripts\effects\water_splash.gd
+C:\Game projects\Loan-Shark\scripts\effects\zone_transition_wipe.gd
+C:\Game projects\Loan-Shark\scripts\entities\fishing_line.gd
+C:\Game projects\Loan-Shark\scripts\entities\fishing_line.gd.uid
+C:\Game projects\Loan-Shark\scripts\entities\fish_base.gd
+C:\Game projects\Loan-Shark\scripts\entities\fish_base.gd.uid
+C:\Game projects\Loan-Shark\scripts\entities\hazard_base.gd
+C:\Game projects\Loan-Shark\scripts\entities\hazard_base.gd.uid
+C:\Game projects\Loan-Shark\scripts\entities\hook.gd
+C:\Game projects\Loan-Shark\scripts\entities\hook.gd.uid
+C:\Game projects\Loan-Shark\scripts\entities\npc_base.gd
+C:\Game projects\Loan-Shark\scripts\entities\npc_base.gd.uid
+C:\Game projects\Loan-Shark\scripts\entities\npc_roamer.gd
+C:\Game projects\Loan-Shark\scripts\entities\npc_roamer.gd.uid
+C:\Game projects\Loan-Shark\scripts\entities\npc_shopkeeper.gd
+C:\Game projects\Loan-Shark\scripts\entities\npc_shopkeeper.gd.uid
+C:\Game projects\Loan-Shark\scripts\entities\player.gd
+C:\Game projects\Loan-Shark\scripts\entities\player.gd.uid
+C:\Game projects\Loan-Shark\scripts\minigames\cast_minigame.gd
+C:\Game projects\Loan-Shark\scripts\minigames\cast_minigame.gd.uid
+C:\Game projects\Loan-Shark\scripts\minigames\catch_minigame.gd
+C:\Game projects\Loan-Shark\scripts\minigames\catch_minigame.gd.uid
+C:\Game projects\Loan-Shark\scripts\minigames\filet_minigame.gd
+C:\Game projects\Loan-Shark\scripts\minigames\filet_minigame.gd.uid
+C:\Game projects\Loan-Shark\scripts\minigames\reel_minigame.gd
+C:\Game projects\Loan-Shark\scripts\minigames\reel_minigame.gd.uid
+C:\Game projects\Loan-Shark\scripts\resources\bait_data.gd
+C:\Game projects\Loan-Shark\scripts\resources\bait_data.gd.uid
+C:\Game projects\Loan-Shark\scripts\resources\charm_data.gd
+C:\Game projects\Loan-Shark\scripts\resources\charm_data.gd.uid
+C:\Game projects\Loan-Shark\scripts\resources\crafting_recipe.gd
+C:\Game projects\Loan-Shark\scripts\resources\crafting_recipe_data.gd.uid
+C:\Game projects\Loan-Shark\scripts\resources\fish_data.gd
+C:\Game projects\Loan-Shark\scripts\resources\fish_data.gd.uid
+C:\Game projects\Loan-Shark\scripts\resources\knife_data.gd
+C:\Game projects\Loan-Shark\scripts\resources\knife_data.gd.uid
+C:\Game projects\Loan-Shark\scripts\resources\material_data.gd
+C:\Game projects\Loan-Shark\scripts\resources\material_data.gd.uid
+C:\Game projects\Loan-Shark\scripts\resources\rod_data.gd
+C:\Game projects\Loan-Shark\scripts\resources\rod_data.gd.uid
+C:\Game projects\Loan-Shark\scripts\resources\spawn_table_data.gd.uid
+C:\Game projects\Loan-Shark\scripts\systems\day_night_cycle.gd
+C:\Game projects\Loan-Shark\scripts\systems\day_night_cycle.gd.uid
+C:\Game projects\Loan-Shark\scripts\systems\debt_system.gd
+C:\Game projects\Loan-Shark\scripts\systems\debt_system.gd.uid
+C:\Game projects\Loan-Shark\scripts\systems\fish_spawner.gd
+C:\Game projects\Loan-Shark\scripts\systems\fish_spawner.gd.uid
+C:\Game projects\Loan-Shark\scripts\systems\foraging_spawner.gd
+C:\Game projects\Loan-Shark\scripts\systems\foraging_spawner.gd.uid
+C:\Game projects\Loan-Shark\scripts\systems\greed_meter.gd
+C:\Game projects\Loan-Shark\scripts\systems\greed_meter.gd.uid
+C:\Game projects\Loan-Shark\scripts\systems\hazard_spawner.gd
+C:\Game projects\Loan-Shark\scripts\systems\hazard_spawner.gd.uid
+C:\Game projects\Loan-Shark\scripts\systems\modifier_stack.gd
+C:\Game projects\Loan-Shark\scripts\systems\modifier_stack.gd.uid
+C:\Game projects\Loan-Shark\scripts\systems\save_system.gd
+C:\Game projects\Loan-Shark\scripts\systems\save_system.gd.uid
+C:\Game projects\Loan-Shark\scripts\systems\spawn_table.gd
+C:\Game projects\Loan-Shark\scripts\systems\spawn_table.gd.uid
+C:\Game projects\Loan-Shark\scripts\ui\codex.gd
+C:\Game projects\Loan-Shark\scripts\ui\codex.gd.uid
+C:\Game projects\Loan-Shark\scripts\ui\crafting_menu.gd
+C:\Game projects\Loan-Shark\scripts\ui\crafting_menu.gd.uid
+C:\Game projects\Loan-Shark\scripts\ui\day_end_summary.gd
+C:\Game projects\Loan-Shark\scripts\ui\day_end_summary.gd.uid
+C:\Game projects\Loan-Shark\scripts\ui\debt_pay_popup.gd
+C:\Game projects\Loan-Shark\scripts\ui\dialogue_box.gd
+C:\Game projects\Loan-Shark\scripts\ui\dialogue_box.gd.uid
+C:\Game projects\Loan-Shark\scripts\ui\fish_caught_popup.gd
+C:\Game projects\Loan-Shark\scripts\ui\fish_caught_popup.gd.uid
+C:\Game projects\Loan-Shark\scripts\ui\game_over_screen.gd
+C:\Game projects\Loan-Shark\scripts\ui\game_over_screen.gd.uid
+C:\Game projects\Loan-Shark\scripts\ui\hud.gd
+C:\Game projects\Loan-Shark\scripts\ui\hud.gd.uid
+C:\Game projects\Loan-Shark\scripts\ui\inventory.gd
+C:\Game projects\Loan-Shark\scripts\ui\inventory.gd.uid
+C:\Game projects\Loan-Shark\scripts\ui\main_menu.gd
+C:\Game projects\Loan-Shark\scripts\ui\main_menu.gd.uid
+C:\Game projects\Loan-Shark\scripts\ui\pause_menu.gd
+C:\Game projects\Loan-Shark\scripts\ui\pause_menu.gd.uid
+C:\Game projects\Loan-Shark\scripts\ui\sell_confirm_popup.gd
+C:\Game projects\Loan-Shark\scripts\ui\settings_menu.gd
+C:\Game projects\Loan-Shark\scripts\ui\settings_menu.gd.uid
+C:\Game projects\Loan-Shark\scripts\ui\shop.gd
+C:\Game projects\Loan-Shark\scripts\ui\shop.gd.uid
+C:\Game projects\Loan-Shark\scripts\ui\transition_layer.gd
+C:\Game projects\Loan-Shark\scripts\ui\transition_layer.gd.uid
+C:\Game projects\Loan-Shark\scripts\ui\tutorial_arrow.gd
+C:\Game projects\Loan-Shark\scripts\ui\tutorial_prompt.gd
+C:\Game projects\Loan-Shark\scripts\ui\win_screen.gd
+C:\Game projects\Loan-Shark\scripts\ui\win_screen.gd.uid
+C:\Game projects\Loan-Shark\scripts\world\beach.gd
+C:\Game projects\Loan-Shark\scripts\world\beach.gd.uid
+C:\Game projects\Loan-Shark\scripts\world\dock.gd
+C:\Game projects\Loan-Shark\scripts\world\dock.gd.uid
+C:\Game projects\Loan-Shark\scripts\world\main.gd
+C:\Game projects\Loan-Shark\scripts\world\main.gd.uid
+C:\Game projects\Loan-Shark\scripts\world\ocean.gd
+C:\Game projects\Loan-Shark\scripts\world\ocean.gd.uid
+C:\Game projects\Loan-Shark\scripts\world\ocean_zone1.gd
+C:\Game projects\Loan-Shark\scripts\world\ocean_zone1.gd.uid
+C:\Game projects\Loan-Shark\scripts\world\ocean_zone2.gd
+C:\Game projects\Loan-Shark\scripts\world\ocean_zone2.gd.uid
+C:\Game projects\Loan-Shark\scripts\world\ocean_zone3.gd
+C:\Game projects\Loan-Shark\scripts\world\ocean_zone3.gd.uid
+C:\Game projects\Loan-Shark\scripts\world\ocean_zone4.gd
+C:\Game projects\Loan-Shark\scripts\world\ocean_zone4.gd.uid
+C:\Game projects\Loan-Shark\scripts\world\ocean_zone_base.gd
+C:\Game projects\Loan-Shark\scripts\world\ocean_zone_base.gd.uid
+C:\Game projects\Loan-Shark\scripts\world\town.gd
+C:\Game projects\Loan-Shark\scripts\world\town.gd.uid
