@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_moray"]
+
+[resource]
+script = ExtResource("1_moray")
+id = "moray_large"
+name = "Giant Moray"
+species = "moray_eel_large"
+zone = "zone3"
+base_price = 75
+min_size = 100.0
+max_size = 200.0
+rarity = "rare"
+family = "eel"
+reel_speed = 1.8
+description = "The adult version. Twice as mean, twice as strong, and still bites."
+texture_path = "res://Assets/Fish/moray_eel_large.png"

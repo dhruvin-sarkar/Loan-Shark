@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_abyss"]
+
+[resource]
+script = ExtResource("1_abyss")
+id = "abyssal_shrimp"
+name = "Abyssal Shrimp"
+zone = "zone3"
+base_price = 70
+size_range = [0.8, 1.8]
+rarity = "uncommon"
+family = "crustacean"
+night_only = false
+reel_speed = 1.0
+catch_speed = 1.0
+modifier_effect = ""
+inventory_slots = 1
+description = "A deep-sea shrimp that glows faintly in the dark."
+texture_path = "res://Assets/Fish/abyssal_shrimp.png"

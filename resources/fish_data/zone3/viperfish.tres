@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_viper"]
+
+[resource]
+script = ExtResource("1_viper")
+id = "viperfish"
+name = "Viperfish"
+zone = "zone3"
+base_price = 95
+size_range = [0.8, 1.8]
+rarity = "rare"
+family = "deep"
+night_only = false
+reel_speed = 2.0
+catch_speed = 1.0
+modifier_effect = ""
+inventory_slots = 1
+description = "Needle teeth and a bad attitude. Fast and dangerous on the line."
+texture_path = "res://Assets/Fish/viperfish.png"

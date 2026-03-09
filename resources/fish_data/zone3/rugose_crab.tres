@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_rug"]
+
+[resource]
+script = ExtResource("1_rug")
+id = "rugose_crab"
+name = "Rugose Crab"
+zone = "zone3"
+base_price = 85
+size_range = [0.8, 1.8]
+rarity = "rare"
+family = "crustacean"
+night_only = false
+reel_speed = 1.5
+catch_speed = 1.0
+modifier_effect = ""
+inventory_slots = 1
+description = "A rugged, armored crab from the deep ruins. Tough shell, good price."
+texture_path = "res://Assets/Fish/rugose_crab.png"

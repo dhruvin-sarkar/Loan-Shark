@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_angler"]
+
+[resource]
+script = ExtResource("1_angler")
+id = "anglerfish"
+name = "Anglerfish"
+zone = "zone3"
+base_price = 90
+size_range = [0.8, 1.8]
+rarity = "rare"
+family = "deep"
+night_only = false
+reel_speed = 1.6
+catch_speed = 1.0
+modifier_effect = ""
+inventory_slots = 1
+description = "The light on its head isn't for you. It's for luring prey. You're just in the way."
+texture_path = "res://Assets/Fish/anglerfish.png"

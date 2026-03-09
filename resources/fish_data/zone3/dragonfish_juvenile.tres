@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_dragon"]
+
+[resource]
+script = ExtResource("1_dragon")
+id = "dragonfish_juv"
+name = "Dragonfish (Juvenile)"
+zone = "zone3"
+base_price = 120
+size_range = [0.8, 1.8]
+rarity = "rare"
+family = "deep"
+night_only = false
+reel_speed = 1.7
+catch_speed = 1.0
+modifier_effect = ""
+inventory_slots = 1
+description = "Young but already fearsome. The adults are far worse."
+texture_path = "res://Assets/Fish/dragonfish.png"
