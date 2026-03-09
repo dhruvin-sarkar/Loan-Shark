@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="KnifeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/knife_data.gd" id="1_abyss"]
+
+[resource]
+script = ExtResource("1_abyss")
+name = "Abyssal Blade"
+description = "A legendary knife from the deep. Maximizes material yield."
+base_value = 500
+filet_speed = 2.0
+material_yield = 2.0
+durability = 300
+texture_path = "res://Assets/Items/knife_abyssal.png"

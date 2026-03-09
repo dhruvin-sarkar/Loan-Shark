@@ -1,0 +1,9 @@
+~ start
+Townsfolk: Have you tried the kelp forest? Some interesting fish there.
+Townsfolk: Just watch out for the moray eels!
+=> END
+
+~ hint_materials
+Townsfolk: Don't throw away fish parts! You can use them for crafting.
+Townsfolk: The shopkeeper buys materials too.
+=> END

@@ -1,0 +1,16 @@
+~ start
+Shopkeeper: Welcome to my shop! You must be the new fisherman.
+Shopkeeper: Word is you owe some money to the wrong people.
+Shopkeeper: I can help you sell your catch, but you'll need to work hard.
+Player: I'll do whatever it takes.
+Shopkeeper: Good attitude. Start by catching some fish in the shallows.
+=> END
+
+~ shop_intro
+Shopkeeper: Looking to buy or sell today?
+=> END
+
+~ hint_debt
+Shopkeeper: Remember, you have 7 days to pay off your debt.
+Shopkeeper: Don't let the sharks catch you... and I don't mean the fish.
+=> END

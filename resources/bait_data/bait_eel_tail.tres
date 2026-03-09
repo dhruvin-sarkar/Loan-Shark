@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="BaitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/bait_data.gd" id="1_eel"]
+
+[resource]
+script = ExtResource("1_eel")
+name = "Eel Tail"
+description = "Cut eel tail segment. +28% catch chance, +20% eel spawn."
+base_value = 35
+catch_bonus = 0.28
+rarity_bonus = 0.1
+uses = 5
+spawn_bonus = 1.2
+target_family = "eel"
+family_bonus = 1.2
+deep_access = false
+texture_path = "res://Assets/Items/bait_eel.png"

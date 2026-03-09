@@ -1,0 +1,41 @@
+~ intro
+Merchant: Welcome, welcome! Looking to buy? Looking to sell?
+Merchant: I've got rods, baits, knives — everything a fisherman needs.
+Merchant: And I pay fair prices for your catch. Always.
+=> END
+
+~ buy_rod
+Merchant: A new rod, eh? Smart investment.
+Merchant: Better rods mean bigger fish. Simple as that.
+Merchant: Some even have bonuses for certain fish families.
+=> END
+
+~ buy_bait
+Merchant: Good bait makes all the difference.
+Merchant: Some attract specific fish. Some let you fish deeper.
+Merchant: Choose wisely for where you're headed.
+=> END
+
+~ buy_knife
+Merchant: A sharp knife means more materials.
+Merchant: Filet faster, get more from each catch.
+Merchant: Worth every coin in the long run.
+=> END
+
+~ sell_fish
+Merchant: Let me see what you've got.
+Merchant: Not bad, not bad at all.
+Merchant: I'll give you a fair price. Always do.
+=> END
+
+~ sell_rare
+Merchant: Ooh, now that's a beauty!
+Merchant: Rare catch like this... I'll pay extra.
+Merchant: You've got a talent, friend.
+=> END
+
+~ hint_debt
+Merchant: Finn's been asking about you.
+Merchant: Just... keep catching fish. Keep selling.
+Merchant: You'll get there. I believe in you.
+=> END

@@ -1,0 +1,20 @@
+~ start
+Fisherman: Ah, a new face! You looking to learn how to fish?
+Player: Yes, please teach me.
+Fisherman: It's all about timing. Cast when the power meter is right.
+Fisherman: Then reel in carefully - don't let the tension get too high or too low.
+=> learn_cast
+
+~ learn_cast
+Fisherman: Let's practice. Press SPACE to cast when you're ready.
+=> END
+
+~ hint_zones
+Fisherman: The ocean has different zones. Deeper zones have rarer fish.
+Fisherman: But be careful - the deep can be dangerous.
+=> END
+
+~ hint_hazards
+Fisherman: Watch out for jellyfish, eels, and sharks.
+Fisherman: They'll ruin your catch if you're not careful!
+=> END

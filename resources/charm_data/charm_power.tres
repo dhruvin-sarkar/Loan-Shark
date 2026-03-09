@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CharmData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="4_enchant"]
+
+[resource]
+script = ExtResource("4_enchant")
+name = "Power Enchantment"
+description = "+20% cast power for current rod. Permanent."
+base_value = 350
+charm_type = "enchantment"
+effect_value = 1.2
+target_family = ""
+duration = 0
+texture_path = "res://Assets/Items/charm_power.png"

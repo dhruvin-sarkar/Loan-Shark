@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CharmData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="7_sell"]
+
+[resource]
+script = ExtResource("7_sell")
+name = "Merchant's Blessing"
+description = "+30% sell price on all fish. Lasts 1 day."
+base_value = 500
+charm_type = "sell"
+effect_value = 1.3
+target_family = ""
+duration = 1
+texture_path = "res://Assets/Items/charm_merchant.png"

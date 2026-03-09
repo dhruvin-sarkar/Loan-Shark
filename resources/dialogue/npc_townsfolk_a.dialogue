@@ -1,0 +1,9 @@
+~ start
+Townsfolk: Oh, you're the one in debt to the loan shark, right?
+Townsfolk: Tough break. Fishing's your best bet to pay it off.
+=> END
+
+~ gossip
+Townsfolk: I heard there's a legendary fish in the deepest depths.
+Townsfolk: Worth a fortune, they say. But who's brave enough to go there?
+=> END

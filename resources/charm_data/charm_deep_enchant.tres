@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CharmData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="6_enchant"]
+
+[resource]
+script = ExtResource("6_enchant")
+name = "Deep Enchantment"
+description = "+15% catch bonus on deep fish for current rod. Permanent."
+base_value = 400
+charm_type = "enchantment"
+effect_value = 1.15
+target_family = "deep"
+duration = 0
+texture_path = "res://Assets/Items/charm_deep_enchant.png"

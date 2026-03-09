@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CharmData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="8_sell"]
+
+[resource]
+script = ExtResource("8_sell")
+name = "Finn's Favor"
+description = "+50% sell price on all fish. Permanent. Expensive."
+base_value = 1000
+charm_type = "sell"
+effect_value = 1.5
+target_family = ""
+duration = 0
+texture_path = "res://Assets/Items/charm_finn.png"

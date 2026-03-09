@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CharmData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="6_sell"]
+
+[resource]
+script = ExtResource("6_sell")
+name = "Eel Charm"
+description = "+25% sell price on eels. Lasts 2 days."
+base_value = 300
+charm_type = "sell"
+effect_value = 1.25
+target_family = "eel"
+duration = 2
+texture_path = "res://Assets/Items/charm_eel.png"

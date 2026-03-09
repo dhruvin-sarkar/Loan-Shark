@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CharmData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="3_spawn"]
+
+[resource]
+script = ExtResource("3_spawn")
+name = "Pelagic Charm"
+description = "+20% spawn rate for pelagic fish. Lasts 2 days."
+base_value = 200
+charm_type = "spawn"
+effect_value = 1.2
+target_family = "pelagic"
+duration = 2
+texture_path = "res://Assets/Items/charm_pelagic.png"

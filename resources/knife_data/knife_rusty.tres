@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="KnifeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/knife_data.gd" id="1_rusty"]
+
+[resource]
+script = ExtResource("1_rusty")
+name = "Rusty Knife"
+description = "A dull, rusty knife. Better than nothing. Your starting knife."
+base_value = 0
+filet_speed = 1.0
+material_yield = 1.0
+durability = 50
+texture_path = "res://Assets/Items/knife_rusty.png"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CharmData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="8_spawn"]
+
+[resource]
+script = ExtResource("8_spawn")
+name = "Legendary Lure"
+description = "+50% spawn rate for legendary fish. Lasts 1 day."
+base_value = 1000
+charm_type = "spawn"
+effect_value = 1.5
+target_family = ""
+duration = 1
+texture_path = "res://Assets/Items/charm_legendary.png"

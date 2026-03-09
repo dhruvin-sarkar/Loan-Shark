@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CharmData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="4_spawn"]
+
+[resource]
+script = ExtResource("4_spawn")
+name = "Bony Charm"
+description = "+20% spawn rate for bony fish. Lasts 2 days."
+base_value = 200
+charm_type = "spawn"
+effect_value = 1.2
+target_family = "bony"
+duration = 2
+texture_path = "res://Assets/Items/charm_bony.png"

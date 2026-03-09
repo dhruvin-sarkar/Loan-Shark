@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="BaitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/bait_data.gd" id="1_glow"]
+
+[resource]
+script = ExtResource("1_glow")
+name = "Glow Worm"
+description = "Bioluminescent bait for deep-sea fishing. Allows zone 3-4 access. +25% catch, +10% rarity."
+base_value = 40
+catch_bonus = 0.25
+rarity_bonus = 0.1
+uses = 5
+spawn_bonus = 1.15
+target_family = "deep"
+family_bonus = 1.2
+deep_access = true
+texture_path = "res://Assets/Items/bait_glow_worm.png"

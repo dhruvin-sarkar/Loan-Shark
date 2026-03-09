@@ -1,0 +1,40 @@
+~ intro
+Old Sal: Ah, a new face on the docks.
+Old Sal: You're the one who owes Finn, aren't you?
+Old Sal: Don't worry. I won't tell him where you fish.
+Old Sal: But I will tell you this — the deep holds secrets.
+Old Sal: Fish that only come out at night. Treasures in the sand.
+Old Sal: Keep your eyes open down there.
+=> END
+
+~ tip_night
+Old Sal: Fishing at night, are we?
+Old Sal: Different fish come out after dark. Glow worms, phantom eels...
+Old Sal: Worth more too. Buyers like the exotic stuff.
+=> END
+
+~ tip_materials
+Old Sal: You find materials out there too, you know.
+Old Sal: Seaweed, shells, coral... even the occasional pearl.
+Old Sal: Don't just throw them back. They're worth something.
+=> END
+
+~ tip_hazards
+Old Sal: Watch yourself in the deep.
+Old Sal: Sharks, eels, jellyfish... they'll ruin your whole day.
+Old Sal: Some of them can be avoided if you're quick.
+Old Sal: Others... well, you'll learn.
+=> END
+
+~ tip_charms
+Old Sal: Ever seen a charm?
+Old Sal: Little trinkets that give you an edge.
+Old Sal: Sell bonuses, spawn boosts... some even enchant your rod.
+Old Sal: Worth every penny if you ask me.
+=> END
+
+~ weather_comment
+Old Sal: Water's rough today.
+Old Sal: Fish don't mind, but you might.
+Old Sal: Stay close to shore if it gets too wild.
+=> END

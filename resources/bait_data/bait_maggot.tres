@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="BaitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/bait_data.gd" id="1_maggot"]
+
+[resource]
+script = ExtResource("1_maggot")
+name = "Maggot"
+description = "Gross but effective. +15% catch chance, +5% spawn rate."
+base_value = 3
+catch_bonus = 0.15
+rarity_bonus = 0.0
+uses = 15
+spawn_bonus = 1.05
+target_family = ""
+family_bonus = 1.0
+deep_access = false
+texture_path = "res://Assets/Items/bait_maggot.png"

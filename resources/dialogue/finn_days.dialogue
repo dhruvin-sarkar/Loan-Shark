@@ -1,0 +1,86 @@
+~ day1_intro
+Finn: So you're the one who borrowed from me.
+Finn: Five hundred dollars. You remember that number, right?
+Finn: You've got seven days. After that... well, let's just say my patience has interest too.
+Player: I'll have your money.
+Finn: Good. Start fishing. The shallows are safe enough for beginners.
+Finn: And don't even think about leaving town.
+=> END
+
+~ day1_reminder
+Finn: Day one. Six more to go. Tick tock.
+=> END
+
+~ day2_intro
+Finn: Still here. Good. That means you're not stupid.
+Finn: How much you got for me today?
+Player: I'm working on it.
+Finn: Work harder. The kelp forest opens up now — better fish, better money.
+Finn: If you're not scared of what lives in there.
+=> END
+
+~ day2_reminder
+Finn: The deep water calls. Are you answering?
+=> END
+
+~ day3_intro
+Finn: Halfway through your grace period.
+Finn: Your debt's growing, you know. Five percent every night you don't pay.
+Finn: Compound interest. Beautiful thing... for me.
+Player: I'll get it paid.
+Finn: You better. The ruins are open now. Real money down there.
+Finn: If you've got the guts to go deep.
+=> END
+
+~ day3_reminder
+Finn: Every day you wait, you owe more. Simple math.
+=> END
+
+~ day4_intro
+Finn: Four days left.
+Finn: You're still breathing. That's something.
+Finn: The abyss is yours to explore now. Most valuable fish in the sea.
+Finn: Also the most dangerous. But you already knew that.
+=> END
+
+~ day4_reminder
+Finn: Time's running short. The deep is calling.
+=> END
+
+~ day5_intro
+Finn: Three days.
+Finn: You know what happens if you don't pay?
+Finn: Let's just say I have friends who are very... persuasive.
+Finn: Keep fishing. Keep selling. Keep surviving.
+=> END
+
+~ day5_reminder
+Finn: The clock is ticking louder now.
+=> END
+
+~ day6_intro
+Finn: Tomorrow's the last day.
+Finn: I almost feel bad for you. Almost.
+Finn: One more night in the deep. Make it count.
+=> END
+
+~ day6_reminder
+Finn: Last chance tomorrow. Don't waste it.
+=> END
+
+~ day7_intro
+Finn: Final day.
+Finn: Time's up. Let's see what you've got.
+=> END
+
+~ day7_final
+Finn: Well, well. Look who actually came through.
+Finn: Didn't think you had it in you.
+Finn: We're square. Don't make me come find you again.
+=> END
+
+~ debt_warning
+Finn: Your debt's getting out of control.
+Finn: You're at a thousand now. Cross that line...
+Finn: Let's just say you won't be fishing anymore.
+=> END

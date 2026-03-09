@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="KnifeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/knife_data.gd" id="1_coral"]
+
+[resource]
+script = ExtResource("1_coral")
+name = "Coral Knife"
+description = "A sharp knife made from hardened coral. +30% filet speed, +20% material yield."
+base_value = 80
+filet_speed = 1.3
+material_yield = 1.2
+durability = 100
+texture_path = "res://Assets/Items/knife_coral.png"

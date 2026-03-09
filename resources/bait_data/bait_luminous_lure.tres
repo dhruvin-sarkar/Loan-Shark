@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="BaitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/bait_data.gd" id="1_lumin"]
+
+[resource]
+script = ExtResource("1_lumin")
+name = "Luminous Lure"
+description = "Synthetic deep-sea lure. +30% catch, +15% rarity, allows zone 3-4 access."
+base_value = 60
+catch_bonus = 0.3
+rarity_bonus = 0.15
+uses = 4
+spawn_bonus = 1.2
+target_family = "deep"
+family_bonus = 1.25
+deep_access = true
+texture_path = "res://Assets/Items/bait_luminous.png"

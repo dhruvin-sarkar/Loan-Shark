@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CharmData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="1_shell"]
+
+[resource]
+script = ExtResource("1_shell")
+name = "Shell Charm"
+description = "Increases sell price by 10%."
+charm_type = "sell"
+effect_value = 0.1
+base_value = 100
+texture_path = "res://Assets/Items/charm_shell.png"

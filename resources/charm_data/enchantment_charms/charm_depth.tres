@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CharmData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="1_depth"]
+
+[resource]
+script = ExtResource("1_depth")
+name = "Depth Charm"
+description = "Allows fishing in deeper zones."
+charm_type = "enchantment"
+effect_value = 1.0
+base_value = 300
+texture_path = "res://Assets/Items/charm_depth.png"

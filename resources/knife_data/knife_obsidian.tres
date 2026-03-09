@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="KnifeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/knife_data.gd" id="1_obsidian"]
+
+[resource]
+script = ExtResource("1_obsidian")
+name = "Obsidian Knife"
+description = "A volcanic glass knife. Extremely sharp. +60% filet speed, +50% material yield."
+base_value = 200
+filet_speed = 1.6
+material_yield = 1.5
+durability = 150
+texture_path = "res://Assets/Items/knife_obsidian.png"

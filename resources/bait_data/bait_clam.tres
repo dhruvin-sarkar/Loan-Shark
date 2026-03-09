@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="BaitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/bait_data.gd" id="1_clam"]
+
+[resource]
+script = ExtResource("1_clam")
+name = "Clam Meat"
+description = "Fresh clam meat. +18% catch chance, +15% reef fish spawn."
+base_value = 12
+catch_bonus = 0.18
+rarity_bonus = 0.03
+uses = 10
+spawn_bonus = 1.1
+target_family = "reef"
+family_bonus = 1.15
+deep_access = false
+texture_path = "res://Assets/Items/bait_clam.png"

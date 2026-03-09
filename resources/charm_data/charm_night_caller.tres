@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CharmData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="6_spawn"]
+
+[resource]
+script = ExtResource("6_spawn")
+name = "Night Caller"
+description = "+30% spawn rate for night-only fish. Lasts 1 night."
+base_value = 350
+charm_type = "spawn"
+effect_value = 1.3
+target_family = ""
+duration = 1
+texture_path = "res://Assets/Items/charm_night.png"

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="BaitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/bait_data.gd" id="1_pearl"]
+
+[resource]
+script = ExtResource("1_pearl")
+name = "Pearl Dust"
+description = "Crushed pearls. +35% catch, +18% rarity chance. Premium bait."
+base_value = 100
+catch_bonus = 0.35
+rarity_bonus = 0.18
+uses = 4
+spawn_bonus = 1.25
+target_family = ""
+family_bonus = 1.0
+deep_access = false
+texture_path = "res://Assets/Items/bait_pearl.png"

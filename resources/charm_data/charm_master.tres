@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CharmData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="7_enchant"]
+
+[resource]
+script = ExtResource("7_enchant")
+name = "Master Enchantment"
+description = "+10% to all rod stats. Permanent."
+base_value = 800
+charm_type = "enchantment"
+effect_value = 1.1
+target_family = ""
+duration = 0
+texture_path = "res://Assets/Items/charm_master.png"

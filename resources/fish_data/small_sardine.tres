@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_0abcd"]
+
+[resource]
+script = ExtResource("1_0abcd")
+name = "Small Sardine"
+species = "sardine"
+rarity = "common"
+rarity_chance = 0.4
+min_size = 5.0
+max_size = 15.0
+value_multiplier = 2.0
+zone = "shallows"
+description = "A common small fish found in shallow waters. Not worth much, but good for practice."
+texture_path = "res://Assets/Fish/sardine.png"

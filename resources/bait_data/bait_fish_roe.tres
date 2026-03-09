@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="BaitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/bait_data.gd" id="1_fish"]
+
+[resource]
+script = ExtResource("1_fish")
+name = "Fish Roe"
+description = "Premium fish eggs. +22% catch chance, +8% rarity chance."
+base_value = 25
+catch_bonus = 0.22
+rarity_bonus = 0.08
+uses = 6
+spawn_bonus = 1.15
+target_family = ""
+family_bonus = 1.0
+deep_access = false
+texture_path = "res://Assets/Items/bait_roe.png"

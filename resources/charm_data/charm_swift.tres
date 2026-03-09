@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CharmData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="1_enchant"]
+
+[resource]
+script = ExtResource("1_enchant")
+name = "Swift Enchantment"
+description = "+15% reel speed for current rod. Permanent."
+base_value = 300
+charm_type = "enchantment"
+effect_value = 1.15
+target_family = ""
+duration = 0
+texture_path = "res://Assets/Items/charm_swift.png"

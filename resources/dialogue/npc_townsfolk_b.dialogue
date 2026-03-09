@@ -1,0 +1,8 @@
+~ start
+Townsfolk: Hey there! Nice day for fishing, isn't it?
+Townsfolk: The shallows are teeming with sardines today.
+=> END
+
+~ hint_time
+Townsfolk: Time flies when you're fishing. Make sure to sell before nightfall!
+=> END

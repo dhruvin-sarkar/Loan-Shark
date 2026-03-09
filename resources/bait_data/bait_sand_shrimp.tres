@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="BaitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/bait_data.gd" id="1_sand"]
+
+[resource]
+script = ExtResource("1_sand")
+name = "Sand Shrimp"
+description = "Fresh-caught sand shrimp. +12% catch chance, +10% crustacean spawn."
+base_value = 8
+catch_bonus = 0.12
+rarity_bonus = 0.0
+uses = 12
+spawn_bonus = 1.05
+target_family = "crustacean"
+family_bonus = 1.1
+deep_access = false
+texture_path = "res://Assets/Items/bait_sand_shrimp.png"
