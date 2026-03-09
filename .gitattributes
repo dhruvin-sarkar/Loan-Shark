@@ -1,2 +1,53 @@
 # Normalize EOL for all files that Git considers text files.
 * text=auto eol=lf
+
+# Language display
+*.import linguist-generated=true
+*.tres linguist-language=GDScript
+*.tscn linguist-language=GDScript
+assets/** linguist-vendored=true
+
+# Godot-specific
+.godot/
+*.import
+*.uid
+
+# Export templates (these are huge binaries, never commit them)
+android/
+ios/
+linux/
+macos/
+windows/
+web/
+export_templates/
+
+# Build outputs
+builds/
+*.pck
+*.apk
+*.aab
+*.ipa
+*.exe
+*.dmg
+*.zip
+*.html
+*.js
+*.wasm
+*.wasm.gz
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor metadata
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs
+*.log
+
+# Keep export_presets.cfg (needed for CI/CD builds)
+# but ignore any credentials inside it if applicable
