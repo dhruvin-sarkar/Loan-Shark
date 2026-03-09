@@ -1,53 +1,47 @@
-# Normalize EOL for all files that Git considers text files.
+# Auto-detect text files and normalize line endings
 * text=auto eol=lf
 
-# Language display
-*.import linguist-generated=true
-*.tres linguist-language=GDScript
-*.tscn linguist-language=GDScript
-assets/** linguist-vendored=true
+# GDScript
+*.gd text eol=lf diff=gdscript
+*.tscn text eol=lf
+*.tres text eol=lf
+*.godot text eol=lf
+*.import text eol=lf
+*.cfg text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.glsl text eol=lf
+*.shader text eol=lf
 
-# Godot-specific
-.godot/
-*.import
-*.uid
+# Binary assets — tell Git not to diff or merge these
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.svg binary
+*.ico binary
+*.ttf binary
+*.otf binary
+*.wav binary
+*.ogg binary
+*.mp3 binary
+*.mp4 binary
+*.webm binary
+*.pck binary
+*.wasm binary
+*.zip binary
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
 
-# Export templates (these are huge binaries, never commit them)
-android/
-ios/
-linux/
-macos/
-windows/
-web/
-export_templates/
-
-# Build outputs
-builds/
-*.pck
-*.apk
-*.aab
-*.ipa
-*.exe
-*.dmg
-*.zip
-*.html
-*.js
-*.wasm
-*.wasm.gz
-
-# OS junk
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Editor metadata
-.vscode/
-.idea/
-*.swp
-*~
-
-# Logs
-*.log
-
-# Keep export_presets.cfg (needed for CI/CD builds)
-# but ignore any credentials inside it if applicable
+# Force linguist to show GDScript as the main language on GitHub
+# (this is what fixes your Objective-C problem)
+*.gd linguist-language=GDScript linguist-detectable=true
+*.tscn linguist-language=GDScript linguist-detectable=true
+*.tres linguist-detectable=false
+*.import linguist-detectable=false
+*.cfg linguist-detectable=false
+export_presets.cfg linguist-detectable=false
