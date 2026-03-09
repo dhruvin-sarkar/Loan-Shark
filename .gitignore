@@ -1,3 +1,60 @@
-# Godot 4+ specific ignores
+# Normalize EOL for all files that Git considers text files.
+* text=auto eol=lf
+
+# Language display
+*.import linguist-generated=true
+*.tres linguist-language=GDScript
+*.tscn linguist-language=GDScript
+assets/** linguist-vendored=true
+
+# Godot-specific
 .godot/
-/android/
+*.import
+*.uid
+
+# Export templates (these are huge binaries, never commit them)
+android/
+ios/
+linux/
+macos/
+windows/
+web/
+export_templates/
+
+# Build outputs
+builds/
+*.pck
+*.apk
+*.aab
+*.ipa
+*.exe
+*.dmg
+*.zip
+*.html
+*.js
+*.wasm
+*.wasm.gz
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor metadata
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs
+*.log
+
+# Keep export_presets.cfg (needed for CI/CD builds)
+# but ignore any credentials inside it if applicable
+
+# Addons with compiled binaries
+addons/godot-rapier2d/
+addons/ziva/
+
+# Keep pure GDScript addons if you want, like:
+# !addons/your_gdscript_only_addon/

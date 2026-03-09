@@ -37,6 +37,9 @@
 *.so binary
 *.dylib binary
 
+# Vendor/addon overrides — don't count toward language stats
+addons/** linguist-vendored=true
+
 # Force linguist to show GDScript as the main language on GitHub
 # (this is what fixes your Objective-C problem)
 *.gd linguist-language=GDScript linguist-detectable=true
