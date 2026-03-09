@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bbj3m0xmcttix"
+path="res://.godot/imported/Drifting Memories.wav-823a160e4271e8f9946b1ae11212e248.sample"
+
+[deps]
+
+source_file="res://Assets/Cozy Tunes (Pro)/Audio/wav/Tracks/Drifting Memories.wav"
+dest_files=["res://.godot/imported/Drifting Memories.wav-823a160e4271e8f9946b1ae11212e248.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://0h6p25bseh37"
+path="res://.godot/imported/Golden Gleam.mp3-dd9640a6c0047bb1e721e7b97d0193f6.mp3str"
+
+[deps]
+
+source_file="res://Assets/Cozy Tunes (Pro)/Audio/mp3/Tracks/Golden Gleam.mp3"
+dest_files=["res://.godot/imported/Golden Gleam.mp3-dd9640a6c0047bb1e721e7b97d0193f6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

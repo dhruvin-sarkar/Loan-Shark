@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://sl3luucn0cvq"
+path="res://.godot/imported/Whispering Woods.wav-bccaf3897199955c8bdd9e96e4111a36.sample"
+
+[deps]
+
+source_file="res://Assets/Cozy Tunes (Pro)/Audio/wav/Tracks/Whispering Woods.wav"
+dest_files=["res://.godot/imported/Whispering Woods.wav-bccaf3897199955c8bdd9e96e4111a36.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

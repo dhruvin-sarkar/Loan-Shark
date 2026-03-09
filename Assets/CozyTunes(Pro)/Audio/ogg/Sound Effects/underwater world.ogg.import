@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bccvqt2cdfdba"
+path="res://.godot/imported/underwater world.ogg-36eba56e693f8a04de8a5d9acbb7a0bd.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Cozy Tunes (Pro)/Audio/ogg/Sound Effects/underwater world.ogg"
+dest_files=["res://.godot/imported/underwater world.ogg-36eba56e693f8a04de8a5d9acbb7a0bd.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

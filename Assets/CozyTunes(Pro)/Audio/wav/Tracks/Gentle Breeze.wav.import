@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://7ylorwujp37b"
+path="res://.godot/imported/Gentle Breeze.wav-2849e36da613defb95c02c90f52e5952.sample"
+
+[deps]
+
+source_file="res://Assets/Cozy Tunes (Pro)/Audio/wav/Tracks/Gentle Breeze.wav"
+dest_files=["res://.godot/imported/Gentle Breeze.wav-2849e36da613defb95c02c90f52e5952.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

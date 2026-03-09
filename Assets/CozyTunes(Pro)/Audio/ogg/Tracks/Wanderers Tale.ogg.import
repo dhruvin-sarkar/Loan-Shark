@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://be4gr1xiyhgt8"
+path="res://.godot/imported/Wanderers Tale.ogg-6837e2af4ee0ca5e8f4e6f4e3289250a.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Cozy Tunes (Pro)/Audio/ogg/Tracks/Wanderers Tale.ogg"
+dest_files=["res://.godot/imported/Wanderers Tale.ogg-6837e2af4ee0ca5e8f4e6f4e3289250a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

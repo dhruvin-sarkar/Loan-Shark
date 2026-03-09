@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dc1v6k58omdu1"
+path="res://.godot/imported/Golden Gleam.ogg-83581a31debbb6299b7b9e88687c5ce1.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Cozy Tunes (Pro)/Audio/ogg/Tracks/Golden Gleam.ogg"
+dest_files=["res://.godot/imported/Golden Gleam.ogg-83581a31debbb6299b7b9e88687c5ce1.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
