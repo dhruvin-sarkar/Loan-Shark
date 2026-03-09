@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_bass"]
+
+[resource]
+script = ExtResource("1_bass")
+id = "bass"
+name = "Sea Bass"
+zone = "zone1"
+base_price = 14
+size_range = [0.8, 1.8]
+rarity = "common"
+family = "bony"
+night_only = false
+reel_speed = 1.0
+catch_speed = 1.0
+modifier_effect = ""
+inventory_slots = 1
+description = "A reliable catch. Sea bass are the backbone of any fishing operation. Not glamorous, but not nothing."
+texture_path = "res://Assets/Fish/bass.png"

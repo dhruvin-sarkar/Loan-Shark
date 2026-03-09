@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_perch"]
+
+[resource]
+script = ExtResource("1_perch")
+id = "perch"
+name = "River Perch"
+zone = "zone1"
+base_price = 10
+size_range = [0.8, 1.8]
+rarity = "common"
+family = "bony"
+night_only = false
+reel_speed = 0.9
+catch_speed = 1.0
+modifier_effect = ""
+inventory_slots = 1
+description = "Wandered in from the river mouth. Didn't think this through."
+texture_path = "res://Assets/Fish/perch.png"

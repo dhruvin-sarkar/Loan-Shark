@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_jelly"]
+
+[resource]
+script = ExtResource("1_jelly")
+id = "jellyfish"
+name = "Moon Jellyfish"
+species = "jellyfish_edible"
+zone = "zone1"
+base_price = 8
+min_size = 20.0
+max_size = 50.0
+rarity = "uncommon"
+family = "pelagic"
+reel_speed = 0.6
+value_multiplier = 4.0
+description = "Almost floats onto the hook on its own. Very little sporting challenge. Very little of anything, really."
+texture_path = "res://Assets/Fish/jellyfish.png"
