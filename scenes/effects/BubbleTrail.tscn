@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/effects/bubble_trail.gd" id="1_bubble"]
+
+[node name="BubbleTrail" type="Node2D"]
+script = ExtResource("1_bubble")
+
+[node name="Particles2D" type="GPUParticles2D" parent="."]
+amount = 10
+one_shot = false

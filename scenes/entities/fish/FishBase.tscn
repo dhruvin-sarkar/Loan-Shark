@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/entities/fish_base.gd" id="1_fish"]
+[ext_resource type="Texture2D" path="res://Assets/fishing_free/global.png" id="2_sprite"]
+
+[node name="FishBase" type="Area2D"]
+script = ExtResource("1_fish")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_sprite")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="MovementTimer" type="Timer" parent="."]
+wait_time = 2.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]

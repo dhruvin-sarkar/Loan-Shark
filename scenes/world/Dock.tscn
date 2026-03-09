@@ -1,0 +1,41 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/world/dock.gd" id="1_0abcd"]
+[ext_resource type="Texture2D" uid="uid://bvnw8q7xl2k3r" path="res://Assets/BackDrops/Jungle.png" id="2_1efgh"]
+
+[sub_resource type="SceneTreeTimer" id="timer_placeholder"]
+
+[node name="Dock" type="Node2D"]
+script = ExtResource("1_0abcd")
+
+[node name="Background" type="Sprite2D" parent="."]
+texture = ExtResource("2_1efgh")
+centered = false
+
+[node name="PlayerSpawn" type="Marker2D" parent="."]
+position = Vector2(100, 300)
+
+[node name="BeachTransition" type="Area2D" parent="."]
+position = Vector2(50, 250)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BeachTransition"]
+shape = SubResource("placeholder_shape")
+
+[node name="FishingSpots" type="Node2D" parent="."]
+
+[node name="FishingSpot1" type="Marker2D" parent="FishingSpots"]
+position = Vector2(200, 200)
+
+[node name="FishingSpot2" type="Marker2D" parent="FishingSpots"]
+position = Vector2(400, 180)
+
+[node name="FishingSpot3" type="Marker2D" parent="FishingSpots"]
+position = Vector2(600, 220)
+
+[node name="FishermanSpawn" type="Marker2D" parent="."]
+position = Vector2(350, 280)
+
+[node name="DockPlanks" type="StaticBody2D" parent="."]
+
+[node name="DockCollision" type="CollisionShape2D" parent="DockPlanks"]
+shape = SubResource("placeholder_shape")

@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/effects/biolum_particle.gd" id="1_biolum"]
+
+[node name="BiolumParticle" type="Node2D"]
+script = ExtResource("1_biolum")
+
+[node name="Particles2D" type="GPUParticles2D" parent="."]
+amount = 30
+one_shot = false

@@ -1,0 +1,63 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/world/ocean_zone1.gd" id="1_0abcd"]
+[ext_resource type="Texture2D" uid="uid://bvnw8q7xl2k3r" path="res://Assets/Underwater_Parallax/Sinky_Sub_BG.png" id="2_1efgh"]
+[ext_resource type="Texture2D" uid="uid://cdef1234" path="res://Assets/Underwater_Parallax/Sinky_Sub_GodRays.png" id="3_2ijkl"]
+[ext_resource type="Texture2D" uid="uid://mnop5678" path="res://Assets/Underwater_Parallax/Sinky_Sub_Floor.png" id="4_3mnop"]
+
+[sub_resource type="SceneTreeTimer" id="timer_placeholder"]
+
+[node name="OceanZone1_Shallows" type="Node2D"]
+script = ExtResource("1_0abcd")
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+scroll_base_offset = Vector2(0, 100)
+scroll_base_scale = Vector2(1, 0.5)
+
+[node name="BackgroundLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.1, 0)
+
+[node name="Background" type="Sprite2D" parent="ParallaxBackground/BackgroundLayer"]
+texture = ExtResource("2_1efgh")
+centered = false
+
+[node name="GodRaysLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.3, 0.1)
+
+[node name="GodRays" type="Sprite2D" parent="ParallaxBackground/GodRaysLayer"]
+texture = ExtResource("3_2ijkl")
+centered = false
+modulate = Color(1, 1, 1, 0.3)
+
+[node name="FloorLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(1, 0)
+
+[node name="Floor" type="Sprite2D" parent="ParallaxBackground/FloorLayer"]
+texture = ExtResource("4_3mnop")
+centered = false
+
+[node name="PlayerSpawn" type="Marker2D" parent="."]
+position = Vector2(100, 300)
+
+[node name="ZoneTransitionUp" type="Area2D" parent="."]
+position = Vector2(400, 50)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ZoneTransitionUp"]
+shape = SubResource("placeholder_shape")
+
+[node name="ZoneTransitionDown" type="Area2D" parent="."]
+position = Vector2(400, 500)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ZoneTransitionDown"]
+shape = SubResource("placeholder_shape")
+
+[node name="FishSpawns" type="Node2D" parent="."]
+
+[node name="Spawn1" type="Marker2D" parent="FishSpawns"]
+position = Vector2(200, 200)
+
+[node name="Spawn2" type="Marker2D" parent="FishSpawns"]
+position = Vector2(400, 250)
+
+[node name="Spawn3" type="Marker2D" parent="FishSpawns"]
+position = Vector2(600, 300)

@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/entities/fishing_line.gd" id="1_line"]
+
+[node name="FishingLine" type="Node2D"]
+script = ExtResource("1_line")
+
+[node name="Line2D" type="Line2D" parent="."]
+points = PackedVector2Array(Vector2(0, 0), Vector2(0, 100))
+width = 2.0
+
+[node name="HookPoint" type="Marker2D" parent="."]
+position = Vector2(0, 100)

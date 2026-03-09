@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/tutorial_arrow.gd" id="1_arrow"]
+
+[node name="TutorialArrow" type="Control"]
+layout_mode = 3
+script = ExtResource("1_arrow")
+
+[node name="ArrowSprite" type="Sprite2D" parent="."]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]

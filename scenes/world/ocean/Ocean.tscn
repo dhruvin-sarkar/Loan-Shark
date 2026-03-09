@@ -1,0 +1,53 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/world/ocean.gd" id="1_0abcd"]
+
+[sub_resource type="SceneTreeTimer" id="timer_placeholder"]
+
+[node name="Ocean" type="Node2D"]
+script = ExtResource("1_0abcd")
+
+[node name="ZoneManager" type="Node" parent="."]
+
+[node name="CurrentZone" type="Node2D" parent="ZoneManager"]
+
+[node name="ZoneTransitionArea" type="Area2D" parent="."]
+position = Vector2(800, 300)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ZoneTransitionArea"]
+shape = SubResource("placeholder_shape")
+
+[node name="DepthMeter" type="Control" parent="."]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = -100.0
+offset_top = -50.0
+offset_right = 0.0
+offset_bottom = 0.0
+
+[node name="DepthLabel" type="Label" parent="DepthMeter"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50.0
+offset_top = -10.0
+offset_right = 50.0
+offset_bottom = 10.0
+text = "Depth: 0m"
+horizontal_alignment = 1
+
+[node name="ZoneLabel" type="Label" parent="DepthMeter"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50.0
+offset_top = 10.0
+offset_right = 50.0
+offset_bottom = 30.0
+text = "Zone: Shallows"
+horizontal_alignment = 1

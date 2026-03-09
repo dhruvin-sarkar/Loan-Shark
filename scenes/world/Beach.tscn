@@ -1,0 +1,39 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/world/beach.gd" id="1_0abcd"]
+[ext_resource type="Texture2D" uid="uid://bvnw8q7xl2k3r" path="res://Assets/BackDrops/Jungle.png" id="2_1efgh"]
+
+[sub_resource type="SceneTreeTimer" id="timer_placeholder"]
+
+[node name="Beach" type="Node2D"]
+script = ExtResource("1_0abcd")
+
+[node name="Background" type="Sprite2D" parent="."]
+texture = ExtResource("2_1efgh")
+centered = false
+
+[node name="PlayerSpawn" type="Marker2D" parent="."]
+position = Vector2(100, 300)
+
+[node name="OceanTransition" type="Area2D" parent="."]
+position = Vector2(800, 250)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="OceanTransition"]
+shape = SubResource("placeholder_shape")
+
+[node name="DockTransition" type="Area2D" parent="."]
+position = Vector2(50, 250)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DockTransition"]
+shape = SubResource("placeholder_shape")
+
+[node name="ForagingSpawns" type="Node2D" parent="."]
+
+[node name="ShellSpawn1" type="Marker2D" parent="ForagingSpawns"]
+position = Vector2(200, 350)
+
+[node name="ShellSpawn2" type="Marker2D" parent="ForagingSpawns"]
+position = Vector2(400, 320)
+
+[node name="ShellSpawn3" type="Marker2D" parent="ForagingSpawns"]
+position = Vector2(600, 340)

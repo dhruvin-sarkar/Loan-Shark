@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/entities/npcs/NPCBase.tscn" id="1_base"]
+[ext_resource type="Texture2D" path="res://Assets/free-fishing-game-assets-pixel-art-pack/2Characteranimation/" id="2_sprite"]
+
+[node name="NPC_Fisherman" instance=ExtResource("1_base")]
+npc_type = "fisherman"
+dialogue_path = "res://resources/dialogue/npc_fisherman_hints.dialogue"

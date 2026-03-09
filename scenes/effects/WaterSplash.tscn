@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/effects/water_splash.gd" id="1_splash"]
+
+[node name="WaterSplash" type="Node2D"]
+script = ExtResource("1_splash")
+
+[node name="Particles2D" type="GPUParticles2D" parent="."]
+amount = 20
+one_shot = true
+explosiveness = 0.8
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]

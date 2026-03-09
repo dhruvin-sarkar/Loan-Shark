@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/entities/npcs/NPCBase.tscn" id="1_base"]
+[ext_resource type="Texture2D" path="res://Assets/charfree/global.png" id="2_sprite"]
+
+[node name="NPC_Townsfolk_B" instance=ExtResource("1_base")]
+npc_type = "townsfolk"
+dialogue_path = "res://resources/dialogue/npc_townsfolk_b.dialogue"
