@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_frilled"]
+
+[resource]
+script = ExtResource("1_frilled")
+id = "frilled_shark"
+name = "Frilled Shark"
+zone = "zone4"
+base_price = 220
+size_range = [0.8, 1.8]
+rarity = "legendary"
+family = "bony"
+night_only = false
+reel_speed = 1.6
+catch_speed = 1.0
+modifier_effect = ""
+inventory_slots = 1
+description = "A living fossil from the abyss. Rows of needle teeth and a serpentine body. Spawn chance: 2% base. Only 1 can appear per day."
+texture_path = "res://Assets/Fish/frilled_shark.png"

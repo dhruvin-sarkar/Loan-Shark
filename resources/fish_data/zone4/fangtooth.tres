@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_fang"]
+
+[resource]
+script = ExtResource("1_fang")
+id = "fangtooth"
+name = "Fangtooth Fish"
+zone = "zone4"
+base_price = 140
+size_range = [0.8, 1.8]
+rarity = "rare"
+family = "deep"
+night_only = false
+reel_speed = 2.1
+catch_speed = 1.0
+modifier_effect = ""
+inventory_slots = 1
+description = "Has the largest teeth relative to body size of any known fish. Cannot close its mouth fully. This is by design. The design is terrifying."
+texture_path = "res://Assets/Fish/fangtooth.png"

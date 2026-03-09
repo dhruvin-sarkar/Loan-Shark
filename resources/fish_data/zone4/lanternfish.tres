@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_lantern"]
+
+[resource]
+script = ExtResource("1_lantern")
+id = "lanternfish"
+name = "Lanternfish"
+zone = "zone4"
+base_price = 50
+size_range = [0.8, 1.8]
+rarity = "uncommon"
+family = "pelagic"
+night_only = true
+reel_speed = 1.0
+catch_speed = 1.0
+modifier_effect = ""
+inventory_slots = 1
+description = "Not one fish. A coordinated mass of bioluminescent bodies moving as one. Each individual is small and unremarkable. Together they are worth $200 if your inventory can hold them."
+texture_path = "res://Assets/Fish/lanternfish.png"

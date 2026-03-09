@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_barrel"]
+
+[resource]
+script = ExtResource("1_barrel")
+id = "barreleye"
+name = "Barreleye Fish"
+zone = "zone4"
+base_price = 170
+size_range = [0.8, 1.8]
+rarity = "ultra-rare"
+family = "deep"
+night_only = false
+reel_speed = 1.5
+catch_speed = 1.0
+modifier_effect = ""
+inventory_slots = 1
+description = "The transparent dome on its head is not its skull. It's a liquid-filled lens for its enormous upward-pointing eyes. It is looking at you. It is always looking at you."
+texture_path = "res://Assets/Fish/barreleye.png"
