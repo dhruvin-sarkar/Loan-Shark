@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="RodData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/rod_data.gd" id="1_kelp"]
+
+[resource]
+script = ExtResource("1_kelp")
+name = "Kelp-Weave Rod"
+description = "A flexible rod woven from enchanted kelp. +15% catch bonus on reef fish."
+base_value = 200
+tier = "intermediate"
+max_zone = 2
+cast_power = 1.3
+reel_speed = 1.2
+durability = 150
+luck_bonus = 0.1
+family_affinity = "reef"
+affinity_bonus = 1.15
+texture_path = "res://Assets/Items/rod_kelp.png"

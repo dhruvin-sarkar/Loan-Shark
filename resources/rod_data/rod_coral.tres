@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="RodData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/rod_data.gd" id="1_coral"]
+
+[resource]
+script = ExtResource("1_coral")
+name = "Coral Rod"
+description = "A rod crafted from vibrant coral. +10% catch bonus on reef fish."
+base_value = 80
+tier = "amateur"
+max_zone = 1
+cast_power = 1.15
+reel_speed = 1.05
+durability = 130
+luck_bonus = 0.08
+family_affinity = "reef"
+affinity_bonus = 1.1
+texture_path = "res://Assets/Items/rod_coral.png"

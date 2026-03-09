@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="RodData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/rod_data.gd" id="1_shell"]
+
+[resource]
+script = ExtResource("1_shell")
+name = "Shell Rod"
+description = "A rod decorated with seashells. +10% catch bonus on crustaceans."
+base_value = 50
+tier = "amateur"
+max_zone = 1
+cast_power = 1.1
+reel_speed = 1.0
+durability = 120
+luck_bonus = 0.05
+family_affinity = "crustacean"
+affinity_bonus = 1.1
+texture_path = "res://Assets/Items/rod_shell.png"

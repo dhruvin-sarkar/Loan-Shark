@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="RodData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/rod_data.gd" id="1_oracle"]
+
+[resource]
+script = ExtResource("1_oracle")
+name = "Oracle Rod"
+description = "A mystical rod that seems to know where the fish are. +20% luck bonus. Access to all zones."
+base_value = 1500
+tier = "pro"
+max_zone = 4
+cast_power = 2.2
+reel_speed = 2.0
+durability = 350
+luck_bonus = 0.25
+family_affinity = ""
+affinity_bonus = 1.0
+texture_path = "res://Assets/Items/rod_oracle.png"
