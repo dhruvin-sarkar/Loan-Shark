@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MaterialData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/material_data.gd" id="1_seaweed"]
+
+[resource]
+script = ExtResource("1_seaweed")
+name = "Seaweed"
+description = "Common seaweed. Used for bait crafting. Found in shallows."
+base_value = 3
+rarity = "common"
+stack_size = 99
+zone_source = 1
+texture_path = "res://Assets/Items/mat_seaweed.png"

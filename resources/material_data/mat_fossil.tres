@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MaterialData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/material_data.gd" id="1_fossil"]
+
+[resource]
+script = ExtResource("1_fossil")
+name = "Fossil Fragment"
+description = "Ancient fossil from the deep ruins. Very valuable. Found in ruins."
+base_value = 150
+rarity = "rare"
+stack_size = 30
+zone_source = 3
+texture_path = "res://Assets/Items/mat_fossil.png"

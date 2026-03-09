@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MaterialData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/material_data.gd" id="1_ink"]
+
+[resource]
+script = ExtResource("1_ink")
+name = "Ink Sac"
+description = "Squid ink sac. Used for dye and potions. Found in kelp forests."
+base_value = 25
+rarity = "uncommon"
+stack_size = 50
+zone_source = 2
+texture_path = "res://Assets/Items/mat_ink.png"

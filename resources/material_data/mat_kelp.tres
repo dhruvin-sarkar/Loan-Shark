@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MaterialData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/material_data.gd" id="1_kelp"]
+
+[resource]
+script = ExtResource("1_kelp")
+name = "Kelp Strand"
+description = "Dried kelp from the forest. Used for rope and crafting. Found in kelp forests."
+base_value = 12
+rarity = "common"
+stack_size = 99
+zone_source = 2
+texture_path = "res://Assets/Items/mat_kelp.png"

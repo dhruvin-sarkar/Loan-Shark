@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MaterialData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/material_data.gd" id="1_coral"]
+
+[resource]
+script = ExtResource("1_coral")
+name = "Coral Fragment"
+description = "A piece of colorful coral. Found in kelp forests."
+base_value = 10
+rarity = "uncommon"
+stack_size = 99
+zone_source = 2
+texture_path = "res://Assets/Items/mat_coral.png"

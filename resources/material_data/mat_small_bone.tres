@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="MaterialData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/material_data.gd" id="1_bone"]
+
+[resource]
+script = ExtResource("1_bone")
+name = "Small Bone"
+description = "A small fish bone, useful for crafting."
+base_value = 3
+rarity = "common"
+stack_size = 99
+texture_path = "res://Assets/Items/mat_bone.png"

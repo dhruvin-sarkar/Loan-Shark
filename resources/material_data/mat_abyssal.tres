@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="MaterialData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/material_data.gd" id="1_abyss"]
+
+[resource]
+script = ExtResource("1_abyss")
+name = "Abyssal Fragment"
+description = "A mysterious shard from the deepest depths."
+base_value = 300
+rarity = "legendary"
+stack_size = 20
+texture_path = "res://Assets/Items/mat_abyssal.png"
