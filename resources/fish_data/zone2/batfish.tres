@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_bat"]
+
+[resource]
+script = ExtResource("1_bat")
+id = "batfish"
+name = "Batfish"
+zone = "zone2"
+base_price = 30
+size_range = [0.8, 1.8]
+rarity = "uncommon"
+family = "reef"
+night_only = true
+reel_speed = 1.1
+catch_speed = 1.0
+modifier_effect = ""
+inventory_slots = 1
+description = "Only emerges from the kelp at night. Has the face of someone who has made many bad decisions."
+texture_path = "res://Assets/Fish/batfish.png"

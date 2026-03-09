@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_grouper"]
+
+[resource]
+script = ExtResource("1_grouper")
+id = "grouper"
+name = "Giant Grouper"
+zone = "zone2"
+base_price = 45
+size_range = [0.8, 1.8]
+rarity = "rare"
+family = "bony"
+night_only = false
+reel_speed = 1.4
+catch_speed = 1.0
+modifier_effect = ""
+inventory_slots = 1
+description = "Gets its name from its habit of loitering in groups. Large, meaty, stubborn on the line. Worth the fight."
+texture_path = "res://Assets/Fish/grouper.png"

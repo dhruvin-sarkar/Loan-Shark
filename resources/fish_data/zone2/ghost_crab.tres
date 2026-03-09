@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_ghost"]
+
+[resource]
+script = ExtResource("1_ghost")
+id = "ghost_crab"
+name = "Ghost Crab"
+zone = "zone2"
+base_price = 65
+size_range = [0.8, 1.8]
+rarity = "rare"
+family = "crustacean"
+night_only = true
+reel_speed = 1.4
+catch_speed = 1.0
+modifier_effect = "ghost_crab_night_bonus"
+inventory_slots = 1
+description = "Almost translucent. Worth significantly more if sold at night — buyers who want ghost crabs are very specific about freshness timing. Catching one at night triggers a +1.5x price multiplier on the next sale."
+texture_path = "res://Assets/Fish/ghost_crab.png"

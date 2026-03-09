@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_octopus"]
+
+[resource]
+script = ExtResource("1_octopus")
+id = "octopus_small"
+name = "Young Octopus"
+zone = "zone2"
+base_price = 40
+size_range = [0.8, 1.8]
+rarity = "uncommon"
+family = "cephalopod"
+night_only = false
+reel_speed = 1.5
+catch_speed = 1.0
+modifier_effect = ""
+inventory_slots = 1
+description = "Intelligent enough to recognize your face. Judges you silently as you reel it in. Sells well to buyers who prefer not to think about that."
+texture_path = "res://Assets/Fish/octopus.png"
