@@ -73,6 +73,7 @@ func reset_run() -> void:
 	owned_rods = ["rod_driftwood"]
 	owned_knives = ["knife_rusty"]
 	bait_inventory.clear()
+	ModifierStack.reset_for_new_day()
 	_emit_all_state()
 
 func _emit_all_state() -> void:

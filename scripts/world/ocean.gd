@@ -17,6 +17,7 @@ func _ready() -> void:
 	_load_zone(current_zone)
 
 func _process(_delta: float) -> void:
+	camera.global_position = camera.global_position.lerp(player.global_position, min(1.0, _delta * 5.0))
 	if Input.is_action_just_pressed("cast") and current_zone_node and current_zone_node.has_method("begin_fishing"):
 		current_zone_node.begin_fishing()
 	if player.global_position.y <= 60.0 and Input.is_action_pressed("move_up"):

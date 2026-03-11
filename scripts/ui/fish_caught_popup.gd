@@ -11,10 +11,10 @@ func show_fish(fish: Dictionary) -> void:
 	value_label.text = "$%.2f" % estimated
 	stars_label.text = "*" * int(round(float(fish.get("reel_quality", 0.0)) * 5.0))
 	panel.modulate = Color(1.0, 0.9, 0.4) if fish.get("id", "") == "midnight_leviathan" else Color.WHITE
-	position.x = 1080.0
+	panel.position.x = 1080.0
 	var tween := create_tween()
-	tween.tween_property(self, "position:x", 760.0, 0.25)
+	tween.tween_property(panel, "position:x", 760.0, 0.25)
 	tween.tween_interval(2.0)
-	tween.tween_property(self, "position:x", 1080.0, 0.25)
+	tween.tween_property(panel, "position:x", 1080.0, 0.25)
 	await tween.finished
 	queue_free()

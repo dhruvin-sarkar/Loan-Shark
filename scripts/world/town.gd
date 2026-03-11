@@ -8,7 +8,8 @@ func _ready() -> void:
 	player.set_movement_mode("overworld")
 	player.set_world_bounds(Rect2(48, 380, 1180, 260))
 	player.global_position = Vector2(160, 560)
-	if GameState.current_day == 1 and not GameState.tutorial_completed and TutorialManager.current_step == TutorialManager.TutorialStep.INTRO_DIALOGUE:
+	var is_start_of_day := GameState.time_remaining >= GameState.day_duration - 0.1
+	if is_start_of_day and GameState.debt > 0.0:
 		var paid_previous_day := GameState.current_day > 1 and GameState.days_without_payment == 0
 		var lines := Finn.get_opening_lines(GameState.current_day, GameState.debt, paid_previous_day)
 		SceneManager.show_dialogue("Finn", lines, "finn_blip")
