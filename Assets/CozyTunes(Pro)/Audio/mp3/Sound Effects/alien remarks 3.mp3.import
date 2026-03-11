@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://b47mny16vj853"
-path="res://.godot/imported/alien remarks 3.mp3-721c21729aa3d127c3777a4176f91fc6.mp3str"
+path="res://.godot/imported/alien remarks 3.mp3-fb6e01fcaa1f3b47133a40780dd0ecff.mp3str"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/mp3/Sound Effects/alien remarks 3.mp3"
-dest_files=["res://.godot/imported/alien remarks 3.mp3-721c21729aa3d127c3777a4176f91fc6.mp3str"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/mp3/Sound Effects/alien remarks 3.mp3"
+dest_files=["res://.godot/imported/alien remarks 3.mp3-fb6e01fcaa1f3b47133a40780dd0ecff.mp3str"]
 
 [params]
 

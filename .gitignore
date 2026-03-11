@@ -49,6 +49,11 @@ desktop.ini
 # Logs
 *.log
 
+# Local tooling snapshots / caches
+.ziva/
+__pycache__/
+*.pyc
+
 # Keep export_presets.cfg (needed for CI/CD builds)
 # but ignore any credentials inside it if applicable
 
