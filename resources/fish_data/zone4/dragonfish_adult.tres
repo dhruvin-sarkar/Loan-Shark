@@ -1,20 +1,20 @@
 [gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_dragon"]
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1"]
 
 [resource]
-script = ExtResource("1_dragon")
+script = ExtResource("1")
 id = "dragonfish_adult"
 name = "Dragonfish (Adult)"
-zone = "zone4"
+zone = 4
 base_price = 180
-size_range = [0.8, 1.8]
+size_range = Vector2(0.8, 1.8)
 rarity = "ultra-rare"
-family = "deep"
 night_only = false
+family = "deep"
 reel_speed = 2.2
-catch_speed = 1.0
+catch_speed = 1
 modifier_effect = ""
+description = "Dragonfish (Adult)"
 inventory_slots = 1
-description = "The adult form. Bioluminescent, predatory, and extremely valuable."
-texture_path = "res://Assets/Fish/dragonfish_adult.png"
+sprite_region = Rect2()

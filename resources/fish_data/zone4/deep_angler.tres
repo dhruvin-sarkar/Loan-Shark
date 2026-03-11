@@ -1,20 +1,20 @@
 [gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_angler"]
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1"]
 
 [resource]
-script = ExtResource("1_angler")
+script = ExtResource("1")
 id = "deep_angler"
 name = "Deep Anglerfish"
-zone = "zone4"
+zone = 4
 base_price = 150
-size_range = [0.8, 1.8]
+size_range = Vector2(0.8, 1.8)
 rarity = "ultra-rare"
-family = "deep"
 night_only = false
+family = "deep"
 reel_speed = 1.8
-catch_speed = 1.0
+catch_speed = 1
 modifier_effect = ""
+description = "Deep Anglerfish"
 inventory_slots = 1
-description = "The deep-sea variant. Its lure glows brighter and its teeth are sharper."
-texture_path = "res://Assets/Fish/deep_angler.png"
+sprite_region = Rect2()

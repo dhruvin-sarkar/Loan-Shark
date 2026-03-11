@@ -1,20 +1,20 @@
 [gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_gulper"]
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1"]
 
 [resource]
-script = ExtResource("1_gulper")
+script = ExtResource("1")
 id = "gulper_eel"
 name = "Gulper Eel"
-zone = "zone4"
+zone = 4
 base_price = 160
-size_range = [0.8, 1.8]
+size_range = Vector2(0.8, 1.8)
 rarity = "ultra-rare"
-family = "eel"
 night_only = false
-reel_speed = 2.0
-catch_speed = 1.0
+family = "eel"
+reel_speed = 2
+catch_speed = 1
 modifier_effect = ""
+description = "Gulper Eel"
 inventory_slots = 1
-description = "Has a jaw approximately 25% of its total body length. Can swallow prey larger than itself. This is not a comforting fact when you are in Zone Four."
-texture_path = "res://Assets/Fish/gulper_eel.png"
+sprite_region = Rect2()

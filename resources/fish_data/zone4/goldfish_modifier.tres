@@ -1,20 +1,20 @@
 [gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_gold"]
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1"]
 
 [resource]
-script = ExtResource("1_gold")
+script = ExtResource("1")
 id = "goldfish_modifier"
 name = "Deepwater Goldfish"
-zone = "zone4"
+zone = 4
 base_price = 300
-size_range = [0.8, 1.8]
+size_range = Vector2(0.8, 1.8)
 rarity = "ultra-rare"
-family = "deep"
 night_only = false
-reel_speed = 1.0
-catch_speed = 1.0
+family = "deep"
+reel_speed = 1
+catch_speed = 1
 modifier_effect = "goldfish_next_sale_bonus"
+description = "Deepwater Goldfish"
 inventory_slots = 1
-description = "Mysteriously easy to catch for how valuable it is. Catching one applies a +50% bonus to the very next fish sale (one fish only). The deep holds surprises."
-texture_path = "res://Assets/Fish/golden_koi.png"
+sprite_region = Rect2()

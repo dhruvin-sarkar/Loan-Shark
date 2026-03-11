@@ -1,20 +1,20 @@
 [gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_levi"]
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1"]
 
 [resource]
-script = ExtResource("1_levi")
+script = ExtResource("1")
 id = "midnight_leviathan"
 name = "Midnight Leviathan"
-zone = "zone4"
+zone = 4
 base_price = 800
-size_range = [0.8, 1.8]
+size_range = Vector2(0.8, 1.8)
 rarity = "legendary"
-family = "deep"
 night_only = true
-reel_speed = 3.0
-catch_speed = 1.0
+family = "deep"
+reel_speed = 3
+catch_speed = 1
 modifier_effect = "leviathan_debt_clear"
+description = "Midnight Leviathan"
 inventory_slots = 1
-description = "A massive, shadowy creature that only appears in the deepest dark. Takes 2 inventory slots. Spawn chance: 1% base. Only 1 can appear per day. The ultimate prize."
-texture_path = "res://Assets/Fish/midnight_leviathan.png"
+sprite_region = Rect2()
