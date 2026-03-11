@@ -1,20 +1,20 @@
 [gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_perch"]
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1"]
 
 [resource]
-script = ExtResource("1_perch")
+script = ExtResource("1")
 id = "perch"
-name = "River Perch"
-zone = "zone1"
+name = "Perch"
+zone = 1
 base_price = 10
-size_range = [0.8, 1.8]
+size_range = Vector2(0.8, 1.8)
 rarity = "common"
-family = "bony"
 night_only = false
+family = "bony"
 reel_speed = 0.9
-catch_speed = 1.0
+catch_speed = 1
 modifier_effect = ""
+description = "Perch"
 inventory_slots = 1
-description = "Wandered in from the river mouth. Didn't think this through."
-texture_path = "res://Assets/Fish/perch.png"
+sprite_region = Rect2()

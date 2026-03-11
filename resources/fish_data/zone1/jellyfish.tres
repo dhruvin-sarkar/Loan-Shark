@@ -4,17 +4,17 @@
 
 [resource]
 script = ExtResource("1")
-id = "seahorse"
-name = "Seahorse"
+id = "jellyfish"
+name = "Moon Jellyfish"
 zone = 1
-base_price = 28
+base_price = 8
 size_range = Vector2(0.8, 1.8)
 rarity = "uncommon"
 night_only = false
-family = "reef"
-reel_speed = 0.7
+family = "pelagic"
+reel_speed = 0.6
 catch_speed = 1
 modifier_effect = ""
-description = "Seahorse"
+description = "Moon Jellyfish"
 inventory_slots = 1
 sprite_region = Rect2()

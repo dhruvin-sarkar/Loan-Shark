@@ -1,16 +1,12 @@
-[gd_resource type="Resource" script_class="CraftingRecipe" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="CraftingRecipeData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1_recipe"]
+[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1"]
 
 [resource]
-script = ExtResource("1_recipe")
-recipe_name = "Weighted Sink Charm"
-result_charm_id = "charm_weighted_sink"
-result_type = "enchantment"
-materials_required = {
-"mat_fish_bone": 2,
-"mat_driftwood": 3,
-"mat_abyssal": 1
-}
-effect_description = "Enchants rod with Weighted Sink (Hook sinks 40% faster. More casts per minute)."
-texture_path = "res://Assets/Items/charm_weighted_sink.png"
+script = ExtResource("1")
+id = "recipe_weighted_sink"
+name = "Weighted Sink Charm"
+result_id = "charm_weighted_sink"
+category = "enchantment"
+ingredients = {"small_bone": 2, "driftwood": 3, "deep_crystal": 1}
+description = "Enchants Weighted Sink."

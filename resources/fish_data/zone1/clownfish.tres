@@ -1,20 +1,20 @@
 [gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_clown"]
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1"]
 
 [resource]
-script = ExtResource("1_clown")
+script = ExtResource("1")
 id = "clownfish"
 name = "Clownfish"
-zone = "zone1"
+zone = 1
 base_price = 22
-size_range = [0.8, 1.8]
+size_range = Vector2(0.8, 1.8)
 rarity = "uncommon"
-family = "reef"
 night_only = false
+family = "reef"
 reel_speed = 0.9
-catch_speed = 1.0
+catch_speed = 1
 modifier_effect = ""
+description = "Clownfish"
 inventory_slots = 1
-description = "Brightly coloured and surprisingly popular with buyers who want something cheerful. Don't ask why."
-texture_path = "res://Assets/Fish/clownfish.png"
+sprite_region = Rect2()

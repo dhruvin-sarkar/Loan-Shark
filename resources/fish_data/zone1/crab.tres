@@ -1,20 +1,20 @@
 [gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_crab"]
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1"]
 
 [resource]
-script = ExtResource("1_crab")
+script = ExtResource("1")
 id = "crab"
 name = "Shore Crab"
-zone = "zone1"
+zone = 1
 base_price = 18
-size_range = [0.8, 1.8]
+size_range = Vector2(0.8, 1.8)
 rarity = "common"
-family = "crustacean"
 night_only = false
+family = "crustacean"
 reel_speed = 1.2
-catch_speed = 1.0
+catch_speed = 1
 modifier_effect = ""
+description = "Shore Crab"
 inventory_slots = 1
-description = "Tries to walk sideways even when being reeled in. Can't quite figure out which way is up."
-texture_path = "res://Assets/Fish/crab.png"
+sprite_region = Rect2()

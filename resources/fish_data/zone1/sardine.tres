@@ -1,20 +1,20 @@
 [gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_sardine"]
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1"]
 
 [resource]
-script = ExtResource("1_sardine")
+script = ExtResource("1")
 id = "sardine"
 name = "Sardine"
-zone = "zone1"
+zone = 1
 base_price = 4
-size_range = [0.8, 1.8]
+size_range = Vector2(0.8, 1.8)
 rarity = "common"
-family = "pelagic"
 night_only = false
+family = "pelagic"
 reel_speed = 0.8
-catch_speed = 1.0
+catch_speed = 1
 modifier_effect = ""
+description = "Sardine"
 inventory_slots = 1
-description = "A tiny silver fish that travels in massive schools. The bread and butter of the fishing trade — mostly useful for selling in bulk."
-texture_path = "res://Assets/Fish/sardine.png"
+sprite_region = Rect2()

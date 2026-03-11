@@ -1,20 +1,20 @@
 [gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_flounder"]
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1"]
 
 [resource]
-script = ExtResource("1_flounder")
+script = ExtResource("1")
 id = "flounder"
 name = "Flounder"
-zone = "zone1"
+zone = 1
 base_price = 16
-size_range = [0.8, 1.8]
+size_range = Vector2(0.8, 1.8)
 rarity = "common"
-family = "bony"
 night_only = false
-reel_speed = 1.0
-catch_speed = 1.0
+family = "bony"
+reel_speed = 1
+catch_speed = 1
 modifier_effect = ""
+description = "Flounder"
 inventory_slots = 1
-description = "Flat as a pancake and twice as bland. Dependable."
-texture_path = "res://Assets/Fish/flounder.png"
+sprite_region = Rect2()
