@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://cyquvnlh2lck5"
-path="res://.godot/imported/Sunlight Through Leaves.mp3-31682ac20a853fc1d567a9a1062d982e.mp3str"
+path="res://.godot/imported/Sunlight Through Leaves.mp3-a5171d7072b776ca9e7cc6ddc9a3594f.mp3str"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/mp3/Tracks/Sunlight Through Leaves.mp3"
-dest_files=["res://.godot/imported/Sunlight Through Leaves.mp3-31682ac20a853fc1d567a9a1062d982e.mp3str"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/mp3/Tracks/Sunlight Through Leaves.mp3"
+dest_files=["res://.godot/imported/Sunlight Through Leaves.mp3-a5171d7072b776ca9e7cc6ddc9a3594f.mp3str"]
 
 [params]
 

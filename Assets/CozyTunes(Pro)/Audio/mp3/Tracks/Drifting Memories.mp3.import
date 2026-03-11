@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://b8k1dsgr75r2k"
-path="res://.godot/imported/Drifting Memories.mp3-84495e9f296d320aae1da14a5120cdf0.mp3str"
+path="res://.godot/imported/Drifting Memories.mp3-07d858a3f9e4d5150ea012e31ab0878a.mp3str"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/mp3/Tracks/Drifting Memories.mp3"
-dest_files=["res://.godot/imported/Drifting Memories.mp3-84495e9f296d320aae1da14a5120cdf0.mp3str"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/mp3/Tracks/Drifting Memories.mp3"
+dest_files=["res://.godot/imported/Drifting Memories.mp3-07d858a3f9e4d5150ea012e31ab0878a.mp3str"]
 
 [params]
 

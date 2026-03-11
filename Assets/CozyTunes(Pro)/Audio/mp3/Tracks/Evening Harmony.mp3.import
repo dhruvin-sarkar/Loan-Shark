@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://bxnx847lrqka4"
-path="res://.godot/imported/Evening Harmony.mp3-06108d7dc73264bc1312dd83795886cb.mp3str"
+path="res://.godot/imported/Evening Harmony.mp3-55cbb7fe171e1a48519b8eafc0c7ed1d.mp3str"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/mp3/Tracks/Evening Harmony.mp3"
-dest_files=["res://.godot/imported/Evening Harmony.mp3-06108d7dc73264bc1312dd83795886cb.mp3str"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/mp3/Tracks/Evening Harmony.mp3"
+dest_files=["res://.godot/imported/Evening Harmony.mp3-55cbb7fe171e1a48519b8eafc0c7ed1d.mp3str"]
 
 [params]
 

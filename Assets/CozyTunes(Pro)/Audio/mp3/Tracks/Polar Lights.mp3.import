@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://bprl7gca7n326"
-path="res://.godot/imported/Polar Lights.mp3-76980322cd9d7388843ffa14b3b03a7b.mp3str"
+path="res://.godot/imported/Polar Lights.mp3-901108c362db6ab0050f33579f3af504.mp3str"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/mp3/Tracks/Polar Lights.mp3"
-dest_files=["res://.godot/imported/Polar Lights.mp3-76980322cd9d7388843ffa14b3b03a7b.mp3str"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/mp3/Tracks/Polar Lights.mp3"
+dest_files=["res://.godot/imported/Polar Lights.mp3-901108c362db6ab0050f33579f3af504.mp3str"]
 
 [params]
 

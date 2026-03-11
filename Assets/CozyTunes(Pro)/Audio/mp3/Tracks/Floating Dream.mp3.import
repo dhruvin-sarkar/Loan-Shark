@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://belnf22shtly5"
-path="res://.godot/imported/Floating Dream.mp3-a301b818bef28433ed24ebaf3b4014cc.mp3str"
+path="res://.godot/imported/Floating Dream.mp3-bd8c298a9684b72feb655b08e08ece7b.mp3str"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/mp3/Tracks/Floating Dream.mp3"
-dest_files=["res://.godot/imported/Floating Dream.mp3-a301b818bef28433ed24ebaf3b4014cc.mp3str"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/mp3/Tracks/Floating Dream.mp3"
+dest_files=["res://.godot/imported/Floating Dream.mp3-bd8c298a9684b72feb655b08e08ece7b.mp3str"]
 
 [params]
 

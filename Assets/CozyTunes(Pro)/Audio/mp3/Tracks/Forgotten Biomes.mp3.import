@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://vobqpyq2p5rj"
-path="res://.godot/imported/Forgotten Biomes.mp3-be41c7e341aa4fc937259a91a09e5f25.mp3str"
+path="res://.godot/imported/Forgotten Biomes.mp3-64813c483a26b68b043423eed7a3cac7.mp3str"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/mp3/Tracks/Forgotten Biomes.mp3"
-dest_files=["res://.godot/imported/Forgotten Biomes.mp3-be41c7e341aa4fc937259a91a09e5f25.mp3str"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/mp3/Tracks/Forgotten Biomes.mp3"
+dest_files=["res://.godot/imported/Forgotten Biomes.mp3-64813c483a26b68b043423eed7a3cac7.mp3str"]
 
 [params]
 

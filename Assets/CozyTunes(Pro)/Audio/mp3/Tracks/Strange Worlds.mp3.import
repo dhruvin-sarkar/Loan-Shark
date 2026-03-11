@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://b05yipx5f7j3m"
-path="res://.godot/imported/Strange Worlds.mp3-bcf1d33e73b4be78d3ea88f2869512fc.mp3str"
+path="res://.godot/imported/Strange Worlds.mp3-58ce27d9193b492288a35e498a792505.mp3str"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/mp3/Tracks/Strange Worlds.mp3"
-dest_files=["res://.godot/imported/Strange Worlds.mp3-bcf1d33e73b4be78d3ea88f2869512fc.mp3str"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/mp3/Tracks/Strange Worlds.mp3"
+dest_files=["res://.godot/imported/Strange Worlds.mp3-58ce27d9193b492288a35e498a792505.mp3str"]
 
 [params]
 
