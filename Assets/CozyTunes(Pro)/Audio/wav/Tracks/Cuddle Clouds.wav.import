@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://l11tqqhe1jq5"
-path="res://.godot/imported/Cuddle Clouds.wav-039ec2ebe00f5e53e77dea4d785f3bae.sample"
+path="res://.godot/imported/Cuddle Clouds.wav-456e6d66a39bc5b43ce6d67a399f672e.sample"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/wav/Tracks/Cuddle Clouds.wav"
-dest_files=["res://.godot/imported/Cuddle Clouds.wav-039ec2ebe00f5e53e77dea4d785f3bae.sample"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/wav/Tracks/Cuddle Clouds.wav"
+dest_files=["res://.godot/imported/Cuddle Clouds.wav-456e6d66a39bc5b43ce6d67a399f672e.sample"]
 
 [params]
 

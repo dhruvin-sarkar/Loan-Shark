@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://7ylorwujp37b"
-path="res://.godot/imported/Gentle Breeze.wav-2849e36da613defb95c02c90f52e5952.sample"
+path="res://.godot/imported/Gentle Breeze.wav-d6033ee446a4ac271c2d96922b3cc51d.sample"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/wav/Tracks/Gentle Breeze.wav"
-dest_files=["res://.godot/imported/Gentle Breeze.wav-2849e36da613defb95c02c90f52e5952.sample"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/wav/Tracks/Gentle Breeze.wav"
+dest_files=["res://.godot/imported/Gentle Breeze.wav-d6033ee446a4ac271c2d96922b3cc51d.sample"]
 
 [params]
 

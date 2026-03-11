@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://yu0o4nhmciaa"
-path="res://.godot/imported/Evening Harmony.wav-a8daa915b9da3750d8c5f9c9cfab6c2a.sample"
+path="res://.godot/imported/Evening Harmony.wav-58113a727b9c2318e96eb1ce4cfdbb8d.sample"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/wav/Tracks/Evening Harmony.wav"
-dest_files=["res://.godot/imported/Evening Harmony.wav-a8daa915b9da3750d8c5f9c9cfab6c2a.sample"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/wav/Tracks/Evening Harmony.wav"
+dest_files=["res://.godot/imported/Evening Harmony.wav-58113a727b9c2318e96eb1ce4cfdbb8d.sample"]
 
 [params]
 

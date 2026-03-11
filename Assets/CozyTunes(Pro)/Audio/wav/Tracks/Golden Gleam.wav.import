@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://d3gbx1styba3t"
-path="res://.godot/imported/Golden Gleam.wav-59ff913178fb124dd1c89ea7b729e593.sample"
+path="res://.godot/imported/Golden Gleam.wav-ed740799875168349da4f90119238cd7.sample"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/wav/Tracks/Golden Gleam.wav"
-dest_files=["res://.godot/imported/Golden Gleam.wav-59ff913178fb124dd1c89ea7b729e593.sample"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/wav/Tracks/Golden Gleam.wav"
+dest_files=["res://.godot/imported/Golden Gleam.wav-ed740799875168349da4f90119238cd7.sample"]
 
 [params]
 

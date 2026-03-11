@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://dwwkrvhwc0wni"
-path="res://.godot/imported/Floating Dream.wav-7f3f247187c4180fb1d27535fcb6bbc7.sample"
+path="res://.godot/imported/Floating Dream.wav-ca17476f29f5501ee2f186e3cc375154.sample"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/wav/Tracks/Floating Dream.wav"
-dest_files=["res://.godot/imported/Floating Dream.wav-7f3f247187c4180fb1d27535fcb6bbc7.sample"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/wav/Tracks/Floating Dream.wav"
+dest_files=["res://.godot/imported/Floating Dream.wav-ca17476f29f5501ee2f186e3cc375154.sample"]
 
 [params]
 
