@@ -1,14 +1,13 @@
 extends Resource
-
-# charm_data.gd - Charm data resource (GDD v3.0 compliant)
-
 class_name CharmData
 
-@export var name: String = "Charm"
+@export var id: String = ""
+@export var name: String = ""
+@export var category: String = "sell_price"
+@export var effect_type: String = ""
+@export var target_family: String = ""
+@export var bonus_multiplier: float = 1.0
+@export var is_enchantment: bool = false
+@export var enchantment_id: String = ""
+@export var recipe: Dictionary = {}
 @export var description: String = ""
-@export var base_value: int = 100
-@export var charm_type: String = "sell"  # sell, spawn, enchantment
-@export var effect_value: float = 1.0  # Multiplier or bonus value
-@export var target_family: String = ""  # Optional family targeting
-@export var duration: int = 1  # How many days the charm lasts (0 = permanent)
-@export var texture_path: String = ""

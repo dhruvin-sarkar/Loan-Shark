@@ -1,33 +1,17 @@
 extends Resource
-
-# fish_data.gd - Fish data resource (GDD v3.0 compliant)
-
 class_name FishData
 
-@export var name: String = "Unknown Fish"
 @export var id: String = ""
-@export var zone: String = "zone1"
-
-# Pricing
-@export var base_price: int = 10  # Base sell price in dollars
-@export var size_range: Array = [0.8, 1.8]  # [min_size_mult, max_size_mult]
-
-# Classification
-@export var rarity: String = "common"  # common, uncommon, rare, ultra-rare, legendary
-@export var family: String = "pelagic"  # pelagic, crustacean, reef, bony, deep, eel, cephalopod
+@export var name: String = ""
+@export var zone: int = 1
+@export var base_price: float = 0.0
+@export var size_range: Vector2 = Vector2(0.8, 1.8)
+@export var rarity: String = "common"
 @export var night_only: bool = false
-
-# Minigame difficulty
-@export var reel_speed: float = 1.0  # Multiplier on reel bar oscillation speed
-@export var catch_speed: float = 1.0  # Multiplier on catch minigame red zone speed
-
-# Special effects
-@export var modifier_effect: String = ""  # Special modifier on catch
-@export var inventory_slots: int = 1  # Oarfish takes 2 slots
-
-# Display
+@export var family: String = "pelagic"
+@export var reel_speed: float = 1.0
+@export var catch_speed: float = 1.0
+@export var modifier_effect: String = ""
 @export var description: String = ""
-@export var texture_path: String = ""
-
-func get_avg_size() -> float:
-	return (size_range[0] + size_range[1]) / 2.0
+@export var inventory_slots: int = 1
+@export var sprite_region: Rect2 = Rect2()

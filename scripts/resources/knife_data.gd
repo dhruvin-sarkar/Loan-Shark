@@ -1,13 +1,10 @@
 extends Resource
-
-# knife_data.gd - Knife data resource (GDD v3.0 compliant)
-
 class_name KnifeData
 
-@export var name: String = "Basic Knife"
-@export var description: String = ""
-@export var base_value: int = 20
-@export var filet_speed: float = 1.0
-@export var material_yield: float = 1.0
-@export var durability: int = 50
-@export var texture_path: String = ""
+@export var id: String = ""
+@export var name: String = ""
+@export var price: float = 0.0
+@export var sharpness_zone_px: int = 5
+@export var qte_window_seconds: float = 0.6
+@export var max_filet_mult: float = 1.2
+@export var bonus_material_on_perfect: bool = false
