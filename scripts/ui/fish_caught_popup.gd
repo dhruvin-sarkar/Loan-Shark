@@ -1,30 +1,20 @@
-extends Control
+extends CanvasLayer
 
-# fish_caught_popup.gd - Fish caught notification
+@onready var name_label: Label = $Panel/NameLabel
+@onready var value_label: Label = $Panel/ValueLabel
+@onready var stars_label: Label = $Panel/StarsLabel
+@onready var panel: Panel = $Panel
 
-signal popup_closed()
-
-@onready var fish_icon: TextureRect = $Panel/VBoxContainer/FishIcon
-@onready var fish_name: Label = $Panel/VBoxContainer/FishName
-@onready var fish_weight: Label = $Panel/VBoxContainer/FishWeight
-@onready var fish_value: Label = $Panel/VBoxContainer/FishValue
-@onready var close_button: Button = $Panel/VBoxContainer/CloseButton
-
-func _ready():
-	close_button.pressed.connect(_on_close_pressed)
-
-func show_fish(fish_data: Resource, weight: float):
-	fish_name.text = fish_data.name
-	fish_weight.text = "%.1f kg" % weight
-	
-	var value = int(fish_data.value * (weight / fish_data.avg_weight))
-	fish_value.text = "$%d" % value
-	
-	if fish_data.texture:
-		fish_icon.texture = fish_data.texture
-	
-	show()
-
-func _on_close_pressed():
-	emit_signal("popup_closed")
-	hide()
+func show_fish(fish: Dictionary) -> void:
+	name_label.text = String(fish.get("name", "Fish"))
+	var estimated := float(fish.get("base_price", 0.0)) * float(fish.get("size_mult", 1.0)) * max(float(fish.get("reel_quality", 0.0)), 0.1) * float(fish.get("filet_mult", 1.0))
+	value_label.text = "$%.2f" % estimated
+	stars_label.text = "*" * int(round(float(fish.get("reel_quality", 0.0)) * 5.0))
+	panel.modulate = Color(1.0, 0.9, 0.4) if fish.get("id", "") == "midnight_leviathan" else Color.WHITE
+	position.x = 1080.0
+	var tween := create_tween()
+	tween.tween_property(self, "position:x", 760.0, 0.25)
+	tween.tween_interval(2.0)
+	tween.tween_property(self, "position:x", 1080.0, 0.25)
+	await tween.finished
+	queue_free()
