@@ -1,54 +1,56 @@
 [gd_scene load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/ui/day_end_summary.gd" id="1_summary"]
+[ext_resource type="Script" path="res://scripts/ui/day_end_summary.gd" id="1"]
 
-[node name="DayEndSummary" type="Control"]
-layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-script = ExtResource("1_summary")
+[node name="DayEndSummary" type="CanvasLayer"]
+script = ExtResource("1")
 
-[node name="Panel" type="PanelContainer" parent="."]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -200.0
-offset_top = -180.0
-offset_right = 200.0
-offset_bottom = 180.0
-grow_horizontal = 2
-grow_vertical = 2
+[node name="Panel" type="Panel" parent="."]
+offset_left = 180
+offset_top = 40
+offset_right = 1100
+offset_bottom = 680
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
-layout_mode = 2
+[node name="DayLabel" type="Label" parent="Panel"]
+offset_left = 24
+offset_top = 20
+text = "Day 1 Summary"
 
-[node name="TitleLabel" type="Label" parent="Panel/VBoxContainer"]
-layout_mode = 2
-text = "DAY 1 COMPLETE"
-horizontal_alignment = 1
+[node name="FishListLabel" type="Label" parent="Panel"]
+offset_left = 24
+offset_top = 70
+offset_right = 400
+offset_bottom = 400
+autowrap_mode = 3
 
-[node name="FishCaughtLabel" type="Label" parent="Panel/VBoxContainer"]
-layout_mode = 2
-text = "Fish Caught: 0"
+[node name="EarnedLabel" type="Label" parent="Panel"]
+offset_left = 480
+offset_top = 90
+text = "Total Earned Today: $0.00"
 
-[node name="EarningsLabel" type="Label" parent="Panel/VBoxContainer"]
-layout_mode = 2
-text = "Total Earnings: $0"
+[node name="PaidLabel" type="Label" parent="Panel"]
+offset_left = 480
+offset_top = 140
+text = "Debt Paid Today: $0.00"
 
-[node name="DebtRemainingLabel" type="Label" parent="Panel/VBoxContainer"]
-layout_mode = 2
-text = "Debt Remaining: $1000"
+[node name="InterestLabel" type="Label" parent="Panel"]
+offset_left = 480
+offset_top = 190
+text = "Interest Added: $0.00"
 
-[node name="DaysLeftLabel" type="Label" parent="Panel/VBoxContainer"]
-layout_mode = 2
-text = "Days Left: 7"
+[node name="DebtLabel" type="Label" parent="Panel"]
+offset_left = 480
+offset_top = 240
+text = "New Debt Total: $0.00"
 
-[node name="ContinueButton" type="Button" parent="Panel/VBoxContainer"]
-layout_mode = 2
-text = "Continue"
+[node name="DaysRemainingLabel" type="Label" parent="Panel"]
+offset_left = 480
+offset_top = 290
+text = "Days Remaining: 6"
+
+[node name="NextDayButton" type="Button" parent="Panel"]
+offset_left = 620
+offset_top = 520
+offset_right = 860
+offset_bottom = 566
+text = "Next Day ->"

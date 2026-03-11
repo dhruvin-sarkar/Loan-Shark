@@ -1,56 +1,27 @@
 [gd_scene load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/ui/fish_caught_popup.gd" id="1_popup"]
+[ext_resource type="Script" path="res://scripts/ui/fish_caught_popup.gd" id="1"]
 
-[node name="FishCaughtPopup" type="Control"]
-layout_mode = 3
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -150.0
-offset_top = -100.0
-offset_right = 150.0
-offset_bottom = 100.0
-grow_horizontal = 2
-grow_vertical = 2
-script = ExtResource("1_popup")
+[node name="FishCaughtPopup" type="CanvasLayer"]
+script = ExtResource("1")
 
-[node name="Panel" type="PanelContainer" parent="."]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
+[node name="Panel" type="Panel" parent="."]
+offset_left = 760
+offset_top = 120
+offset_right = 1060
+offset_bottom = 260
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
-layout_mode = 2
+[node name="NameLabel" type="Label" parent="Panel"]
+offset_left = 20
+offset_top = 18
+text = "Fish"
 
-[node name="TitleLabel" type="Label" parent="Panel/VBoxContainer"]
-layout_mode = 2
-text = "FISH CAUGHT!"
-horizontal_alignment = 1
+[node name="ValueLabel" type="Label" parent="Panel"]
+offset_left = 20
+offset_top = 62
+text = "$0.00"
 
-[node name="FishIcon" type="TextureRect" parent="Panel/VBoxContainer"]
-layout_mode = 2
-
-[node name="FishName" type="Label" parent="Panel/VBoxContainer"]
-layout_mode = 2
-text = "Unknown Fish"
-horizontal_alignment = 1
-
-[node name="FishWeight" type="Label" parent="Panel/VBoxContainer"]
-layout_mode = 2
-text = "0.0 kg"
-horizontal_alignment = 1
-
-[node name="FishValue" type="Label" parent="Panel/VBoxContainer"]
-layout_mode = 2
-text = "$0"
-horizontal_alignment = 1
-
-[node name="CloseButton" type="Button" parent="Panel/VBoxContainer"]
-layout_mode = 2
-text = "OK"
+[node name="StarsLabel" type="Label" parent="Panel"]
+offset_left = 20
+offset_top = 96
+text = ""
