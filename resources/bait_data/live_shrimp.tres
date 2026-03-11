@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="BaitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/bait_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "live_shrimp"
+name = "Live Shrimp"
+price = 20
+quantity = 5
+target_families = ["crustacean"]
+weight_multiplier = 1.35
+unlocks_zone4 = false
+description = "+35% crustaceans."

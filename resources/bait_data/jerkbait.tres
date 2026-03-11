@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="BaitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/bait_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "jerkbait"
+name = "Jerkbait"
+price = 24
+quantity = 5
+target_families = ["active_hunter"]
+weight_multiplier = 1.25
+unlocks_zone4 = false
+description = "Active hunter lure."

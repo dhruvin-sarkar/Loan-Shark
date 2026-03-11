@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="BaitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/bait_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "luminous_lure"
+name = "Luminous Lure"
+price = 45
+quantity = 3
+target_families = ["zone4_ultra"]
+weight_multiplier = 1.4
+unlocks_zone4 = true
+description = "Best Zone 4 lure."

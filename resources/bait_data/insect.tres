@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="BaitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/bait_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "insect"
+name = "Insect"
+price = 14
+quantity = 6
+target_families = ["reef", "pelagic"]
+weight_multiplier = 1.2
+unlocks_zone4 = false
+description = "Reef and pelagic bait."
