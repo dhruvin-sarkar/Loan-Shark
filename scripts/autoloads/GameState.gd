@@ -1,5 +1,4 @@
 extends Node
-class_name GameState
 
 signal debt_changed(new_debt: float)
 signal cash_changed(new_cash: float)
@@ -42,6 +41,24 @@ var bait_inventory: Dictionary = {}
 func _ready() -> void:
 	reset_run()
 
+func instance() -> Node:
+	return self
+
+func emit_debt_changed() -> void:
+	debt_changed.emit(debt)
+
+func emit_cash_changed() -> void:
+	cash_changed.emit(cash)
+
+func emit_day_changed() -> void:
+	day_changed.emit(current_day)
+
+func emit_fish_caught(fish_instance: Dictionary) -> void:
+	fish_caught.emit(fish_instance)
+
+func emit_inventory_changed() -> void:
+	inventory_changed.emit()
+
 func reset_run() -> void:
 	debt = 500.0
 	cash = 20.0
@@ -77,13 +94,22 @@ func reset_run() -> void:
 	_emit_all_state()
 
 func _emit_all_state() -> void:
-	debt_changed.emit(debt)
-	cash_changed.emit(cash)
-	day_changed.emit(current_day)
-	inventory_changed.emit()
+	emit_debt_changed()
+	emit_cash_changed()
+	emit_day_changed()
+	emit_inventory_changed()
+
+func _show_win_screen() -> void:
+	SceneManager.show_win_screen()
+
+func _show_game_over(reason: String) -> void:
+	SceneManager.show_game_over(reason)
+
+func _show_day_end_summary() -> void:
+	SceneManager.show_day_end_summary()
 
 func pay_debt(amount: float) -> void:
-	var payment := clamp(amount, 0.0, min(cash, debt))
+	var payment: float = float(clamp(amount, 0.0, min(cash, debt)))
 	if payment <= 0.0:
 		return
 	cash -= payment
@@ -91,10 +117,10 @@ func pay_debt(amount: float) -> void:
 	debt_paid_today += payment
 	if debt <= 0.0:
 		debt = 0.0
-	cash_changed.emit(cash)
-	debt_changed.emit(debt)
+	emit_cash_changed()
+	emit_debt_changed()
 	if debt == 0.0:
-		SceneManager.show_win_screen()
+		_show_win_screen()
 
 func end_of_day() -> void:
 	is_day_active = false
@@ -107,11 +133,11 @@ func end_of_day() -> void:
 			days_without_payment = 0
 		else:
 			days_without_payment += 1
-		debt_changed.emit(debt)
+		emit_debt_changed()
 	else:
 		days_without_payment = 0
 	if debt > 1000.0:
-		SceneManager.show_game_over("debt_spiral")
+		_show_game_over("debt_spiral")
 		return
 	var today_total := 0.0
 	for entry in last_sale_breakdown:
@@ -127,16 +153,16 @@ func end_of_day() -> void:
 		"days_remaining": max(0, 7 - current_day)
 	}
 	current_day += 1
-	day_changed.emit(current_day)
+	emit_day_changed()
 	if current_day > 7 and debt > 0.0:
-		SceneManager.show_game_over("time_out")
+		_show_game_over("time_out")
 		return
 	time_remaining = day_duration
 	active_charms.clear()
 	coelacanth_caught_today = false
 	ModifierStack.reset_for_new_day()
-	SceneManager.show_day_end_summary()
-	SaveSystem.save_state(self)
+	_show_day_end_summary()
+	SaveSystem.save_state()
 
 func begin_next_day() -> void:
 	debt_paid_today = 0.0
@@ -163,8 +189,8 @@ func add_fish(fish_data: Dictionary) -> bool:
 	codex_discovered[fish_instance.get("id", "")] = true
 	fish_caught_today.append(fish_instance.duplicate(true))
 	total_fish_caught += int(fish_instance.get("stack_count", 1))
-	fish_caught.emit(fish_instance.duplicate(true))
-	inventory_changed.emit()
+	emit_fish_caught(fish_instance.duplicate(true))
+	emit_inventory_changed()
 	return true
 
 func get_available_fish_slots() -> int:
@@ -182,7 +208,7 @@ func sell_all_fish() -> float:
 	for fish in fish_inventory:
 		var quantity := int(fish.get("stack_count", 1))
 		for index in range(quantity):
-			var single_fish := fish.duplicate(true)
+			var single_fish: Dictionary = fish.duplicate(true)
 			single_fish["stack_count"] = 1
 			var price := float(single_fish.get("base_price", 0.0))
 			price *= float(single_fish.get("size_mult", 1.0))
@@ -202,9 +228,9 @@ func sell_all_fish() -> float:
 	total = round(total * 100.0) / 100.0
 	cash += total
 	total_earned += total
-	cash_changed.emit(cash)
-	inventory_changed.emit()
-	SaveSystem.save_state(self)
+	emit_cash_changed()
+	emit_inventory_changed()
+	SaveSystem.save_state()
 	return total
 
 func is_night() -> bool:
@@ -212,7 +238,7 @@ func is_night() -> bool:
 
 func add_material(material_id: String, quantity: int = 1) -> void:
 	materials_inventory[material_id] = int(materials_inventory.get(material_id, 0)) + quantity
-	inventory_changed.emit()
+	emit_inventory_changed()
 
 func remove_material(material_id: String, quantity: int = 1) -> bool:
 	var current := int(materials_inventory.get(material_id, 0))
@@ -223,7 +249,7 @@ func remove_material(material_id: String, quantity: int = 1) -> bool:
 		materials_inventory.erase(material_id)
 	else:
 		materials_inventory[material_id] = current
-	inventory_changed.emit()
+	emit_inventory_changed()
 	return true
 
 func add_bait_stock(bait_id: String, quantity: int) -> void:
@@ -234,7 +260,7 @@ func add_bait_stock(bait_id: String, quantity: int) -> void:
 func equip_bait(bait_id: String) -> void:
 	equipped_bait = bait_id
 	bait_quantity = int(bait_inventory.get(bait_id, 0))
-	inventory_changed.emit()
+	emit_inventory_changed()
 
 func consume_bait() -> void:
 	if equipped_bait.is_empty():
@@ -245,25 +271,25 @@ func consume_bait() -> void:
 		equipped_bait = ""
 	else:
 		bait_inventory[equipped_bait] = bait_quantity
-	inventory_changed.emit()
+	emit_inventory_changed()
 
 func unlock_rod(rod_id: String) -> void:
 	if not owned_rods.has(rod_id):
 		owned_rods.append(rod_id)
 	equipped_rod = rod_id
-	inventory_changed.emit()
+	emit_inventory_changed()
 
 func unlock_knife(knife_id: String) -> void:
 	if not owned_knives.has(knife_id):
 		owned_knives.append(knife_id)
 	equipped_knife = knife_id
-	inventory_changed.emit()
+	emit_inventory_changed()
 
 func save() -> void:
-	SaveSystem.save_state(self)
+	SaveSystem.save_state()
 
 func load_save() -> void:
-	SaveSystem.load_state(self)
+	SaveSystem.load_state()
 
 func to_save_dictionary() -> Dictionary:
 	return {

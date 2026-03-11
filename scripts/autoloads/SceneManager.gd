@@ -1,5 +1,5 @@
-extends Node
 class_name SceneManager
+extends Node
 
 const TRANSITION_FADE_BLACK := "fade_black"
 const TRANSITION_SLIDE_RIGHT := "slide_right"
@@ -19,70 +19,169 @@ const MINIGAME_SCENES := {
 	"filet": "res://scenes/minigames/FiletMinigame.tscn"
 }
 
-var pending_ocean_zone: int = 1
-var world_spawn_hint: String = "default"
-var current_world_key: String = ""
-var current_world_scene: Node = null
-var current_overlay: CanvasLayer = null
-var current_minigame: CanvasLayer = null
-var current_minigame_context: Dictionary = {}
+static var pending_ocean_zone: int = 1
+static var world_spawn_hint: String = "default"
+static var current_world_key: String = ""
+static var current_world_scene: Node = null
+static var current_overlay: CanvasLayer = null
+static var current_minigame: CanvasLayer = null
+static var current_minigame_context: Dictionary = {}
 
-func go_to_main_menu() -> void:
+static func _get_singleton() -> Node:
+	var main_loop: MainLoop = Engine.get_main_loop()
+	if main_loop is SceneTree:
+		var scene_tree: SceneTree = main_loop as SceneTree
+		if scene_tree != null:
+			return scene_tree.root.get_node_or_null("SceneManager")
+	return null
+
+static func go_to_main_menu() -> void:
+	var manager: Node = _get_singleton()
+	if manager != null:
+		manager.call("_go_to_main_menu")
+
+static func go_to_town() -> void:
+	var manager: Node = _get_singleton()
+	if manager != null:
+		manager.call("_go_to_town")
+
+static func go_to_beach() -> void:
+	var manager: Node = _get_singleton()
+	if manager != null:
+		manager.call("_go_to_beach")
+
+static func go_to_dock() -> void:
+	var manager: Node = _get_singleton()
+	if manager != null:
+		manager.call("_go_to_dock")
+
+static func go_to_ocean(zone: int) -> void:
+	var manager: Node = _get_singleton()
+	if manager != null:
+		manager.call("_go_to_ocean", zone)
+
+static func show_shop() -> void:
+	var manager: Node = _get_singleton()
+	if manager != null:
+		manager.call("_show_shop")
+
+static func show_inventory() -> void:
+	var manager: Node = _get_singleton()
+	if manager != null:
+		manager.call("_show_inventory")
+
+static func show_crafting() -> void:
+	var manager: Node = _get_singleton()
+	if manager != null:
+		manager.call("_show_crafting")
+
+static func show_codex() -> void:
+	var manager: Node = _get_singleton()
+	if manager != null:
+		manager.call("_show_codex")
+
+static func show_day_end_summary() -> void:
+	var manager: Node = _get_singleton()
+	if manager != null:
+		manager.call("_show_day_end_summary")
+
+static func show_win_screen() -> void:
+	var manager: Node = _get_singleton()
+	if manager != null:
+		manager.call("_show_win_screen")
+
+static func show_game_over(reason: String) -> void:
+	var manager: Node = _get_singleton()
+	if manager != null:
+		manager.call("_show_game_over", reason)
+
+static func start_minigame(type: String, context: Dictionary = {}) -> void:
+	var manager: Node = _get_singleton()
+	if manager != null:
+		manager.call("_start_minigame", type, context)
+
+static func end_minigame() -> void:
+	var manager: Node = _get_singleton()
+	if manager != null:
+		manager.call("_end_minigame")
+
+static func close_overlay() -> void:
+	var manager: Node = _get_singleton()
+	if manager != null:
+		manager.call("_close_overlay")
+
+static func show_dialogue(speaker_name: String, lines: Array[String], blip_key: String = "townsfolk_blip") -> Node:
+	var manager: Node = _get_singleton()
+	if manager != null:
+		return manager.call("_show_dialogue", speaker_name, lines, blip_key) as Node
+	return null
+
+static func show_notification(text: String) -> void:
+	var manager: Node = _get_singleton()
+	if manager != null:
+		manager.call("_show_notification", text)
+
+static func change_scene(path: String) -> void:
+	var manager: Node = _get_singleton()
+	if manager != null:
+		manager.call("_change_scene", path)
+
+func _go_to_main_menu() -> void:
 	current_world_key = ""
 	_clear_world()
 	_show_overlay("res://scenes/ui/MainMenu.tscn")
 
-func go_to_town() -> void:
+func _go_to_town() -> void:
 	world_spawn_hint = "town"
 	await _set_world_scene(WORLD_SCENES["town"], TRANSITION_SLIDE_RIGHT)
 	AudioManager.play_music("town_night" if GameState.is_night() else "town_day")
 
-func go_to_beach() -> void:
+func _go_to_beach() -> void:
 	world_spawn_hint = "beach"
 	await _set_world_scene(WORLD_SCENES["beach"], TRANSITION_SLIDE_RIGHT)
 	AudioManager.play_music("beach")
 
-func go_to_dock() -> void:
+func _go_to_dock() -> void:
 	world_spawn_hint = "dock"
 	await _set_world_scene(WORLD_SCENES["dock"], TRANSITION_SLIDE_RIGHT)
 	AudioManager.play_music("beach")
 
-func go_to_ocean(zone: int) -> void:
+func _go_to_ocean(zone: int) -> void:
 	pending_ocean_zone = zone
 	GameState.current_zone = zone
 	world_spawn_hint = "ocean"
 	await _set_world_scene(WORLD_SCENES["ocean"], TRANSITION_FADE_BLACK)
 	AudioManager.play_music("ocean_z%d" % zone)
 
-func show_shop() -> void:
+func _show_shop() -> void:
 	_show_overlay("res://scenes/ui/Shop.tscn")
 	AudioManager.play_music("shop")
 
-func show_inventory() -> void:
+func _show_inventory() -> void:
 	_show_overlay("res://scenes/ui/Inventory.tscn")
 
-func show_crafting() -> void:
+func _show_crafting() -> void:
 	_show_overlay("res://scenes/ui/CraftingMenu.tscn")
 
-func show_codex() -> void:
+func _show_codex() -> void:
 	_show_overlay("res://scenes/ui/Codex.tscn")
 
-func show_day_end_summary() -> void:
+func _show_day_end_summary() -> void:
 	var overlay := _show_overlay("res://scenes/ui/DayEndSummary.tscn")
 	if overlay and overlay.has_method("setup_summary"):
 		overlay.setup_summary(GameState.last_day_summary)
 
-func show_win_screen() -> void:
+func _show_win_screen() -> void:
 	AudioManager.play_music("win")
 	_show_overlay("res://scenes/ui/WinScreen.tscn")
 
-func show_game_over(reason: String) -> void:
+func _show_game_over(reason: String) -> void:
 	AudioManager.play_music("game_over")
 	var overlay := _show_overlay("res://scenes/ui/GameOverScreen.tscn")
 	if overlay and overlay.has_method("setup_reason"):
 		overlay.setup_reason(reason)
 
-func start_minigame(type: String, context: Dictionary = {}) -> void:
+func _start_minigame(type: String, context: Dictionary = {}) -> void:
 	if current_minigame != null:
 		return
 	var path := MINIGAME_SCENES.get(type, "")
@@ -102,30 +201,36 @@ func start_minigame(type: String, context: Dictionary = {}) -> void:
 	if current_minigame.has_method("setup_context"):
 		current_minigame.setup_context(current_minigame_context)
 
-func end_minigame() -> void:
+func _end_minigame() -> void:
 	if current_minigame != null and is_instance_valid(current_minigame):
 		current_minigame.queue_free()
 	current_minigame = null
 	current_minigame_context.clear()
 
-func close_overlay() -> void:
+func _close_overlay() -> void:
 	if current_overlay != null and is_instance_valid(current_overlay):
 		current_overlay.queue_free()
 	current_overlay = null
 
-func show_dialogue(speaker_name: String, lines: Array[String], blip_key: String = "townsfolk_blip") -> Node:
+func _show_dialogue(speaker_name: String, lines: Array[String], blip_key: String = "townsfolk_blip") -> Node:
 	var dialogue_box := _get_dialogue_box()
 	if dialogue_box and dialogue_box.has_method("open_dialogue"):
 		dialogue_box.open_dialogue(speaker_name, lines, blip_key)
 	return dialogue_box
 
-func show_notification(text: String) -> void:
+func _show_notification(text: String) -> void:
 	var hud := _get_hud()
 	if hud and hud.has_method("show_notification"):
 		hud.show_notification(text)
 
+func _change_scene(path: String) -> void:
+	if path == "res://scenes/ui/MainMenu.tscn":
+		_go_to_main_menu()
+		return
+	_set_world_scene(path, TRANSITION_FADE_BLACK)
+
 func _show_overlay(path: String) -> CanvasLayer:
-	close_overlay()
+	_close_overlay()
 	var packed := load(path) as PackedScene
 	if packed == null:
 		return null
@@ -137,7 +242,7 @@ func _show_overlay(path: String) -> CanvasLayer:
 		return null
 	main_root.add_child(overlay)
 	current_overlay = overlay
-	SaveSystem.save_state(GameState)
+	SaveSystem.save_state()
 	return overlay
 
 func _clear_world() -> void:
@@ -146,7 +251,7 @@ func _clear_world() -> void:
 	current_world_scene = null
 
 func _set_world_scene(path: String, transition_type: String) -> void:
-	close_overlay()
+	_close_overlay()
 	await _transition_out(transition_type)
 	var packed := load(path) as PackedScene
 	if packed == null:
@@ -158,7 +263,7 @@ func _set_world_scene(path: String, transition_type: String) -> void:
 	current_world_scene = packed.instantiate()
 	world_container.add_child(current_world_scene)
 	current_world_key = path.get_file().get_basename().to_lower()
-	SaveSystem.save_state(GameState)
+	SaveSystem.save_state()
 	await _transition_in(transition_type)
 
 func _transition_out(transition_type: String) -> void:

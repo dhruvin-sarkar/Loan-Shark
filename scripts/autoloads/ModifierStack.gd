@@ -60,7 +60,7 @@ func _apply_sea_angel_doubler(value: float) -> float:
 func trigger_leviathan_effect():
 	var debt_before = GameState.debt
 	GameState.debt = GameState.debt * 0.8
-	GameState.debt_changed.emit(GameState.debt)
+	GameState.emit_debt_changed()
 	# Return the reduction amount for UI display
 	return debt_before - GameState.debt
 

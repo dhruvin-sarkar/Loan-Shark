@@ -1,5 +1,5 @@
-extends Node
 class_name FishDatabase
+extends Node
 
 const FISH_PATHS: Array[String] = [
 	"res://resources/fish_data/zone1/sardine.tres",
@@ -44,11 +44,17 @@ const FISH_PATHS: Array[String] = [
 	"res://resources/fish_data/zone4/midnight_leviathan.tres"
 ]
 
-var _fish_lookup: Dictionary = {}
-var _fish_list: Array[FishData] = []
-var _rng := RandomNumberGenerator.new()
+static var _fish_lookup: Dictionary = {}
+static var _fish_list: Array[FishData] = []
+static var _rng: RandomNumberGenerator = RandomNumberGenerator.new()
+static var _loaded: bool = false
 
 func _ready() -> void:
+	_ensure_loaded()
+
+static func _ensure_loaded() -> void:
+	if _loaded:
+		return
 	_rng.randomize()
 	_fish_lookup.clear()
 	_fish_list.clear()
@@ -62,14 +68,21 @@ func _ready() -> void:
 			continue
 		_fish_lookup[fish_resource.id] = fish_resource
 		_fish_list.append(fish_resource)
+	_loaded = true
 
-func get_fish(id: String) -> FishData:
+static func get_fish(id: String) -> FishData:
+	_ensure_loaded()
 	return _fish_lookup.get(id, null)
 
-func get_all_fish() -> Array[FishData]:
+static func get_fish_data(id: String) -> FishData:
+	return get_fish(id)
+
+static func get_all_fish() -> Array[FishData]:
+	_ensure_loaded()
 	return _fish_list.duplicate()
 
-func create_fish_instance(fish_data: FishData) -> Dictionary:
+static func create_fish_instance(fish_data: FishData) -> Dictionary:
+	_ensure_loaded()
 	var size_min := fish_data.size_range.x
 	var size_max := fish_data.size_range.y
 	var size_roll: float

@@ -139,7 +139,7 @@ static func trigger_modifier(effect: String) -> void:
 	match effect:
 		"leviathan_debt_clear":
 			GameState.debt = round(GameState.debt * 0.8 * 100.0) / 100.0
-			GameState.debt_changed.emit(GameState.debt)
+			GameState.emit_debt_changed()
 			SceneManager.show_notification("DEBT -20%!")
 		"sea_angel_charm_double":
 			sea_angel_active = true
