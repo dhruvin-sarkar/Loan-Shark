@@ -4,14 +4,14 @@
 
 [resource]
 script = ExtResource("1")
-id = "rod_bone"
-name = "Bone Rod"
-tier = "amateur"
-price = 60
-zone_access = 1
-affinity_family = "bony"
-affinity_multiplier = 1.25
+id = "rod_abyss"
+name = "Abyss Rod"
+tier = "pro"
+price = 450
+zone_access = 3
+affinity_family = "ultrarare_z4"
+affinity_multiplier = 1.35
 sell_price_bonus = 0
 reel_speed_modifier = 0
 hazard_rate_modifier = 0
-description = "Bony fish specialist."
+description = "Ultra-rare deep hunter."
