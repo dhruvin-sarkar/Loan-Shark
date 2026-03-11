@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://wf3y8jtck07r"
-path="res://.godot/imported/shadow.ogg-90ee32a61460e9eb166910164e83678b.oggvorbisstr"
+path="res://.godot/imported/shadow.ogg-edc741e73606dba68cc556a55b094e8e.oggvorbisstr"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/ogg/Sound Effects/shadow.ogg"
-dest_files=["res://.godot/imported/shadow.ogg-90ee32a61460e9eb166910164e83678b.oggvorbisstr"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/ogg/Sound Effects/shadow.ogg"
+dest_files=["res://.godot/imported/shadow.ogg-edc741e73606dba68cc556a55b094e8e.oggvorbisstr"]
 
 [params]
 

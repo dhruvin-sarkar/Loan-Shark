@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://dve85o12ub4wb"
-path="res://.godot/imported/stalker.ogg-70114a8f705c805e0e347ddbd2691165.oggvorbisstr"
+path="res://.godot/imported/stalker.ogg-fa3a44f51f1881587874b1eb2a8d4b3a.oggvorbisstr"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/ogg/Sound Effects/stalker.ogg"
-dest_files=["res://.godot/imported/stalker.ogg-70114a8f705c805e0e347ddbd2691165.oggvorbisstr"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/ogg/Sound Effects/stalker.ogg"
+dest_files=["res://.godot/imported/stalker.ogg-fa3a44f51f1881587874b1eb2a8d4b3a.oggvorbisstr"]
 
 [params]
 

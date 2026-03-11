@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://bc4skuuxpveik"
-path="res://.godot/imported/alien remarks.ogg-dfbb97f1880c1f66c63dd756637fa46d.oggvorbisstr"
+path="res://.godot/imported/alien remarks.ogg-955161fe7274bb096db7f54a393c9559.oggvorbisstr"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/ogg/Sound Effects/alien remarks.ogg"
-dest_files=["res://.godot/imported/alien remarks.ogg-dfbb97f1880c1f66c63dd756637fa46d.oggvorbisstr"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/ogg/Sound Effects/alien remarks.ogg"
+dest_files=["res://.godot/imported/alien remarks.ogg-955161fe7274bb096db7f54a393c9559.oggvorbisstr"]
 
 [params]
 

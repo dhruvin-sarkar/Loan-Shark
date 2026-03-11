@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://dutibwvri6un"
-path="res://.godot/imported/Wanderer's Tale.mp3-9ba45378bbacf5cd93b81e4ac0f37286.mp3str"
+path="res://.godot/imported/Wanderer's Tale.mp3-e38fa1e61e52d879fd7b0598167e1823.mp3str"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/mp3/Tracks/Wanderer's Tale.mp3"
-dest_files=["res://.godot/imported/Wanderer's Tale.mp3-9ba45378bbacf5cd93b81e4ac0f37286.mp3str"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/mp3/Tracks/Wanderer's Tale.mp3"
+dest_files=["res://.godot/imported/Wanderer's Tale.mp3-e38fa1e61e52d879fd7b0598167e1823.mp3str"]
 
 [params]
 

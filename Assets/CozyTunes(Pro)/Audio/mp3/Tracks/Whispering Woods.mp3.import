@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://dcryje7dlhhme"
-path="res://.godot/imported/Whispering Woods.mp3-a302367c143b41cb251a86102d771b7c.mp3str"
+path="res://.godot/imported/Whispering Woods.mp3-8a5b531b890a4b0e5c24f40d2909275a.mp3str"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/mp3/Tracks/Whispering Woods.mp3"
-dest_files=["res://.godot/imported/Whispering Woods.mp3-a302367c143b41cb251a86102d771b7c.mp3str"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/mp3/Tracks/Whispering Woods.mp3"
+dest_files=["res://.godot/imported/Whispering Woods.mp3-8a5b531b890a4b0e5c24f40d2909275a.mp3str"]
 
 [params]
 
