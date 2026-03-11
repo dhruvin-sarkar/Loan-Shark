@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CharmData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "charm_depth_pulse"
+name = "Depth Pulse"
+category = "spawn_rate"
+effect_type = "spawn_rate"
+target_family = "deep"
+bonus_multiplier = 1.4
+is_enchantment = false
+enchantment_id = ""
+recipe = {"deep_crystal": 3, "echo_coral": 1}
+description = "+40% deep fish."

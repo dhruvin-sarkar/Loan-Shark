@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CharmData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "charm_siren"
+name = "Siren Charm"
+category = "spawn_rate"
+effect_type = "spawn_rate"
+target_family = "pelagic"
+bonus_multiplier = 1.3
+is_enchantment = false
+enchantment_id = ""
+recipe = {"sea_glass": 3, "algae": 1}
+description = "+30% pelagic spawn."

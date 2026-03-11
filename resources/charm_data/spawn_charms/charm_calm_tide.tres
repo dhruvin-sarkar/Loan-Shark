@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CharmData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "charm_calm_tide"
+name = "Calm Tide"
+category = "spawn_rate"
+effect_type = "spawn_rate"
+target_family = ""
+bonus_multiplier = 0.7
+is_enchantment = false
+enchantment_id = ""
+recipe = {"coral": 2, "algae": 2}
+description = "-30% hazards."

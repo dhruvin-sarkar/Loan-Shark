@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CharmData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "charm_crustacean_call"
+name = "Crustacean Call"
+category = "spawn_rate"
+effect_type = "spawn_rate"
+target_family = "crustacean"
+bonus_multiplier = 1.4
+is_enchantment = false
+enchantment_id = ""
+recipe = {"shell": 2, "sand_crab": 2}
+description = "+40% crustaceans."

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CharmData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "charm_eel_ward"
+name = "Eel Ward"
+category = "spawn_rate"
+effect_type = "spawn_rate"
+target_family = "eel"
+bonus_multiplier = 0.5
+is_enchantment = false
+enchantment_id = ""
+recipe = {"ghost_fin": 2, "driftwood": 1}
+description = "-50% eel spawn."

@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "recipe_blood_tide"
-name = "Blood Tide Charm"
-result_id = "charm_blood_tide"
-category = "enchantment"
-ingredients = {"shark_tooth": 4, "small_bone": 3}
-description = "Enchants Blood Tide."
+id = "recipe_blood"
+name = "Blood Charm"
+result_id = "charm_blood"
+category = "sell_price"
+ingredients = {"shark_tooth": 2, "small_bone": 2}
+description = "+60% rare fish."
