@@ -1,18 +1,17 @@
 [gd_resource type="Resource" script_class="RodData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/rod_data.gd" id="1_deep"]
+[ext_resource type="Script" path="res://scripts/resources/rod_data.gd" id="1"]
 
 [resource]
-script = ExtResource("1_deep")
-name = "Deep-Sea Rod"
-description = "A sturdy rod for deeper waters. +15% catch bonus on deep fish. Access to zones 1-2."
-base_value = 350
+script = ExtResource("1")
+id = "rod_deep"
+name = "Deep Rod"
 tier = "intermediate"
-max_zone = 2
-cast_power = 1.5
-reel_speed = 1.3
-durability = 180
-luck_bonus = 0.12
-family_affinity = "deep"
-affinity_bonus = 1.15
-texture_path = "res://Assets/Items/rod_deep.png"
+price = 180
+zone_access = 2
+affinity_family = "rare_z2"
+affinity_multiplier = 1.3
+sell_price_bonus = 0
+reel_speed_modifier = 0
+hazard_rate_modifier = 0
+description = "Zone 2 rare hunter."

@@ -4,14 +4,14 @@
 
 [resource]
 script = ExtResource("1")
-id = "rod_coral"
-name = "Coral Rod"
+id = "rod_shell"
+name = "Shell Rod"
 tier = "amateur"
 price = 60
 zone_access = 1
-affinity_family = "reef"
+affinity_family = "crustacean"
 affinity_multiplier = 1.2
 sell_price_bonus = 0
 reel_speed_modifier = 0
 hazard_rate_modifier = 0
-description = "Reef fishing rod."
+description = "Crustacean farming rod."

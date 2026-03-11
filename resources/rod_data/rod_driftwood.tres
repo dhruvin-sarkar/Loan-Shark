@@ -1,18 +1,17 @@
 [gd_resource type="Resource" script_class="RodData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/rod_data.gd" id="1_drift"]
+[ext_resource type="Script" path="res://scripts/resources/rod_data.gd" id="1"]
 
 [resource]
-script = ExtResource("1_drift")
+script = ExtResource("1")
+id = "rod_driftwood"
 name = "Driftwood Rod"
-description = "A simple rod made from driftwood. Basic but reliable. Your starting rod."
-base_value = 0
 tier = "starter"
-max_zone = 1
-cast_power = 1.0
-reel_speed = 1.0
-durability = 100
-luck_bonus = 0.0
-family_affinity = ""
-affinity_bonus = 1.0
-texture_path = "res://Assets/Items/rod_driftwood.png"
+price = 0
+zone_access = 1
+affinity_family = ""
+affinity_multiplier = 1
+sell_price_bonus = 0
+reel_speed_modifier = 0
+hazard_rate_modifier = 0
+description = "Starter rod."

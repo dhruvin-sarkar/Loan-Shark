@@ -4,14 +4,14 @@
 
 [resource]
 script = ExtResource("1")
-id = "rod_fossil"
-name = "Fossil Rod"
+id = "rod_kelp"
+name = "Kelp Rod"
 tier = "intermediate"
 price = 180
 zone_access = 2
-affinity_family = ""
-affinity_multiplier = 1
-sell_price_bonus = 0.2
-reel_speed_modifier = 0.1
+affinity_family = "all_z2"
+affinity_multiplier = 1.25
+sell_price_bonus = 0
+reel_speed_modifier = 0
 hazard_rate_modifier = 0
-description = "More profit, harder reels."
+description = "Zone 2 generalist."

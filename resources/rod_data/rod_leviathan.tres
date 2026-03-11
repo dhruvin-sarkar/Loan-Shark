@@ -1,18 +1,17 @@
 [gd_resource type="Resource" script_class="RodData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/rod_data.gd" id="1_levi"]
+[ext_resource type="Script" path="res://scripts/resources/rod_data.gd" id="1"]
 
 [resource]
-script = ExtResource("1_levi")
+script = ExtResource("1")
+id = "rod_leviathan"
 name = "Leviathan Rod"
-description = "A legendary rod made from Leviathan bone. +25% catch bonus on eels. Access to all zones."
-base_value = 1000
 tier = "pro"
-max_zone = 4
-cast_power = 2.0
-reel_speed = 1.8
-durability = 300
-luck_bonus = 0.2
-family_affinity = "eel"
-affinity_bonus = 1.25
-texture_path = "res://Assets/Items/rod_leviathan.png"
+price = 450
+zone_access = 3
+affinity_family = "trophy"
+affinity_multiplier = 1.4
+sell_price_bonus = 0
+reel_speed_modifier = 0
+hazard_rate_modifier = 0
+description = "Skews size upward."
