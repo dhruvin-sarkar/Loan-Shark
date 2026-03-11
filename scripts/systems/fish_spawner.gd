@@ -5,8 +5,8 @@ extends Node
 signal fish_spawned(fish_instance: Node2D)
 signal fish_despawned(fish_id: String)
 
-export var spawn_rate: float = 5.0
-export var max_fish: int = 10
+@export var spawn_rate: float = 5.0
+@export var max_fish: int = 10
 
 var active_fish: Array = []
 var spawn_points: Array = []
@@ -40,12 +40,12 @@ func _spawn_fish():
 		fish_instance.position = spawn_point.position
 		get_parent().add_child(fish_instance)
 		active_fish.append(fish_instance)
-		emit_signal("fish_spawned", fish_instance)
+		fish_spawned.emit(fish_instance)
 
 func despawn_fish(fish_instance: Node2D):
 	if fish_instance in active_fish:
 		active_fish.erase(fish_instance)
-		emit_signal("fish_despawned", fish_instance.fish_data.name)
+		fish_despawned.emit(fish_instance.fish_data.name)
 		fish_instance.queue_free()
 
 func set_zone(zone: String):

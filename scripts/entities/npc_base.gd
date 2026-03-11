@@ -5,8 +5,8 @@ extends Area2D
 signal npc_interacted()
 signal dialogue_started(dialogue_path: String)
 
-export var npc_type: String = "townsfolk"
-export var dialogue_path: String = ""
+@export var npc_type: String = "townsfolk"
+@export var dialogue_path: String = ""
 
 var can_interact: bool = true
 
@@ -27,9 +27,9 @@ func _on_body_exited(body):
 
 func interact():
 	if can_interact:
-		emit_signal("npc_interacted")
+		npc_interacted.emit()
 		if dialogue_path != "":
-			emit_signal("dialogue_started", dialogue_path)
+			dialogue_started.emit(dialogue_path)
 
 func _show_interaction_prompt():
 	# Show interaction UI

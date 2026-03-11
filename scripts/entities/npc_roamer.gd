@@ -2,8 +2,8 @@ extends "res://scripts/entities/npc_base.gd"
 
 # npc_roamer.gd - Roaming NPC behavior
 
-export var roam_range: float = 100.0
-export var roam_speed: float = 30.0
+@export var roam_range: float = 100.0
+@export var roam_speed: float = 30.0
 
 var home_position: Vector2
 var target_position: Vector2
