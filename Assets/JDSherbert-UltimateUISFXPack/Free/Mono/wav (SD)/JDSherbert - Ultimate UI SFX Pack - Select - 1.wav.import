@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://fve4ck6gdky5"
-path="res://.godot/imported/JDSherbert - Ultimate UI SFX Pack - Select - 1.wav-0c721bed12e4d980e0a9972b1e2ae348.sample"
+path="res://.godot/imported/JDSherbert - Ultimate UI SFX Pack - Select - 1.wav-7c63d5ac2febdfda6ce119e5107a943a.sample"
 
 [deps]
 
-source_file="res://Assets/JDSherbert - Ultimate UI SFX Pack/Free/Mono/wav (SD)/JDSherbert - Ultimate UI SFX Pack - Select - 1.wav"
-dest_files=["res://.godot/imported/JDSherbert - Ultimate UI SFX Pack - Select - 1.wav-0c721bed12e4d980e0a9972b1e2ae348.sample"]
+source_file="res://Assets/JDSherbert-UltimateUISFXPack/Free/Mono/wav (SD)/JDSherbert - Ultimate UI SFX Pack - Select - 1.wav"
+dest_files=["res://.godot/imported/JDSherbert - Ultimate UI SFX Pack - Select - 1.wav-7c63d5ac2febdfda6ce119e5107a943a.sample"]
 
 [params]
 
