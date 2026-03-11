@@ -1,20 +1,20 @@
 [gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_coel"]
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1"]
 
 [resource]
-script = ExtResource("1_coel")
+script = ExtResource("1")
 id = "coelacanth"
 name = "Coelacanth"
-zone = "zone3"
+zone = 3
 base_price = 200
-size_range = [0.8, 1.8]
+size_range = Vector2(0.8, 1.8)
 rarity = "legendary"
-family = "bony"
 night_only = false
+family = "bony"
 reel_speed = 1.2
-catch_speed = 1.0
+catch_speed = 1
 modifier_effect = ""
+description = "Coelacanth"
 inventory_slots = 1
-description = "A living fossil. Has been in the deep for 400 million years and seems mildly annoyed to be here. The scarcity alone makes it worth a small fortune. Spawn chance: 2% base. Only 1 can appear per day."
-texture_path = "res://Assets/Fish/coelacanth.png"
+sprite_region = Rect2()

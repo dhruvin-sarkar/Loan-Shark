@@ -1,20 +1,20 @@
 [gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_phantom"]
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1"]
 
 [resource]
-script = ExtResource("1_phantom")
+script = ExtResource("1")
 id = "phantom_eel"
 name = "Phantom Eel"
-zone = "zone3"
+zone = 3
 base_price = 130
-size_range = [0.8, 1.8]
+size_range = Vector2(0.8, 1.8)
 rarity = "rare"
-family = "eel"
 night_only = true
+family = "eel"
 reel_speed = 2.2
-catch_speed = 1.0
+catch_speed = 1
 modifier_effect = ""
+description = "Phantom Eel"
 inventory_slots = 1
-description = "Bioluminescent. Only comes out at night even in the ruins. Sells for a premium because nobody believes they exist until you show them."
-texture_path = "res://Assets/Fish/phantom_eel.png"
+sprite_region = Rect2()

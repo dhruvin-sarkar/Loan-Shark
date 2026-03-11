@@ -4,17 +4,17 @@
 
 [resource]
 script = ExtResource("1")
-id = "anglerfish"
-name = "Anglerfish"
+id = "dragonfish_juv"
+name = "Dragonfish (Juvenile)"
 zone = 3
-base_price = 90
+base_price = 120
 size_range = Vector2(0.8, 1.8)
 rarity = "rare"
 night_only = false
 family = "deep"
-reel_speed = 1.6
+reel_speed = 1.7
 catch_speed = 1
 modifier_effect = ""
-description = "Anglerfish"
+description = "Dragonfish (Juvenile)"
 inventory_slots = 1
 sprite_region = Rect2()
