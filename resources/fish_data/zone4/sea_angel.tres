@@ -1,20 +1,20 @@
 [gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_angel"]
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1"]
 
 [resource]
-script = ExtResource("1_angel")
+script = ExtResource("1")
 id = "sea_angel"
 name = "Sea Angel"
-zone = "zone4"
+zone = 4
 base_price = 250
-size_range = [0.8, 1.8]
-rarity = "legendary"
-family = "deep"
+size_range = Vector2(0.8, 1.8)
+rarity = "ultra-rare"
 night_only = false
+family = "deep"
 reel_speed = 1.3
-catch_speed = 1.0
+catch_speed = 1
 modifier_effect = "sea_angel_charm_double"
+description = "Sea Angel"
 inventory_slots = 1
-description = "A translucent, winged mollusk that glows faintly. Almost no resistance on the reel. Spawn chance: 2% base. Only 1 can appear per day."
-texture_path = "res://Assets/Fish/sea_angel.png"
+sprite_region = Rect2()

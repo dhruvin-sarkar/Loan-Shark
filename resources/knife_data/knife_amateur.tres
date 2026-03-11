@@ -4,10 +4,10 @@
 
 [resource]
 script = ExtResource("1")
-id = "knife_rusty"
-name = "Rusty Knife"
-price = 0
-sharpness_zone_px = 5
-qte_window_seconds = 0.6
-max_filet_mult = 1.2
+id = "knife_amateur"
+name = "Amateur Knife"
+price = 55
+sharpness_zone_px = 12
+qte_window_seconds = 0.9
+max_filet_mult = 1.4
 bonus_material_on_perfect = false
