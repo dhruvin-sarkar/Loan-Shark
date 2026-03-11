@@ -99,7 +99,7 @@ func _on_buy_pressed() -> void:
 				return
 			GameState.cash -= price
 			GameState.unlock_knife(knife.id)
-	GameState.cash_changed.emit(GameState.cash)
+	GameState.emit_cash_changed()
 	debt_amount.max_value = GameState.cash
 	finn_line_label.text = Finn.get_shop_bark(GameState.debt)
 	info_label.text = "Purchased %s." % _selected_id

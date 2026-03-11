@@ -104,7 +104,7 @@ func _on_craft_pressed() -> void:
 	else:
 		GameState.active_charms.append(charm.id)
 		SceneManager.show_notification("Crafted %s" % charm.name)
-	GameState.inventory_changed.emit()
+	GameState.emit_inventory_changed()
 	_select_recipe(_selected_recipe)
 
 func _prettify_id(value: String) -> String:
