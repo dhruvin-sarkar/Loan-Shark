@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/effects/auto_free.gd" id="1"]
+
+[node name="ElectricEel" type="Node2D"]
+script = ExtResource("1")
+lifetime = 3
+
+[node name="Body" type="ColorRect" parent="."]
+offset_right = 120
+offset_bottom = 60
+color = Color(1.0, 1.0, 0.3, 0.8)
