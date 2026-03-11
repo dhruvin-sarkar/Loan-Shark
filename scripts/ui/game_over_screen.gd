@@ -1,23 +1,27 @@
-extends Control
+extends CanvasLayer
 
-# game_over_screen.gd - Game over screen
+const REASON_TEXT := {
+	"debt_spiral": "Your debt exceeded $1,000. Finn owns your boat now.",
+	"time_out": "Seven days. Seven chances. All squandered."
+}
 
-signal retry_requested()
-signal main_menu_requested()
+@onready var reason_label: Label = $Panel/ReasonLabel
+@onready var stats_label: Label = $Panel/StatsLabel
+@onready var try_again_button: Button = $Panel/TryAgainButton
 
-@onready var retry_button: Button = $VBoxContainer/RetryButton
-@onready var main_menu_button: Button = $VBoxContainer/MainMenuButton
+func _ready() -> void:
+	try_again_button.pressed.connect(_on_try_again_pressed)
 
-func _ready():
-	retry_button.pressed.connect(_on_retry_pressed)
-	main_menu_button.pressed.connect(_on_main_menu_pressed)
+func setup_reason(reason: String) -> void:
+	reason_label.text = REASON_TEXT.get(reason, "You lost.")
+	stats_label.text = "Debt Remaining: $%.2f\nDays Used: %d\nTotal Earned: $%.2f" % [
+		GameState.debt,
+		min(GameState.current_day, 7),
+		GameState.total_earned
+	]
 
-func _on_retry_pressed():
-	emit_signal("retry_requested")
-	# Reset game and restart
-	GameState.reset_game()
-	SceneManager.change_scene("res://scenes/Main.tscn")
-
-func _on_main_menu_pressed():
-	emit_signal("main_menu_requested")
-	SceneManager.change_scene("res://scenes/ui/MainMenu.tscn")
+func _on_try_again_pressed() -> void:
+	SaveSystem.clear_save()
+	GameState.reset_run()
+	SceneManager.close_overlay()
+	SceneManager.go_to_main_menu()
