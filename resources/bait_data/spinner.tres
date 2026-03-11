@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="BaitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/bait_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "spinner"
+name = "Spinner"
+price = 30
+quantity = 4
+target_families = ["crustacean", "cephalopod"]
+weight_multiplier = 1.3
+unlocks_zone4 = false
+description = "Flash lure."

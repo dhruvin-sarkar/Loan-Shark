@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CharmData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "charm_deep_lure"
+name = "Deep Lure Charm"
+category = "enchantment"
+effect_type = "enchantment"
+target_family = ""
+bonus_multiplier = 1.4
+is_enchantment = true
+enchantment_id = "deep_lure"
+recipe = {"deep_crystal": 4, "small_bone": 2}
+description = "Enchants Deep Lure."

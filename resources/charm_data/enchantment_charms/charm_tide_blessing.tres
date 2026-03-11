@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CharmData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "charm_tide_blessing"
+name = "Tide Blessing Charm"
+category = "enchantment"
+effect_type = "enchantment"
+target_family = ""
+bonus_multiplier = 1.2
+is_enchantment = true
+enchantment_id = "tide_blessing"
+recipe = {"shell": 5, "echo_coral": 2, "gold_sand": 1}
+description = "Enchants Tide Blessing."

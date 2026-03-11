@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CharmData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "charm_calm_waters"
+name = "Calm Waters Charm"
+category = "enchantment"
+effect_type = "enchantment"
+target_family = ""
+bonus_multiplier = 0.7
+is_enchantment = true
+enchantment_id = "calm_waters"
+recipe = {"coral": 4, "algae": 3, "sea_glass": 2}
+description = "Enchants Calm Waters."
