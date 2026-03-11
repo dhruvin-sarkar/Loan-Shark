@@ -29,6 +29,7 @@ func _ready() -> void:
 	_update_debt(GameState.debt)
 	_refresh_inventory()
 	_refresh_charms()
+	call_deferred("_maybe_complete_debt_tutorial_step")
 
 func _process(_delta: float) -> void:
 	timer_label.text = _format_time(GameState.time_remaining)
@@ -122,3 +123,12 @@ func _ensure_slot_label(button: TextureButton) -> Label:
 	label.offset_bottom = 60.0
 	button.add_child(label)
 	return label
+
+func _maybe_complete_debt_tutorial_step() -> void:
+	if GameState.tutorial_completed:
+		return
+	if TutorialManager.current_step != TutorialManager.TutorialStep.SHOW_DEBT_METER:
+		return
+	await get_tree().create_timer(0.4).timeout
+	if TutorialManager.current_step == TutorialManager.TutorialStep.SHOW_DEBT_METER:
+		TutorialManager.notify_action("debt_seen")

@@ -102,7 +102,10 @@ func end_of_day() -> void:
 		var previous_debt := debt
 		debt = round(debt * 1.05 * 100.0) / 100.0
 		today_interest_added = round((debt - previous_debt) * 100.0) / 100.0
-		days_without_payment += 1
+		if debt_paid_today > 0.0:
+			days_without_payment = 0
+		else:
+			days_without_payment += 1
 		debt_changed.emit(debt)
 	else:
 		days_without_payment = 0

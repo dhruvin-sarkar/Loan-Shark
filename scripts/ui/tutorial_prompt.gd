@@ -1,19 +1,12 @@
-extends Control
+extends CanvasLayer
 
-# tutorial_prompt.gd - Tutorial text prompt
-
-signal prompt_dismissed()
-
+@onready var panel: Panel = $Panel
 @onready var prompt_label: Label = $Panel/PromptLabel
 
-func _ready():
-	hide()
+func _ready() -> void:
+	visible = false
 
-func show_prompt(text: String):
+func set_prompt(text: String, target_position: Vector2) -> void:
 	prompt_label.text = text
-	show()
-
-func _input(event):
-	if event.is_action_pressed("ui_accept") and visible:
-		emit_signal("prompt_dismissed")
-		hide()
+	panel.position = target_position
+	visible = true

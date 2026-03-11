@@ -1,24 +1,17 @@
-extends Control
+extends CanvasLayer
 
-# tutorial_arrow.gd - Tutorial arrow indicator
+@onready var arrow: Control = $Arrow
 
-@onready var arrow_sprite: Sprite2D = $ArrowSprite
-@onready var animation_player: AnimationPlayer = $AnimationPlayer
+var _base_position: Vector2 = Vector2.ZERO
+var _time: float = 0.0
 
-var target_position: Vector2 = Vector2.ZERO
+func _process(delta: float) -> void:
+	_time += delta
+	if arrow:
+		arrow.position = _base_position + Vector2(0.0, sin(_time * 5.0) * 10.0)
 
-func _ready():
-	animation_player.play("bounce")
-
-func point_to(position: Vector2):
-	target_position = position
-	_update_position()
-
-func _update_position():
-	global_position = target_position + Vector2(0, -50)
-
-func hide_arrow():
-	hide()
-
-func show_arrow():
-	show()
+func point_to(target_position: Vector2) -> void:
+	_base_position = target_position + Vector2(0.0, -72.0)
+	if arrow:
+		arrow.position = _base_position
+	visible = true
