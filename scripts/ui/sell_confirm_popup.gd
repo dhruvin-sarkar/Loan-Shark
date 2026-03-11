@@ -24,9 +24,9 @@ func show_confirm(fish_id: String, fish_data: Resource):
 	show()
 
 func _on_confirm_pressed():
-	emit_signal("sell_confirmed", current_fish_id)
+	sell_confirmed.emit(current_fish_id)
 	hide()
 
 func _on_cancel_pressed():
-	emit_signal("sell_cancelled")
+	sell_cancelled.emit()
 	hide()

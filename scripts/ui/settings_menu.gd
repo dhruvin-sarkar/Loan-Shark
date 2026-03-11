@@ -51,5 +51,5 @@ func _on_fullscreen_toggled(is_fullscreen: bool):
 
 func _on_close_pressed():
 	_save_settings()
-	emit_signal("settings_closed")
+	settings_closed.emit()
 	hide()

@@ -14,18 +14,18 @@ func fade_in(duration: float = 0.5):
 	animation_player.play("fade_in")
 	await animation_player.animation_finished
 	is_transitioning = false
-	emit_signal("transition_finished")
+	transition_finished.emit()
 
 func fade_out(duration: float = 0.5):
 	is_transitioning = true
 	animation_player.play("fade_out")
 	await animation_player.animation_finished
 	is_transitioning = false
-	emit_signal("transition_finished")
+	transition_finished.emit()
 
 func wipe_left(duration: float = 0.5):
 	is_transitioning = true
 	animation_player.play("wipe_left")
 	await animation_player.animation_finished
 	is_transitioning = false
-	emit_signal("transition_finished")
+	transition_finished.emit()

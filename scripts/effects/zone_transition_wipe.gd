@@ -10,7 +10,7 @@ signal wipe_completed()
 func play_wipe(direction: String = "left"):
 	animation_player.play("wipe_" + direction)
 	await animation_player.animation_finished
-	emit_signal("wipe_completed")
+	wipe_completed.emit()
 
 func set_color(col: Color):
 	color_rect.color = col
