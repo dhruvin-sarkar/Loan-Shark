@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://rdhvh2iy0tud"
-path="res://.godot/imported/phantom.wav-061b5baa210b99fe63b2106b3cca02c6.sample"
+path="res://.godot/imported/phantom.wav-9b6afd93883447b55f0dd14fdca11b9e.sample"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/wav/Sound Effects/phantom.wav"
-dest_files=["res://.godot/imported/phantom.wav-061b5baa210b99fe63b2106b3cca02c6.sample"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/wav/Sound Effects/phantom.wav"
+dest_files=["res://.godot/imported/phantom.wav-9b6afd93883447b55f0dd14fdca11b9e.sample"]
 
 [params]
 

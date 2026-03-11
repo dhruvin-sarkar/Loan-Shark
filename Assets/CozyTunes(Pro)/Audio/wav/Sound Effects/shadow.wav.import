@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://to8d10lwa3pp"
-path="res://.godot/imported/shadow.wav-d9b5f1606f7e169ec59ff98b453d5b9b.sample"
+path="res://.godot/imported/shadow.wav-6b3430e76e3a5628559ad90135432c5d.sample"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/wav/Sound Effects/shadow.wav"
-dest_files=["res://.godot/imported/shadow.wav-d9b5f1606f7e169ec59ff98b453d5b9b.sample"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/wav/Sound Effects/shadow.wav"
+dest_files=["res://.godot/imported/shadow.wav-6b3430e76e3a5628559ad90135432c5d.sample"]
 
 [params]
 

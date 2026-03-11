@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://blqfhj8vq8x6g"
-path="res://.godot/imported/stalker.wav-ad15bda5e81b8108231ddf08fd102eac.sample"
+path="res://.godot/imported/stalker.wav-5fd2cc1577cb53e38a9308f57ae9e580.sample"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/wav/Sound Effects/stalker.wav"
-dest_files=["res://.godot/imported/stalker.wav-ad15bda5e81b8108231ddf08fd102eac.sample"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/wav/Sound Effects/stalker.wav"
+dest_files=["res://.godot/imported/stalker.wav-5fd2cc1577cb53e38a9308f57ae9e580.sample"]
 
 [params]
 

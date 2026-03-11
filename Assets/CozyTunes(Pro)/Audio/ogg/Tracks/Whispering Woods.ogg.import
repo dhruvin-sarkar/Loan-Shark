@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://cs0t0p1uk7ce7"
-path="res://.godot/imported/Whispering Woods.ogg-e7785ccc7462c5efe04f91d348b60902.oggvorbisstr"
+path="res://.godot/imported/Whispering Woods.ogg-8b76352f49602be9930cf079fb49a936.oggvorbisstr"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/ogg/Tracks/Whispering Woods.ogg"
-dest_files=["res://.godot/imported/Whispering Woods.ogg-e7785ccc7462c5efe04f91d348b60902.oggvorbisstr"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/ogg/Tracks/Whispering Woods.ogg"
+dest_files=["res://.godot/imported/Whispering Woods.ogg-8b76352f49602be9930cf079fb49a936.oggvorbisstr"]
 
 [params]
 
