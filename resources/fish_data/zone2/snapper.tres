@@ -1,20 +1,20 @@
 [gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_snapper"]
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1"]
 
 [resource]
-script = ExtResource("1_snapper")
+script = ExtResource("1")
 id = "snapper"
-name = "Red Snapper"
-zone = "zone2"
+name = "Snapper"
+zone = 2
 base_price = 32
-size_range = [0.8, 1.8]
+size_range = Vector2(0.8, 1.8)
 rarity = "uncommon"
-family = "bony"
 night_only = false
+family = "bony"
 reel_speed = 1.2
-catch_speed = 1.0
+catch_speed = 1
 modifier_effect = ""
+description = "Snapper"
 inventory_slots = 1
-description = "A popular table fish with a misleading name — it doesn't actually snap. The buyers don't care. They just like the taste."
-texture_path = "res://Assets/Fish/snapper.png"
+sprite_region = Rect2()

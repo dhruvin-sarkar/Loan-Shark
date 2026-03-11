@@ -1,20 +1,20 @@
 [gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_shrimp"]
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1"]
 
 [resource]
-script = ExtResource("1_shrimp")
+script = ExtResource("1")
 id = "shrimp"
 name = "Rock Shrimp"
-zone = "zone1"
+zone = 1
 base_price = 12
-size_range = [0.8, 1.8]
+size_range = Vector2(0.8, 1.8)
 rarity = "common"
-family = "crustacean"
 night_only = false
+family = "crustacean"
 reel_speed = 0.8
-catch_speed = 1.0
+catch_speed = 1
 modifier_effect = ""
+description = "Rock Shrimp"
 inventory_slots = 1
-description = "Technically not a fish. Nobody seems to care."
-texture_path = "res://Assets/Fish/shrimp.png"
+sprite_region = Rect2()

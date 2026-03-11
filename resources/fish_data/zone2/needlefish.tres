@@ -1,20 +1,20 @@
 [gd_resource type="Resource" script_class="FishData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1_needle"]
+[ext_resource type="Script" path="res://scripts/resources/fish_data.gd" id="1"]
 
 [resource]
-script = ExtResource("1_needle")
+script = ExtResource("1")
 id = "needlefish"
 name = "Needlefish"
-zone = "zone2"
+zone = 2
 base_price = 28
-size_range = [0.8, 1.8]
-rarity = "common"
-family = "pelagic"
+size_range = Vector2(0.8, 1.8)
+rarity = "uncommon"
 night_only = false
+family = "pelagic"
 reel_speed = 1.8
-catch_speed = 1.0
+catch_speed = 1
 modifier_effect = ""
+description = "Needlefish"
 inventory_slots = 1
-description = "Moves like a thought. Thin enough to miss entirely. The fastest reel in the shallows."
-texture_path = "res://Assets/Fish/needlefish.png"
+sprite_region = Rect2()

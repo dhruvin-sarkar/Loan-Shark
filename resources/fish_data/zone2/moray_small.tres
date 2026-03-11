@@ -4,17 +4,17 @@
 
 [resource]
 script = ExtResource("1")
-id = "batfish"
-name = "Batfish"
+id = "moray_small"
+name = "Moray Eel (Young)"
 zone = 2
-base_price = 30
+base_price = 38
 size_range = Vector2(0.8, 1.8)
 rarity = "uncommon"
-night_only = true
-family = "reef"
-reel_speed = 1.1
+night_only = false
+family = "eel"
+reel_speed = 1.5
 catch_speed = 1
 modifier_effect = ""
-description = "Batfish"
+description = "Moray Eel (Young)"
 inventory_slots = 1
 sprite_region = Rect2()
