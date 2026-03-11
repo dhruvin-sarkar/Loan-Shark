@@ -25,7 +25,7 @@ func start_dialogue(dialogue_path: String):
 	current_index = 0
 	is_active = true
 	
-	emit_signal("dialogue_started", current_dialogue_id)
+	dialogue_started.emit(current_dialogue_id)
 	_show_current_line()
 
 func _parse_dialogue_file(path: String) -> Array:
@@ -64,7 +64,7 @@ func _show_current_line():
 		return
 	
 	var entry = current_dialogue[current_index]
-	emit_signal("dialogue_line", entry.speaker, entry.text)
+	dialogue_line.emit(entry["speaker"], entry["text"])
 
 func advance():
 	if not is_active:
@@ -77,17 +77,17 @@ func end_dialogue():
 	is_active = false
 	current_dialogue = []
 	current_index = 0
-	emit_signal("dialogue_ended")
+	dialogue_ended.emit()
 
 func is_dialogue_active() -> bool:
 	return is_active
 
 func get_current_speaker() -> String:
 	if current_index < current_dialogue.size():
-		return current_dialogue[current_index].speaker
+		return current_dialogue[current_index]["speaker"]
 	return ""
 
 func get_current_text() -> String:
 	if current_index < current_dialogue.size():
-		return current_dialogue[current_index].text
+		return current_dialogue[current_index]["text"]
 	return ""

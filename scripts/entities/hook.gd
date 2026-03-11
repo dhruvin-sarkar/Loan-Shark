@@ -20,10 +20,10 @@ func _on_body_entered(body):
 func _catch_fish(fish: Node2D):
 	caught_fish = fish
 	fish.get_caught(self)
-	emit_signal("fish_caught", fish)
+	fish_caught.emit(fish)
 
 func land():
-	emit_signal("hook_landed")
+	hook_landed.emit()
 	if caught_fish:
 		# Process caught fish
 		pass

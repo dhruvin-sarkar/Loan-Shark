@@ -29,7 +29,7 @@ func _move(delta):
 
 func _on_body_entered(body):
 	if body.is_in_group("player"):
-		emit_signal("hazard_triggered", body)
+		hazard_triggered.emit(body)
 		_apply_damage(body)
 
 func _apply_damage(player: Node2D):
@@ -62,7 +62,7 @@ func _apply_damage(player: Node2D):
 				player.apply_drift(movement_direction, 2.0)
 
 func _despawn():
-	emit_signal("hazard_despawned")
+	hazard_despawned.emit()
 	queue_free()
 
 func set_direction(dir: Vector2):

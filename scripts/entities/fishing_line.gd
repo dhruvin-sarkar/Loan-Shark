@@ -22,13 +22,13 @@ func cast_line(target: Vector2):
 	is_cast = true
 	hook_position = target
 	hook_point.position = to_local(target)
-	emit_signal("line_cast", target)
+	line_cast.emit(target)
 
 func retract_line():
 	is_cast = false
 	hook_position = Vector2.ZERO
 	hook_point.position = Vector2(0, 100)
-	emit_signal("line_retracted")
+	line_retracted.emit()
 
 func get_hook_position() -> Vector2:
 	return hook_point.global_position

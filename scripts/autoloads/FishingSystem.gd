@@ -31,7 +31,7 @@ func start_fishing(zone: String, rod: Resource, bait: Resource):
 	current_zone = zone
 	current_rod = rod
 	current_bait = bait
-	emit_signal("fishing_started")
+	fishing_started.emit()
 
 func cast_line():
 	if current_state == FishingState.CASTING:
@@ -53,18 +53,18 @@ func _hook_fish():
 		
 		if current_fish:
 			current_state = FishingState.HOOKED
-			emit_signal("fish_hooked", current_fish)
+			fish_hooked.emit(current_fish)
 
 func attempt_catch() -> bool:
 	if current_state == FishingState.HOOKED and current_fish:
 		var catch_chance = _calculate_catch_chance()
 		var success = randf() < catch_chance
 		
-		emit_signal("catch_attempt", success)
+		catch_attempt.emit(success)
 		
 		if success:
 			var weight = randf_range(current_fish.min_size, current_fish.max_size)
-			emit_signal("fish_caught", current_fish, weight)
+			fish_caught.emit(current_fish, weight)
 			_end_fishing()
 			return true
 		else:
@@ -91,7 +91,7 @@ func _fish_escaped():
 func _end_fishing():
 	current_state = FishingState.IDLE
 	current_fish = null
-	emit_signal("fishing_ended")
+	fishing_ended.emit()
 
 func cancel_fishing():
 	_end_fishing()
