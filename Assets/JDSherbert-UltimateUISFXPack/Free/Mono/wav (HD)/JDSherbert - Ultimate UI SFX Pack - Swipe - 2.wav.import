@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://d2h2mcx4ur3m5"
-path="res://.godot/imported/JDSherbert - Ultimate UI SFX Pack - Swipe - 2.wav-7b2cd3ba816375a79eb128e932dcc376.sample"
+path="res://.godot/imported/JDSherbert - Ultimate UI SFX Pack - Swipe - 2.wav-4a4fa1157345e5ccbe75648314cfdbd0.sample"
 
 [deps]
 
-source_file="res://Assets/JDSherbert - Ultimate UI SFX Pack/Free/Mono/wav (HD)/JDSherbert - Ultimate UI SFX Pack - Swipe - 2.wav"
-dest_files=["res://.godot/imported/JDSherbert - Ultimate UI SFX Pack - Swipe - 2.wav-7b2cd3ba816375a79eb128e932dcc376.sample"]
+source_file="res://Assets/JDSherbert-UltimateUISFXPack/Free/Mono/wav (HD)/JDSherbert - Ultimate UI SFX Pack - Swipe - 2.wav"
+dest_files=["res://.godot/imported/JDSherbert - Ultimate UI SFX Pack - Swipe - 2.wav-4a4fa1157345e5ccbe75648314cfdbd0.sample"]
 
 [params]
 
