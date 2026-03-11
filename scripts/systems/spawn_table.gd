@@ -1,77 +1,52 @@
-extends Resource
-
-# spawn_table.gd - Defines fish spawn probabilities per zone (GDD v3.0 compliant)
-
+extends RefCounted
 class_name SpawnTable
 
-@export var zone_name: String = ""
-@export var fish_weights: Dictionary = {}
-@export var night_only_fish: Array = []  # Fish that only spawn at night
-@export var legendary_cap_fish: Array = []  # Fish limited to 1 per day (e.g., coelacanth)
+const TABLE_PATHS := {
+	1: "res://resources/spawn_tables/spawn_table_zone1.tres",
+	2: "res://resources/spawn_tables/spawn_table_zone2.tres",
+	3: "res://resources/spawn_tables/spawn_table_zone3.tres",
+	4: "res://resources/spawn_tables/spawn_table_zone4.tres"
+}
 
-# Get a random fish, considering time of day and legendary caps
-# is_night: true if current time is in last 25% of day (150 seconds remaining of 600)
-# caught_legendary_today: array of legendary fish IDs already caught today
-func get_random_fish(is_night: bool = false, caught_legendary_today: Array = []) -> String:
-	var active_weights: Dictionary = {}
-	var total_weight: float = 0.0
-	
-	for fish_id in fish_weights:
-		# Skip night-only fish during daytime
-		if fish_id in night_only_fish and not is_night:
-			continue
-		
-		# Skip legendary fish already caught today
-		if fish_id in legendary_cap_fish and fish_id in caught_legendary_today:
-			continue
-		
-		var weight = fish_weights[fish_id]
-		active_weights[fish_id] = weight
-		total_weight += weight
-	
-	if total_weight <= 0.0:
-		return ""
-	
-	var random_value = randf() * total_weight
-	var current_weight: float = 0.0
-	
-	for fish_id in active_weights:
-		current_weight += active_weights[fish_id]
-		if random_value <= current_weight:
-			return fish_id
-	
-	return ""
+static var _cache: Dictionary = {}
+static var _rng := RandomNumberGenerator.new()
+static var _initialized := false
 
-# Legacy function for backward compatibility
-func get_random_fish_legacy() -> String:
-	return get_random_fish(false, [])
+static func roll_fish(zone: int) -> Dictionary:
+	_initialize_rng()
+	var table_resource := _load_table(zone)
+	if table_resource == null:
+		return {}
+	var weights := ModifierStack.apply_spawn_multipliers(table_resource.fish_weights, zone)
+	var total := 0.0
+	for weight in weights.values():
+		total += float(weight)
+	if total <= 0.0:
+		return {}
+	var roll := _rng.randf() * total
+	var cumulative := 0.0
+	for fish_id_variant in weights.keys():
+		var fish_id := String(fish_id_variant)
+		cumulative += float(weights[fish_id])
+		if roll <= cumulative:
+			var fish_data := FishDatabase.get_fish(fish_id)
+			if fish_data == null:
+				return {}
+			return FishDatabase.create_fish_instance(fish_data)
+	return {}
 
-func get_fish_by_rarity(rarity: String) -> Array:
-	var result: Array = []
-	for fish_id in fish_weights:
-		var fish_data = FishDatabase.get_fish_data(fish_id)
-		if fish_data and fish_data.get("rarity", "common") == rarity:
-			result.append(fish_id)
-	return result
+static func _load_table(zone: int) -> SpawnTableData:
+	if _cache.has(zone):
+		return _cache[zone]
+	var path := TABLE_PATHS.get(zone, "")
+	if path.is_empty() or not ResourceLoader.exists(path):
+		return null
+	var table := load(path) as SpawnTableData
+	_cache[zone] = table
+	return table
 
-func add_fish(fish_id: String, weight: float):
-	fish_weights[fish_id] = weight
-
-func remove_fish(fish_id: String):
-	fish_weights.erase(fish_id)
-
-func get_normalized_weights(is_night: bool = false) -> Dictionary:
-	var total: float = 0.0
-	var normalized: Dictionary = {}
-	
-	for fish_id in fish_weights:
-		if fish_id in night_only_fish and not is_night:
-			continue
-		total += fish_weights[fish_id]
-	
-	for fish_id in fish_weights:
-		if fish_id in night_only_fish and not is_night:
-			continue
-		normalized[fish_id] = fish_weights[fish_id] / total if total > 0 else 0.0
-	
-	return normalized
+static func _initialize_rng() -> void:
+	if _initialized:
+		return
+	_rng.randomize()
+	_initialized = true

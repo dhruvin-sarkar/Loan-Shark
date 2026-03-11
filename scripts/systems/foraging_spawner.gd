@@ -1,52 +1,87 @@
-extends Node
+extends Node2D
+class_name ForagingSpawner
 
-# foraging_spawner.gd - Spawns forageable materials in zones
+const BEACH_BOUNDS := Rect2(160, 320, 960, 240)
+const RARITY_WEIGHTS := {"common": 6, "uncommon": 3, "rare": 1}
 
-signal material_spawned(material_instance: Node2D)
+var _rng := RandomNumberGenerator.new()
 
-@export var spawn_rate: float = 60.0
-@export var max_materials: int = 5
+func _ready() -> void:
+	_rng.randomize()
+	GameState.day_changed.connect(_on_day_changed)
+	spawn_for_day()
 
-var active_materials: Array = []
-var spawn_areas: Array = []
-
-func _ready():
-	_find_spawn_areas()
-	_start_spawning()
-
-func _find_spawn_areas():
-	for child in get_parent().get_children():
-		if child.is_in_group("forage_area"):
-			spawn_areas.append(child)
-
-func _start_spawning():
-	while true:
-		await get_tree().create_timer(spawn_rate).timeout
-		if active_materials.size() < max_materials:
-			_spawn_material()
-
-func _spawn_material():
-	if spawn_areas.is_empty():
+func spawn_for_day() -> void:
+	_clear_spawned_nodes()
+	var count := _rng.randi_range(8, 14)
+	var available_materials := _get_spawnable_materials()
+	if available_materials.is_empty():
 		return
-	
-	var spawn_area = spawn_areas.pick_random()
-	var material_id = _get_random_material()
-	
-	if material_id:
-		var material_data = ItemDatabase.get_material(material_id)
-		if material_data:
-			# Create material pickup
-			var material_node = Node2D.new()
-			material_node.position = spawn_area.position + Vector2(randf_range(-20, 20), randf_range(-20, 20))
-			get_parent().add_child(material_node)
-			active_materials.append(material_node)
-			emit_signal("material_spawned", material_node)
+	for _index in range(count):
+		var material := _pick_weighted_material(available_materials)
+		if material == null:
+			continue
+		add_child(_create_material_node(material))
 
-func _get_random_material() -> String:
-	var materials = ["mat_shell", "mat_coral", "mat_sea_glass", "mat_driftwood"]
-	return materials.pick_random()
+func _on_day_changed(_new_day: int) -> void:
+	spawn_for_day()
 
-func collect_material(material_instance: Node2D):
-	if material_instance in active_materials:
-		active_materials.erase(material_instance)
-		material_instance.queue_free()
+func _get_spawnable_materials() -> Array[MaterialData]:
+	var materials: Array[MaterialData] = []
+	for material in ItemDatabase.get_all_materials():
+		if material.night_only and not GameState.is_night():
+			continue
+		if GameState.current_day < material.day_unlock:
+			continue
+		if material.id == "shark_tooth" and GameState.current_day < 3:
+			continue
+		materials.append(material)
+	return materials
+
+func _pick_weighted_material(materials: Array[MaterialData]) -> MaterialData:
+	var total := 0
+	for material in materials:
+		total += int(RARITY_WEIGHTS.get(material.rarity, 1))
+	if total <= 0:
+		return null
+	var roll := _rng.randi_range(1, total)
+	var cumulative := 0
+	for material in materials:
+		cumulative += int(RARITY_WEIGHTS.get(material.rarity, 1))
+		if roll <= cumulative:
+			return material
+	return materials[0]
+
+func _create_material_node(material: MaterialData) -> Area2D:
+	var area := Area2D.new()
+	area.name = material.id
+	area.position = Vector2(
+		_rng.randf_range(BEACH_BOUNDS.position.x, BEACH_BOUNDS.position.x + BEACH_BOUNDS.size.x),
+		_rng.randf_range(BEACH_BOUNDS.position.y, BEACH_BOUNDS.position.y + BEACH_BOUNDS.size.y)
+	)
+	area.set_meta("material_id", material.id)
+	var shape := CollisionShape2D.new()
+	var circle := CircleShape2D.new()
+	circle.radius = 18.0
+	shape.shape = circle
+	area.add_child(shape)
+	var label := Label.new()
+	label.text = material.name
+	label.position = Vector2(-40, -28)
+	area.add_child(label)
+	area.body_entered.connect(_on_material_collected.bind(area))
+	return area
+
+func _on_material_collected(body: Node, material_node: Area2D) -> void:
+	if body == null or body.name != "Player":
+		return
+	var material_id := String(material_node.get_meta("material_id", ""))
+	if material_id.is_empty():
+		return
+	GameState.add_material(material_id, 1)
+	TutorialManager.notify_action("material_collected")
+	material_node.queue_free()
+
+func _clear_spawned_nodes() -> void:
+	for child in get_children():
+		child.queue_free()
