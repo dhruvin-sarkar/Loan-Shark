@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "recipe_fortune_hook"
-name = "Fortune Hook Charm"
-result_id = "charm_fortune_hook"
-category = "enchantment"
-ingredients = {"gold_sand": 4, "sea_glass": 3}
-description = "Enchants Fortune Hook."
+id = "recipe_frenzy"
+name = "Frenzy Charm"
+result_id = "charm_frenzy"
+category = "spawn_rate"
+ingredients = {"shark_tooth": 1, "ghost_fin": 1, "night_kelp": 1}
+description = "+50% all spawn."

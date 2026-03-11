@@ -1,15 +1,12 @@
-[gd_resource type="Resource" script_class="CraftingRecipe" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="CraftingRecipeData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1_recipe"]
+[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1"]
 
 [resource]
-script = ExtResource("1_recipe")
-recipe_name = "Eel Ward"
-result_charm_id = "charm_eel_ward"
-result_type = "spawn"
-materials_required = {
-"mat_biolum": 2,
-"mat_driftwood": 1
-}
-effect_description = "-50% eel family spawn weight."
-texture_path = "res://Assets/Items/charm_eel_ward.png"
+script = ExtResource("1")
+id = "recipe_eel_ward"
+name = "Eel Ward"
+result_id = "charm_eel_ward"
+category = "spawn_rate"
+ingredients = {"ghost_fin": 2, "driftwood": 1}
+description = "-50% eel spawn."

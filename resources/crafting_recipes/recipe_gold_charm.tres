@@ -1,15 +1,12 @@
-[gd_resource type="Resource" script_class="CraftingRecipe" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="CraftingRecipeData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1_recipe"]
+[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1"]
 
 [resource]
-script = ExtResource("1_recipe")
-recipe_name = "Gold Charm"
-result_charm_id = "charm_gold"
-result_type = "sell"
-materials_required = {
-"mat_pearl": 3,
-"mat_sea_glass": 2
-}
-effect_description = "+50% sell price on next 3 fish sold only."
-texture_path = "res://Assets/Items/charm_gold.png"
+script = ExtResource("1")
+id = "recipe_gold_charm"
+name = "Gold Charm"
+result_id = "charm_gold"
+category = "sell_price"
+ingredients = {"gold_sand": 3, "sea_glass": 2}
+description = "+50% next 3 sales."

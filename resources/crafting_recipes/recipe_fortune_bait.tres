@@ -1,15 +1,12 @@
-[gd_resource type="Resource" script_class="CraftingRecipe" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="CraftingRecipeData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1_recipe"]
+[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1"]
 
 [resource]
-script = ExtResource("1_recipe")
-recipe_name = "Fortune Bait"
-result_charm_id = "charm_fortune_bait"
-result_type = "spawn"
-materials_required = {
-"mat_pearl": 2,
-"mat_sea_glass": 1
-}
-effect_description = "+20% spawn weight to rare-tier and above."
-texture_path = "res://Assets/Items/charm_fortune_bait.png"
+script = ExtResource("1")
+id = "recipe_fortune_bait"
+name = "Fortune Bait"
+result_id = "charm_fortune_bait"
+category = "spawn_rate"
+ingredients = {"gold_sand": 2, "sea_glass": 1}
+description = "+20% rare+ spawn."
