@@ -1,57 +1,147 @@
-[gd_scene load_steps=3 format=3]
+[gd_scene load_steps=8 format=3]
 
-[ext_resource type="Script" path="res://scripts/ui/main_menu.gd" id="1_menu"]
-[ext_resource type="Texture2D" path="res://Assets/BackDrops/Undersea.png" id="2_bg"]
+[ext_resource type="Script" path="res://scripts/ui/main_menu.gd" id="1_ve3dg"]
+[ext_resource type="Texture2D" path="res://Assets/Underwater_Parallax/Sinky_Sub_BG.png" id="2_hsh3q"]
+[ext_resource type="Texture2D" path="res://Assets/Underwater_Parallax/Sinky_Sub_Ruins_Whale.png" id="3_n6m3p"]
+[ext_resource type="Texture2D" path="res://Assets/Underwater_Parallax/Sinky_Sub_Cliffs.png" id="4_t2ly4"]
+[ext_resource type="Texture2D" path="res://Assets/Underwater_Parallax/Sinky_Sub_GodRays.png" id="5_d2q0o"]
+[ext_resource type="Texture2D" path="res://Assets/Underwater_Parallax/Sinky_Sub_CloseRockKelp.png" id="6_70yx8"]
+[ext_resource type="Texture2D" path="res://Assets/Underwater_Parallax/Sinky_Sub_Floor.png" id="7_y0auo"]
 
 [node name="MainMenu" type="Control"]
-layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_menu")
+script = ExtResource("1_ve3dg")
 
-[node name="Background" type="Sprite2D" parent="."]
-texture = ExtResource("2_bg")
-centered = false
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
-layout_mode = 1
-anchors_preset = 8
+[node name="BG_Layer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0, 0)
+
+[node name="BG_Sprite" type="Sprite2D" parent="ParallaxBackground/BG_Layer"]
+position = Vector2(640, 360)
+scale = Vector2(4, 4)
+texture = ExtResource("2_hsh3q")
+centered = true
+
+[node name="Ruins_Layer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.2, 0.2)
+
+[node name="Ruins_Sprite" type="Sprite2D" parent="ParallaxBackground/Ruins_Layer"]
+position = Vector2(640, 360)
+scale = Vector2(4, 4)
+texture = ExtResource("3_n6m3p")
+centered = true
+
+[node name="Cliffs_Layer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.3, 0.3)
+
+[node name="Cliffs_Sprite" type="Sprite2D" parent="ParallaxBackground/Cliffs_Layer"]
+position = Vector2(640, 360)
+scale = Vector2(4, 4)
+texture = ExtResource("4_t2ly4")
+centered = true
+
+[node name="GodRays_Layer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.5, 0.5)
+
+[node name="GodRays_Sprite" type="Sprite2D" parent="ParallaxBackground/GodRays_Layer"]
+position = Vector2(640, 360)
+scale = Vector2(4, 4)
+texture = ExtResource("5_d2q0o")
+centered = true
+
+[node name="CloseRockKelp_Layer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.8, 0.8)
+
+[node name="CloseRockKelp_Sprite" type="Sprite2D" parent="ParallaxBackground/CloseRockKelp_Layer"]
+position = Vector2(640, 360)
+scale = Vector2(4, 4)
+texture = ExtResource("6_70yx8")
+centered = true
+
+[node name="Floor_Layer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(1, 1)
+
+[node name="Floor_Sprite" type="Sprite2D" parent="ParallaxBackground/Floor_Layer"]
+position = Vector2(640, 360)
+scale = Vector2(4, 4)
+texture = ExtResource("7_y0auo")
+centered = true
+
+[node name="UILayer" type="CanvasLayer" parent="."]
+layer = 2
+
+[node name="TitleLabel" type="Label" parent="UILayer"]
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -400.0
+offset_top = 80.0
+offset_right = 400.0
+offset_bottom = 166.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.8)
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 3
+theme_override_font_sizes/font_size = 72
+text = "LOAN SHARK"
+horizontal_alignment = 1
+
+[node name="SubtitleLabel" type="Label" parent="UILayer"]
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -340.0
+offset_top = 170.0
+offset_right = 340.0
+offset_bottom = 206.0
+theme_override_colors/font_color = Color(0.8, 0.8, 0.9, 1)
+theme_override_font_sizes/font_size = 24
+text = "You owe $500. You have 7 days."
+horizontal_alignment = 1
+
+[node name="ButtonContainer" type="VBoxContainer" parent="UILayer"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -100.0
-offset_top = -120.0
+offset_top = -80.0
 offset_right = 100.0
-offset_bottom = 120.0
-grow_horizontal = 2
-grow_vertical = 2
+offset_bottom = 80.0
+theme_override_constants/separation = 16
 
-[node name="TitleLabel" type="Label" parent="VBoxContainer"]
-layout_mode = 2
-text = "LOAN SHARK"
-horizontal_alignment = 1
+[node name="NewGameButton" type="Button" parent="UILayer/ButtonContainer"]
+custom_minimum_size = Vector2(200, 48)
+text = "NEW GAME"
 
-[node name="SubtitleLabel" type="Label" parent="VBoxContainer"]
-layout_mode = 2
-text = "A Fishing Debt Game"
-horizontal_alignment = 1
+[node name="ContinueButton" type="Button" parent="UILayer/ButtonContainer"]
+custom_minimum_size = Vector2(200, 48)
+text = "CONTINUE"
 
-[node name="NewGameButton" type="Button" parent="VBoxContainer"]
-layout_mode = 2
-text = "New Game"
+[node name="SettingsButton" type="Button" parent="UILayer/ButtonContainer"]
+custom_minimum_size = Vector2(200, 48)
+text = "SETTINGS"
 
-[node name="ContinueButton" type="Button" parent="VBoxContainer"]
-layout_mode = 2
-text = "Continue"
+[node name="VersionLabel" type="Label" parent="UILayer"]
+anchors_preset = 8
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -190.0
+offset_top = -32.0
+offset_right = -20.0
+offset_bottom = -12.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_colors/font_color = Color(0.6, 0.6, 0.7, 0.8)
+theme_override_font_sizes/font_size = 14
+text = "HackClub Campfire Dubai"
+horizontal_alignment = 2
 
-[node name="SettingsButton" type="Button" parent="VBoxContainer"]
-layout_mode = 2
-text = "Settings"
-
-[node name="QuitButton" type="Button" parent="VBoxContainer"]
-layout_mode = 2
-text = "Quit"
+[connection signal="pressed" from="UILayer/ButtonContainer/NewGameButton" to="." method="_on_new_game_button_pressed"]
+[connection signal="pressed" from="UILayer/ButtonContainer/ContinueButton" to="." method="_on_continue_button_pressed"]
+[connection signal="pressed" from="UILayer/ButtonContainer/SettingsButton" to="." method="_on_settings_button_pressed"]
