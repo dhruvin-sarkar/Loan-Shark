@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://7kgnsrrspsuv"
-path="res://.godot/imported/Gentle Breeze.ogg-ebeb79e4d62971064cc77d33fce1d8fa.oggvorbisstr"
+path="res://.godot/imported/Gentle Breeze.ogg-97439807fdcec6d1430e8bee33220015.oggvorbisstr"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/ogg/Tracks/Gentle Breeze.ogg"
-dest_files=["res://.godot/imported/Gentle Breeze.ogg-ebeb79e4d62971064cc77d33fce1d8fa.oggvorbisstr"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/ogg/Tracks/Gentle Breeze.ogg"
+dest_files=["res://.godot/imported/Gentle Breeze.ogg-97439807fdcec6d1430e8bee33220015.oggvorbisstr"]
 
 [params]
 

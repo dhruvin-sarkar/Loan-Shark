@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://bmdfdjthng326"
-path="res://.godot/imported/Forgotten Biomes.ogg-04e76550416942f7df815228e0d46fb0.oggvorbisstr"
+path="res://.godot/imported/Forgotten Biomes.ogg-7e6b94284658434aba31bda260f8627a.oggvorbisstr"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/ogg/Tracks/Forgotten Biomes.ogg"
-dest_files=["res://.godot/imported/Forgotten Biomes.ogg-04e76550416942f7df815228e0d46fb0.oggvorbisstr"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/ogg/Tracks/Forgotten Biomes.ogg"
+dest_files=["res://.godot/imported/Forgotten Biomes.ogg-7e6b94284658434aba31bda260f8627a.oggvorbisstr"]
 
 [params]
 

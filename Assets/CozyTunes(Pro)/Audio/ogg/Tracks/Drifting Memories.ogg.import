@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://d2w800igl2oc2"
-path="res://.godot/imported/Drifting Memories.ogg-045a98815c367012d8a28ffdc37f404d.oggvorbisstr"
+path="res://.godot/imported/Drifting Memories.ogg-f264a90cff629b821d84732033cf0d6e.oggvorbisstr"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/ogg/Tracks/Drifting Memories.ogg"
-dest_files=["res://.godot/imported/Drifting Memories.ogg-045a98815c367012d8a28ffdc37f404d.oggvorbisstr"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/ogg/Tracks/Drifting Memories.ogg"
+dest_files=["res://.godot/imported/Drifting Memories.ogg-f264a90cff629b821d84732033cf0d6e.oggvorbisstr"]
 
 [params]
 

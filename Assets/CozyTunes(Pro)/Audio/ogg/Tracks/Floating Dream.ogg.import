@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://djb20qj82c30x"
-path="res://.godot/imported/Floating Dream.ogg-6dcc816bf989e23712f9296294a73697.oggvorbisstr"
+path="res://.godot/imported/Floating Dream.ogg-086eb4e73e529e831fcb21d4dc16652d.oggvorbisstr"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/ogg/Tracks/Floating Dream.ogg"
-dest_files=["res://.godot/imported/Floating Dream.ogg-6dcc816bf989e23712f9296294a73697.oggvorbisstr"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/ogg/Tracks/Floating Dream.ogg"
+dest_files=["res://.godot/imported/Floating Dream.ogg-086eb4e73e529e831fcb21d4dc16652d.oggvorbisstr"]
 
 [params]
 

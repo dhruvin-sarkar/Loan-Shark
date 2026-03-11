@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://dc1v6k58omdu1"
-path="res://.godot/imported/Golden Gleam.ogg-83581a31debbb6299b7b9e88687c5ce1.oggvorbisstr"
+path="res://.godot/imported/Golden Gleam.ogg-e0729d88d9b7c079b0f253182a21eeda.oggvorbisstr"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/ogg/Tracks/Golden Gleam.ogg"
-dest_files=["res://.godot/imported/Golden Gleam.ogg-83581a31debbb6299b7b9e88687c5ce1.oggvorbisstr"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/ogg/Tracks/Golden Gleam.ogg"
+dest_files=["res://.godot/imported/Golden Gleam.ogg-e0729d88d9b7c079b0f253182a21eeda.oggvorbisstr"]
 
 [params]
 

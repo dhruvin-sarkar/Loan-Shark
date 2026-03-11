@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://c2hkmh0rwec01"
-path="res://.godot/imported/Sunlight Through Leaves.ogg-eefe73e0892b23f70be8ab4600e826bb.oggvorbisstr"
+path="res://.godot/imported/Sunlight Through Leaves.ogg-65c2abbca163c5cf63ada22ae34bc599.oggvorbisstr"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/ogg/Tracks/Sunlight Through Leaves.ogg"
-dest_files=["res://.godot/imported/Sunlight Through Leaves.ogg-eefe73e0892b23f70be8ab4600e826bb.oggvorbisstr"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/ogg/Tracks/Sunlight Through Leaves.ogg"
+dest_files=["res://.godot/imported/Sunlight Through Leaves.ogg-65c2abbca163c5cf63ada22ae34bc599.oggvorbisstr"]
 
 [params]
 

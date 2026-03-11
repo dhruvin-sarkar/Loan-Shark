@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://bnn2m121p5kew"
-path="res://.godot/imported/Evening Harmony.ogg-ca8a814e1e8fb02b2a4bc220c237084a.oggvorbisstr"
+path="res://.godot/imported/Evening Harmony.ogg-5359fbd8996d3ccbd20a99f3e3c1c9a2.oggvorbisstr"
 
 [deps]
 
-source_file="res://Assets/Cozy Tunes (Pro)/Audio/ogg/Tracks/Evening Harmony.ogg"
-dest_files=["res://.godot/imported/Evening Harmony.ogg-ca8a814e1e8fb02b2a4bc220c237084a.oggvorbisstr"]
+source_file="res://Assets/CozyTunes(Pro)/Audio/ogg/Tracks/Evening Harmony.ogg"
+dest_files=["res://.godot/imported/Evening Harmony.ogg-5359fbd8996d3ccbd20a99f3e3c1c9a2.oggvorbisstr"]
 
 [params]
 
