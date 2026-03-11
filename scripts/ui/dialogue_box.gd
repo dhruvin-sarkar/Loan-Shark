@@ -1,72 +1,72 @@
-extends Control
+extends CanvasLayer
 
-# dialogue_box.gd - Dialogue display controller
+signal dialogue_finished
 
-signal dialogue_finished()
-signal choice_selected(choice_index: int)
+@onready var speaker_label: Label = $Panel/SpeakerLabel
+@onready var text_label: Label = $Panel/TextLabel
+@onready var continue_label: Label = $Panel/ContinueLabel
 
-@onready var speaker_name: Label = $Panel/VBoxContainer/SpeakerName
-@onready var dialogue_text: RichTextLabel = $Panel/VBoxContainer/DialogueText
-@onready var choices_container: VBoxContainer = $Panel/VBoxContainer/ChoicesContainer
-@onready var continue_prompt: Label = $Panel/VBoxContainer/ContinuePrompt
+var _lines: Array[String] = []
+var _current_index: int = 0
+var _visible_characters: int = 0
+var _typing_speed: float = 48.0
+var _char_timer: float = 0.0
+var _typing: bool = false
+var _blip_key: String = "townsfolk_blip"
 
-var current_dialogue: Array = []
-var current_index: int = 0
-var is_active: bool = false
+func _ready() -> void:
+	visible = false
 
-func _ready():
-	hide()
-	continue_prompt.hide()
-
-func _input(event):
-	if event.is_action_pressed("ui_accept") and is_active:
-		_advance_dialogue()
-
-func start_dialogue(dialogue_data: Array):
-	current_dialogue = dialogue_data
-	current_index = 0
-	is_active = true
-	show()
-	_display_current()
-
-func _display_current():
-	if current_index >= current_dialogue.size():
-		end_dialogue()
+func _process(delta: float) -> void:
+	if not visible or _lines.is_empty():
 		return
-	
-	var entry = current_dialogue[current_index]
-	speaker_name.text = entry.get("speaker", "???")
-	dialogue_text.text = entry.get("text", "")
-	
-	if entry.has("choices"):
-		_show_choices(entry.choices)
-	else:
-		choices_container.hide()
-		continue_prompt.show()
+	if _typing:
+		_char_timer += delta * _typing_speed
+		var target_line := _lines[_current_index]
+		while _char_timer >= 1.0 and _visible_characters < target_line.length():
+			_char_timer -= 1.0
+			_visible_characters += 1
+			if _visible_characters % 2 == 0:
+				AudioManager.play_sfx(_blip_key)
+			text_label.text = target_line.substr(0, _visible_characters)
+		if _visible_characters >= target_line.length():
+			_typing = false
+			continue_label.visible = true
+	if Input.is_action_just_pressed("ui_accept"):
+		_advance()
 
-func _show_choices(choices: Array):
-	choices_container.show()
-	continue_prompt.hide()
-	
-	for child in choices_container.get_children():
-		child.queue_free()
-	
-	for i in range(choices.size()):
-		var button = Button.new()
-		button.text = choices[i]
-		button.pressed.connect(_on_choice_pressed.bind(i))
-		choices_container.add_child(button)
+func open_dialogue(speaker_name: String, lines: Array[String], blip_key: String) -> void:
+	_lines = lines.duplicate()
+	_current_index = 0
+	_visible_characters = 0
+	_char_timer = 0.0
+	_typing = true
+	_blip_key = blip_key
+	speaker_label.text = speaker_name
+	text_label.text = ""
+	continue_label.visible = false
+	visible = true
 
-func _advance_dialogue():
-	current_index += 1
-	_display_current()
-
-func _on_choice_pressed(index: int):
-	emit_signal("choice_selected", index)
-	end_dialogue()
-
-func end_dialogue():
-	is_active = false
-	current_dialogue = []
-	hide()
-	emit_signal("dialogue_finished")
+func _advance() -> void:
+	if _lines.is_empty():
+		return
+	var current_line := _lines[_current_index]
+	if _typing:
+		_typing = false
+		_visible_characters = current_line.length()
+		text_label.text = current_line
+		continue_label.visible = true
+		return
+	_current_index += 1
+	if _current_index >= _lines.size():
+		visible = false
+		_lines.clear()
+		dialogue_finished.emit()
+		if TutorialManager.current_step == TutorialManager.TutorialStep.INTRO_DIALOGUE:
+			TutorialManager.notify_action("intro_dismissed")
+		return
+	_visible_characters = 0
+	_char_timer = 0.0
+	_typing = true
+	continue_label.visible = false
+	text_label.text = ""
