@@ -1,15 +1,12 @@
-[gd_resource type="Resource" script_class="CraftingRecipe" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="CraftingRecipeData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1_recipe"]
+[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1"]
 
 [resource]
-script = ExtResource("1_recipe")
-recipe_name = "Ink Charm"
-result_charm_id = "charm_ink"
-result_type = "sell"
-materials_required = {
-"mat_ink_sac": 2,
-"mat_seaweed": 1
-}
-effect_description = "+25% sell price on cephalopod fish (octopus)."
-texture_path = "res://Assets/Items/charm_ink.png"
+script = ExtResource("1")
+id = "recipe_ink_charm"
+name = "Ink Charm"
+result_id = "charm_ink"
+category = "sell_price"
+ingredients = {"ghost_crab_shell": 2, "algae": 1}
+description = "+25% cephalopods."

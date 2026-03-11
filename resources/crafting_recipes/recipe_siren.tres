@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "recipe_shell_charm"
-name = "Shell Charm"
-result_id = "charm_shell"
-category = "sell_price"
-ingredients = {"shell": 3, "sea_glass": 1}
-description = "+25% crustaceans."
+id = "recipe_siren"
+name = "Siren Charm"
+result_id = "charm_siren"
+category = "spawn_rate"
+ingredients = {"sea_glass": 3, "algae": 1}
+description = "+30% pelagic spawn."

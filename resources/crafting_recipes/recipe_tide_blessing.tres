@@ -1,16 +1,12 @@
-[gd_resource type="Resource" script_class="CraftingRecipe" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="CraftingRecipeData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1_recipe"]
+[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1"]
 
 [resource]
-script = ExtResource("1_recipe")
-recipe_name = "Tide Blessing Charm"
-result_charm_id = "charm_tide_blessing"
-result_type = "enchantment"
-materials_required = {
-"mat_shell": 5,
-"mat_coral": 2,
-"mat_pearl": 1
-}
-effect_description = "Enchants rod with Tide Blessing (+20% sell price on Zone 1-2 common fish)."
-texture_path = "res://Assets/Items/charm_tide_blessing.png"
+script = ExtResource("1")
+id = "recipe_tide_blessing"
+name = "Tide Blessing Charm"
+result_id = "charm_tide_blessing"
+category = "enchantment"
+ingredients = {"shell": 5, "echo_coral": 2, "gold_sand": 1}
+description = "Enchants Tide Blessing."

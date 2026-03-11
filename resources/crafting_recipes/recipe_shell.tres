@@ -4,7 +4,7 @@
 
 [resource]
 script = ExtResource("1")
-id = "recipe_shell_charm"
+id = "recipe_shell"
 name = "Shell Charm"
 result_id = "charm_shell"
 category = "sell_price"

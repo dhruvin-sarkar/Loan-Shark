@@ -1,15 +1,12 @@
-[gd_resource type="Resource" script_class="CraftingRecipe" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="CraftingRecipeData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1_recipe"]
+[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1"]
 
 [resource]
-script = ExtResource("1_recipe")
-recipe_name = "Night Charm"
-result_charm_id = "charm_night"
-result_type = "sell"
-materials_required = {
-"mat_kelp": 2,
-"mat_biolum": 1
-}
-effect_description = "+40% sell price on night-only fish."
-texture_path = "res://Assets/Items/charm_night.png"
+script = ExtResource("1")
+id = "recipe_night_charm"
+name = "Night Charm"
+result_id = "charm_night"
+category = "sell_price"
+ingredients = {"night_kelp": 2, "ghost_fin": 1}
+description = "+40% night fish."
