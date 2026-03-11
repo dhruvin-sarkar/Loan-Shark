@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://conpfmgda5g73"
-path="res://.godot/imported/JDSherbert - Ultimate UI SFX Pack - Swipe - 1.ogg-22a87cced97f17f58f4ed061faaf6518.oggvorbisstr"
+path="res://.godot/imported/JDSherbert - Ultimate UI SFX Pack - Swipe - 1.ogg-5c50db64cff95396a175035ccd43e3f3.oggvorbisstr"
 
 [deps]
 
-source_file="res://Assets/JDSherbert - Ultimate UI SFX Pack/Free/Stereo/ogg/JDSherbert - Ultimate UI SFX Pack - Swipe - 1.ogg"
-dest_files=["res://.godot/imported/JDSherbert - Ultimate UI SFX Pack - Swipe - 1.ogg-22a87cced97f17f58f4ed061faaf6518.oggvorbisstr"]
+source_file="res://Assets/JDSherbert-UltimateUISFXPack/Free/Stereo/ogg/JDSherbert - Ultimate UI SFX Pack - Swipe - 1.ogg"
+dest_files=["res://.godot/imported/JDSherbert - Ultimate UI SFX Pack - Swipe - 1.ogg-5c50db64cff95396a175035ccd43e3f3.oggvorbisstr"]
 
 [params]
 
