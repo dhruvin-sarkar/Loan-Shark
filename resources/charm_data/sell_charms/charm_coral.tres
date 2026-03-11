@@ -1,12 +1,16 @@
 [gd_resource type="Resource" script_class="CharmData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="1_coral"]
+[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="1"]
 
 [resource]
-script = ExtResource("1_coral")
+script = ExtResource("1")
+id = "charm_coral"
 name = "Coral Charm"
-description = "Increases sell price by 20%."
-charm_type = "sell"
-effect_value = 0.2
-base_value = 250
-texture_path = "res://Assets/Items/charm_coral.png"
+category = "sell_price"
+effect_type = "sell_price"
+target_family = "reef"
+bonus_multiplier = 1.3
+is_enchantment = false
+enchantment_id = ""
+recipe = {"coral": 3, "algae": 1}
+description = "+30% reef."

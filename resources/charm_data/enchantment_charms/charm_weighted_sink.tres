@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CharmData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "charm_weighted_sink"
+name = "Weighted Sink Charm"
+category = "enchantment"
+effect_type = "enchantment"
+target_family = ""
+bonus_multiplier = 1
+is_enchantment = true
+enchantment_id = "weighted_sink"
+recipe = {"small_bone": 2, "driftwood": 3, "deep_crystal": 1}
+description = "Enchants Weighted Sink."

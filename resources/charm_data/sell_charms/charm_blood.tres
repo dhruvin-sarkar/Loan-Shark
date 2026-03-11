@@ -4,13 +4,13 @@
 
 [resource]
 script = ExtResource("1")
-id = "charm_shell"
-name = "Shell Charm"
+id = "charm_blood"
+name = "Blood Charm"
 category = "sell_price"
 effect_type = "sell_price"
-target_family = "crustacean"
-bonus_multiplier = 1.25
+target_family = ""
+bonus_multiplier = 1.6
 is_enchantment = false
 enchantment_id = ""
-recipe = {"shell": 3, "sea_glass": 1}
-description = "+25% crustaceans."
+recipe = {"shark_tooth": 2, "small_bone": 2}
+description = "+60% rare fish."

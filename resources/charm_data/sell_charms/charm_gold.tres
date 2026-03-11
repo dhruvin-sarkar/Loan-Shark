@@ -1,12 +1,16 @@
 [gd_resource type="Resource" script_class="CharmData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="1_gold"]
+[ext_resource type="Script" path="res://scripts/resources/charm_data.gd" id="1"]
 
 [resource]
-script = ExtResource("1_gold")
+script = ExtResource("1")
+id = "charm_gold"
 name = "Gold Charm"
-description = "Increases sell price by 35%."
-charm_type = "sell"
-effect_value = 0.35
-base_value = 500
-texture_path = "res://Assets/Items/charm_gold.png"
+category = "sell_price"
+effect_type = "sell_price"
+target_family = ""
+bonus_multiplier = 1.5
+is_enchantment = false
+enchantment_id = ""
+recipe = {"gold_sand": 3, "sea_glass": 2}
+description = "+50% next 3 sales."
