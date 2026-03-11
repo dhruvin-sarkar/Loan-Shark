@@ -36,7 +36,7 @@ func _physics_process(delta):
 		_idle_animation()
 	
 	move_and_slide()
-	emit_signal("player_moved", global_position)
+	player_moved.emit(global_position)
 
 func _input(event):
 	if event.is_action_pressed("interact"):
@@ -68,7 +68,7 @@ func _try_interact():
 	var bodies = interaction_area.get_overlapping_bodies()
 	for body in bodies:
 		if body.is_in_group("interactable"):
-			emit_signal("player_interacted", body)
+			player_interacted.emit(body)
 			return
 
 func set_can_move(value: bool):

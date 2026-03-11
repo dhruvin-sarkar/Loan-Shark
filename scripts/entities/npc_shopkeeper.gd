@@ -20,7 +20,7 @@ func _setup_shop_inventory():
 
 func interact():
 	if can_interact:
-		emit_signal("shop_opened")
+		shop_opened.emit()
 		# Open shop UI
 		GameState.open_shop()
 

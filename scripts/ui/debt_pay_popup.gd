@@ -26,9 +26,9 @@ func show_payment():
 func _on_pay_pressed():
 	var amount = int(amount_spinbox.value)
 	if amount > 0 and amount <= GameState.money:
-		emit_signal("payment_made", amount)
+		payment_made.emit(amount)
 	hide()
 
 func _on_cancel_pressed():
-	emit_signal("payment_cancelled")
+	payment_cancelled.emit()
 	hide()

@@ -56,5 +56,5 @@ func _create_inventory_slot(item_id: String, count: int, tab: String):
 			materials_grid.add_child(label)
 
 func _on_close_pressed():
-	emit_signal("inventory_closed")
+	inventory_closed.emit()
 	hide()

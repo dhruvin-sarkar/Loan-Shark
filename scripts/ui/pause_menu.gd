@@ -26,12 +26,12 @@ func hide_menu():
 
 func _on_resume_pressed():
 	hide_menu()
-	emit_signal("resume_pressed")
+	resume_pressed.emit()
 
 func _on_settings_pressed():
-	emit_signal("settings_pressed")
+	settings_pressed.emit()
 
 func _on_main_menu_pressed():
 	hide_menu()
-	emit_signal("main_menu_pressed")
+	main_menu_pressed.emit()
 	SceneManager.change_scene("res://scenes/ui/MainMenu.tscn")
