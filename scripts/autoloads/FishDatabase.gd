@@ -1,138 +1,96 @@
 extends Node
+class_name FishDatabase
 
-# FishDatabase.gd - Global lookup table for all 38+ fish (GDD v3.0 compliant)
-# Does NOT contain spawn logic - that's handled by spawn_table.gd
+const FISH_PATHS: Array[String] = [
+	"res://resources/fish_data/zone1/sardine.tres",
+	"res://resources/fish_data/zone1/bass.tres",
+	"res://resources/fish_data/zone1/crab.tres",
+	"res://resources/fish_data/zone1/clownfish.tres",
+	"res://resources/fish_data/zone1/seahorse.tres",
+	"res://resources/fish_data/zone1/pufferfish.tres",
+	"res://resources/fish_data/zone1/flounder.tres",
+	"res://resources/fish_data/zone1/perch.tres",
+	"res://resources/fish_data/zone1/shrimp.tres",
+	"res://resources/fish_data/zone1/jellyfish.tres",
+	"res://resources/fish_data/zone2/snapper.tres",
+	"res://resources/fish_data/zone2/moray_small.tres",
+	"res://resources/fish_data/zone2/grouper.tres",
+	"res://resources/fish_data/zone2/trumpet_fish.tres",
+	"res://resources/fish_data/zone2/spiny_lobster.tres",
+	"res://resources/fish_data/zone2/stonefish.tres",
+	"res://resources/fish_data/zone2/octopus_small.tres",
+	"res://resources/fish_data/zone2/needlefish.tres",
+	"res://resources/fish_data/zone2/batfish.tres",
+	"res://resources/fish_data/zone2/ghost_crab.tres",
+	"res://resources/fish_data/zone3/anglerfish.tres",
+	"res://resources/fish_data/zone3/moray_large.tres",
+	"res://resources/fish_data/zone3/oarfish.tres",
+	"res://resources/fish_data/zone3/viperfish.tres",
+	"res://resources/fish_data/zone3/dragonfish_juv.tres",
+	"res://resources/fish_data/zone3/rugose_crab.tres",
+	"res://resources/fish_data/zone3/coelacanth.tres",
+	"res://resources/fish_data/zone3/abyssal_shrimp.tres",
+	"res://resources/fish_data/zone3/stone_crab.tres",
+	"res://resources/fish_data/zone3/phantom_eel.tres",
+	"res://resources/fish_data/zone4/gulper_eel.tres",
+	"res://resources/fish_data/zone4/dragonfish_adult.tres",
+	"res://resources/fish_data/zone4/deep_angler.tres",
+	"res://resources/fish_data/zone4/barreleye.tres",
+	"res://resources/fish_data/zone4/fangtooth.tres",
+	"res://resources/fish_data/zone4/frilled_shark.tres",
+	"res://resources/fish_data/zone4/goldfish_modifier.tres",
+	"res://resources/fish_data/zone4/lanternfish.tres",
+	"res://resources/fish_data/zone4/sea_angel.tres",
+	"res://resources/fish_data/zone4/midnight_leviathan.tres"
+]
 
-signal fish_registered(fish_id: String, fish_data: Dictionary)
+var _fish_lookup: Dictionary = {}
+var _fish_list: Array[FishData] = []
+var _rng := RandomNumberGenerator.new()
 
-var fish_data: Dictionary = {}  # fish_id -> Dictionary
-var spawn_tables: Dictionary = {}  # zone -> SpawnTable resource
+func _ready() -> void:
+	_rng.randomize()
+	_fish_lookup.clear()
+	_fish_list.clear()
+	for path in FISH_PATHS:
+		if not ResourceLoader.exists(path):
+			push_error("Missing fish resource: %s" % path)
+			continue
+		var fish_resource := load(path) as FishData
+		if fish_resource == null:
+			push_error("Invalid fish resource: %s" % path)
+			continue
+		_fish_lookup[fish_resource.id] = fish_resource
+		_fish_list.append(fish_resource)
 
-# Complete fish roster loaded from resources
-var all_fish_ids: Array = []
+func get_fish(id: String) -> FishData:
+	return _fish_lookup.get(id, null)
 
-func _ready():
-	load_fish_data()
-	load_spawn_tables()
+func get_all_fish() -> Array[FishData]:
+	return _fish_list.duplicate()
 
-func load_fish_data():
-	var zones = ["zone1", "zone2", "zone3", "zone4"]
-	for zone in zones:
-		var zone_path = "res://resources/fish_data/" + zone
-		var dir = DirAccess.open(zone_path)
-		if dir:
-			dir.list_dir_begin()
-			var file_name = dir.get_next()
-			while file_name != "":
-				if file_name.ends_with(".tres"):
-					var fish_id = file_name.replace(".tres", "")
-					var fish_res = load(zone_path + "/" + file_name)
-					if fish_res:
-						# Convert resource to dictionary for GDD compliance
-						var fish_dict = _resource_to_dict(fish_res, fish_id, zone)
-						fish_data[fish_id] = fish_dict
-						all_fish_ids.append(fish_id)
-				file_name = dir.get_next()
-
-func _resource_to_dict(res: Resource, fish_id: String, zone: String) -> Dictionary:
+func create_fish_instance(fish_data: FishData) -> Dictionary:
+	var size_min := fish_data.size_range.x
+	var size_max := fish_data.size_range.y
+	var size_roll: float
+	if GameState.equipped_rod == "rod_leviathan":
+		size_roll = lerp(size_min, size_max, sqrt(_rng.randf()))
+	else:
+		size_roll = _rng.randf_range(size_min, size_max)
 	return {
-		"id": fish_id,
-		"name": res.get("name", "Unknown"),
-		"zone": zone,
-		"base_price": res.get("base_price", 10),
-		"size_range": res.get("size_range", [0.8, 1.8]),
-		"rarity": res.get("rarity", "common"),
-		"night_only": res.get("night_only", false),
-		"family": res.get("family", "pelagic"),
-		"reel_speed": res.get("reel_speed", 1.0),
-		"catch_speed": res.get("catch_speed", 1.0),
-		"modifier_effect": res.get("modifier_effect", ""),
-		"description": res.get("description", ""),
-		"texture_path": res.get("texture_path", "")
-	}
-
-func load_spawn_tables():
-	for i in range(1, 5):
-		var table_path = "res://resources/spawn_tables/spawn_table_zone" + str(i) + ".tres"
-		if ResourceLoader.exists(table_path):
-			spawn_tables["zone" + str(i)] = load(table_path)
-
-# === LOOKUP METHODS ===
-
-func get_fish_data(fish_id: String) -> Dictionary:
-	return fish_data.get(fish_id, {})
-
-func get_spawn_table(zone: String) -> Resource:
-	return spawn_tables.get(zone, null)
-
-func get_fish_by_zone(zone: String) -> Array:
-	var result = []
-	for fish_id in fish_data:
-		if fish_data[fish_id].zone == zone:
-			result.append(fish_id)
-	return result
-
-func get_fish_by_rarity(rarity: String) -> Array:
-	var result = []
-	for fish_id in fish_data:
-		if fish_data[fish_id].rarity == rarity:
-			result.append(fish_id)
-	return result
-
-func get_fish_by_family(family: String) -> Array:
-	var result = []
-	for fish_id in fish_data:
-		if fish_data[fish_id].family == family:
-			result.append(fish_id)
-	return result
-
-func get_night_only_fish() -> Array:
-	var result = []
-	for fish_id in fish_data:
-		if fish_data[fish_id].night_only:
-			result.append(fish_id)
-	return result
-
-# Returns a random fish_id weighted by spawn table
-func get_random_fish(zone: String) -> String:
-	var table = get_spawn_table(zone)
-	if table and table.has_method("get_random_fish"):
-		return table.get_random_fish()
-	
-	# Fallback: random from zone
-	var zone_fish = get_fish_by_zone(zone)
-	if zone_fish.size() > 0:
-		return zone_fish.pick_random()
-	return ""
-
-# Returns fish data formatted for inventory entry
-func create_fish_instance(fish_id: String, zone_caught: String = "", caught_at_night: bool = false) -> Dictionary:
-	var data = get_fish_data(fish_id)
-	if data.is_empty():
-		return {}
-	
-	# Random size within range
-	var size_mult = randf_range(data.size_range[0], data.size_range[1])
-	
-	return {
-		"id": fish_id,
-		"name": data.name,
-		"base_price": data.base_price,
-		"size_mult": size_mult,
-		"reel_quality": 1.0,  # Set by Reel minigame
+		"id": fish_data.id,
+		"name": fish_data.name,
+		"base_price": fish_data.base_price,
+		"size_mult": size_roll,
+		"reel_quality": 0.0,
 		"fileted": false,
-		"filet_mult": 1.0,  # Set by Filet minigame
-		"family": data.family,
-		"rarity": data.rarity,
-		"night_only": data.night_only,
-		"zone_caught": zone_caught,
-		"caught_at_night": caught_at_night
+		"filet_mult": 1.0,
+		"zone_caught": GameState.current_zone,
+		"caught_at_night": GameState.is_night(),
+		"family": fish_data.family,
+		"rarity": fish_data.rarity,
+		"modifier_effect": fish_data.modifier_effect,
+		"inventory_slots": fish_data.inventory_slots,
+		"stack_count": 5 if fish_data.id == "lanternfish" else 1,
+		"sprite_region": fish_data.sprite_region
 	}
-
-# Get total fish count
-func get_fish_count() -> int:
-	return fish_data.size()
-
-# Check if fish exists
-func has_fish(fish_id: String) -> bool:
-	return fish_data.has(fish_id)

@@ -1,99 +1,105 @@
 extends Node
+class_name AudioManager
 
-# AudioManager.gd - Manages music crossfade, SFX, and volume settings
+const MUSIC_TRACKS := {
+	"town_day": "res://Assets/CozyTunes(Pro)/Audio/ogg/Tracks/Gentle Breeze.ogg",
+	"town_night": "res://Assets/CozyTunes(Pro)/Audio/ogg/Tracks/Evening Harmony.ogg",
+	"beach": "res://Assets/CozyTunes(Pro)/Audio/ogg/Tracks/Floating Dream.ogg",
+	"ocean_z1": "res://Assets/CozyTunes(Pro)/Audio/ogg/Tracks/Whispering Woods.ogg",
+	"ocean_z2": "res://Assets/CozyTunes(Pro)/Audio/ogg/Tracks/Forgotten Biomes.ogg",
+	"ocean_z3": "res://Assets/CozyTunes(Pro)/Audio/ogg/Tracks/Strange Worlds.ogg",
+	"ocean_z4": "res://Assets/CozyTunes(Pro)/Audio/ogg/Tracks/Polar Lights.ogg",
+	"leviathan": "res://Assets/CozyTunes(Pro)/Audio/ogg/Tracks/Wanderers Tale.ogg",
+	"shop": "res://Assets/CozyTunes(Pro)/Audio/ogg/Tracks/Golden Gleam.ogg",
+	"win": "res://Assets/CozyTunes(Pro)/Audio/ogg/Tracks/Cuddle Clouds.ogg",
+	"game_over": "res://Assets/CozyTunes(Pro)/Audio/ogg/Tracks/Drifting Memories.ogg",
+	"tutorial": "res://Assets/CozyTunes(Pro)/Audio/ogg/Tracks/Sunlight Through Leaves.ogg"
+}
 
-var music_player: AudioStreamPlayer
-var sfx_players: Array = []
-var ambient_player: AudioStreamPlayer
+const SFX_TRACKS := {
+	"finn_blip": "res://Assets/CozyTunes(Pro)/Audio/ogg/Sound Effects/alien remarks 3.ogg",
+	"fisherman_blip": "res://Assets/CozyTunes(Pro)/Audio/ogg/Sound Effects/alien remarks 2.ogg",
+	"townsfolk_blip": "res://Assets/CozyTunes(Pro)/Audio/ogg/Sound Effects/alien remarks.ogg",
+	"phantom": "res://Assets/CozyTunes(Pro)/Audio/ogg/Sound Effects/phantom.ogg",
+	"presencebehind": "res://Assets/CozyTunes(Pro)/Audio/ogg/Sound Effects/presence behind.ogg",
+	"shadow": "res://Assets/CozyTunes(Pro)/Audio/ogg/Sound Effects/shadow.ogg",
+	"stalker": "res://Assets/CozyTunes(Pro)/Audio/ogg/Sound Effects/stalker.ogg",
+	"underwaterworld": "res://Assets/CozyTunes(Pro)/Audio/ogg/Sound Effects/underwater world.ogg",
+	"ui_click": "res://Assets/JDSherbert-UltimateUISFXPack/Free/Mono/ogg/JDSherbert - Ultimate UI SFX Pack - Select - 1.ogg",
+	"ui_hover": "res://Assets/JDSherbert-UltimateUISFXPack/Free/Mono/ogg/JDSherbert - Ultimate UI SFX Pack - Cursor - 1.ogg",
+	"ui_open": "res://Assets/JDSherbert-UltimateUISFXPack/Free/Mono/ogg/JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.ogg",
+	"ui_close": "res://Assets/JDSherbert-UltimateUISFXPack/Free/Mono/ogg/JDSherbert - Ultimate UI SFX Pack - Popup Close - 1.ogg",
+	"ui_error": "res://Assets/JDSherbert-UltimateUISFXPack/Free/Mono/ogg/JDSherbert - Ultimate UI SFX Pack - Error - 1.ogg",
+	"ui_cancel": "res://Assets/JDSherbert-UltimateUISFXPack/Free/Mono/ogg/JDSherbert - Ultimate UI SFX Pack - Cancel - 1.ogg"
+}
 
-var current_music: String = ""
-var music_volume: float = 0.8
-var sfx_volume: float = 1.0
-var master_volume: float = 1.0
+var _music_primary := AudioStreamPlayer.new()
+var _music_secondary := AudioStreamPlayer.new()
+var _sfx_player := AudioStreamPlayer.new()
+var _music_volume := 0.7
+var _sfx_volume := 0.85
+var _active_primary := true
+var _current_track_name := ""
 
-const MAX_SFX_PLAYERS = 8
+func _ready() -> void:
+	_music_primary.name = "MusicPrimary"
+	_music_secondary.name = "MusicSecondary"
+	_sfx_player.name = "SfxPlayer"
+	_music_primary.bus = _resolve_bus("Music")
+	_music_secondary.bus = _resolve_bus("Music")
+	_sfx_player.bus = _resolve_bus("SFX")
+	add_child(_music_primary)
+	add_child(_music_secondary)
+	add_child(_sfx_player)
+	set_music_volume(_music_volume)
+	set_sfx_volume(_sfx_volume)
 
-func _ready():
-	music_player = AudioStreamPlayer.new()
-	music_player.bus = "Music"
-	add_child(music_player)
-	
-	ambient_player = AudioStreamPlayer.new()
-	ambient_player.bus = "Ambient"
-	add_child(ambient_player)
-	
-	for i in range(MAX_SFX_PLAYERS):
-		var player = AudioStreamPlayer.new()
-		player.bus = "SFX"
-		add_child(player)
-		sfx_players.append(player)
-	
-	# Set default bus volumes per GDD Section 18
-	_set_bus_volume("Music", 0.70)
-	_set_bus_volume("SFX", 0.85)
+func _resolve_bus(name: String) -> String:
+	return name if AudioServer.get_bus_index(name) != -1 else "Master"
 
-func _set_bus_volume(bus_name: String, linear_volume: float):
-	var bus_idx = AudioServer.get_bus_index(bus_name)
-	if bus_idx >= 0:
-		AudioServer.set_bus_volume_db(bus_idx, linear_to_db(linear_volume))
-
-func play_music(track_path: String, fade_duration: float = 1.5):
-	if current_music == track_path:
+func play_music(track_name: String) -> void:
+	if _current_track_name == track_name:
 		return
-	
-	var new_stream = load(track_path)
-	if new_stream == null:
+	var path := MUSIC_TRACKS.get(track_name, "")
+	if path.is_empty() or not ResourceLoader.exists(path):
 		return
-	
-	# Fade out current music
-	if music_player.playing:
-		var tween = create_tween()
-		tween.tween_property(music_player, "volume_db", -40.0, fade_duration)
-		await tween.finished
-	
-	music_player.stream = new_stream
-	music_player.volume_db = linear_to_db(music_volume * master_volume)
-	music_player.play()
-	current_music = track_path
+	_current_track_name = track_name
+	var incoming := _music_secondary if _active_primary else _music_primary
+	var outgoing := _music_primary if _active_primary else _music_secondary
+	incoming.stream = load(path)
+	incoming.volume_db = linear_to_db(0.001)
+	incoming.play()
+	var tween := create_tween()
+	tween.set_parallel(true)
+	tween.tween_property(incoming, "volume_db", _linear_to_db(_music_volume), 1.5)
+	tween.tween_property(outgoing, "volume_db", linear_to_db(0.001), 1.5)
+	await tween.finished
+	outgoing.stop()
+	_active_primary = not _active_primary
 
-func stop_music(fade_duration: float = 1.5):
-	if music_player.playing:
-		var tween = create_tween()
-		tween.tween_property(music_player, "volume_db", -40.0, fade_duration)
-		await tween.finished
-		music_player.stop()
-		current_music = ""
+func play_sfx(sfx_name: String) -> void:
+	var path := SFX_TRACKS.get(sfx_name, "")
+	if path.is_empty() or not ResourceLoader.exists(path):
+		return
+	_sfx_player.stream = load(path)
+	_sfx_player.play()
 
-func play_sfx(sfx_path: String, volume_db: float = 0.0):
-	for player in sfx_players:
-		if not player.playing:
-			player.stream = load(sfx_path)
-			player.volume_db = volume_db + linear_to_db(sfx_volume * master_volume)
-			player.play()
-			return player
+func stop_music() -> void:
+	_music_primary.stop()
+	_music_secondary.stop()
+	_current_track_name = ""
 
-func play_ambient(ambient_path: String, loop: bool = true):
-	var stream = load(ambient_path)
-	if stream:
-		ambient_player.stream = stream
-		ambient_player.volume_db = linear_to_db(master_volume)
-		ambient_player.play()
+func set_music_volume(val: float) -> void:
+	_music_volume = clamp(val, 0.0, 1.0)
+	var db := _linear_to_db(_music_volume)
+	_music_primary.volume_db = db if _music_primary.playing else _music_primary.volume_db
+	_music_secondary.volume_db = db if _music_secondary.playing else _music_secondary.volume_db
 
-func stop_ambient():
-	ambient_player.stop()
+func set_sfx_volume(val: float) -> void:
+	_sfx_volume = clamp(val, 0.0, 1.0)
+	_sfx_player.volume_db = _linear_to_db(_sfx_volume)
 
-func set_master_volume(value: float):
-	master_volume = value
-	_update_all_volumes()
-
-func set_music_volume(value: float):
-	music_volume = value
-	if music_player.playing:
-		music_player.volume_db = linear_to_db(music_volume * master_volume)
-
-func set_sfx_volume(value: float):
-	sfx_volume = value
-
-func _update_all_volumes():
-	if music_player.playing:
-		music_player.volume_db = linear_to_db(music_volume * master_volume)
+func _linear_to_db(value: float) -> float:
+	if value <= 0.0:
+		return -80.0
+	return linear_to_db(value)
