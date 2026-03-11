@@ -1,15 +1,12 @@
-[gd_resource type="Resource" script_class="CraftingRecipe" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="CraftingRecipeData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1_recipe"]
+[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1"]
 
 [resource]
-script = ExtResource("1_recipe")
-recipe_name = "Depth Pulse"
-result_charm_id = "charm_depth_pulse"
-result_type = "spawn"
-materials_required = {
-"mat_abyssal": 3,
-"mat_coral": 1
-}
-effect_description = "+40% deep family spawn weight (Zones 3-4 only)."
-texture_path = "res://Assets/Items/charm_depth_pulse.png"
+script = ExtResource("1")
+id = "recipe_depth_pulse"
+name = "Depth Pulse"
+result_id = "charm_depth_pulse"
+category = "spawn_rate"
+ingredients = {"deep_crystal": 3, "echo_coral": 1}
+description = "+40% deep fish."

@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "recipe_calm_waters"
-name = "Calm Waters Charm"
-result_id = "charm_calm_waters"
-category = "enchantment"
-ingredients = {"coral": 4, "algae": 3, "sea_glass": 2}
-description = "Enchants Calm Waters."
+id = "recipe_coral"
+name = "Coral Charm"
+result_id = "charm_coral"
+category = "sell_price"
+ingredients = {"coral": 3, "algae": 1}
+description = "+30% reef."

@@ -1,15 +1,12 @@
-[gd_resource type="Resource" script_class="CraftingRecipe" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="CraftingRecipeData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1_recipe"]
+[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1"]
 
 [resource]
-script = ExtResource("1_recipe")
-recipe_name = "Coral Charm"
-result_charm_id = "charm_coral"
-result_type = "sell"
-materials_required = {
-"mat_coral": 3,
-"mat_seaweed": 1
-}
-effect_description = "+30% sell price on reef fish."
-texture_path = "res://Assets/Items/charm_coral.png"
+script = ExtResource("1")
+id = "recipe_coral_charm"
+name = "Coral Charm"
+result_id = "charm_coral"
+category = "sell_price"
+ingredients = {"coral": 3, "algae": 1}
+description = "+30% reef."

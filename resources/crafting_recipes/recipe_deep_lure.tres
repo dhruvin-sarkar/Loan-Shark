@@ -1,15 +1,12 @@
-[gd_resource type="Resource" script_class="CraftingRecipe" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="CraftingRecipeData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1_recipe"]
+[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1"]
 
 [resource]
-script = ExtResource("1_recipe")
-recipe_name = "Deep Lure Charm"
-result_charm_id = "charm_deep_lure"
-result_type = "enchantment"
-materials_required = {
-"mat_abyssal": 4,
-"mat_fish_bone": 2
-}
-effect_description = "Enchants rod with Deep Lure (+40% spawn weight to Zone 3-4 rare+ fish)."
-texture_path = "res://Assets/Items/charm_deep_lure.png"
+script = ExtResource("1")
+id = "recipe_deep_lure"
+name = "Deep Lure Charm"
+result_id = "charm_deep_lure"
+category = "enchantment"
+ingredients = {"deep_crystal": 4, "small_bone": 2}
+description = "Enchants Deep Lure."

@@ -1,15 +1,12 @@
-[gd_resource type="Resource" script_class="CraftingRecipe" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="CraftingRecipeData" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1_recipe"]
+[ext_resource type="Script" path="res://scripts/resources/crafting_recipe.gd" id="1"]
 
 [resource]
-script = ExtResource("1_recipe")
-recipe_name = "Crustacean Call"
-result_charm_id = "charm_crustacean_call"
-result_type = "spawn"
-materials_required = {
-"mat_shell": 2,
-"mat_shrimp": 2
-}
-effect_description = "+40% crustacean spawn weight."
-texture_path = "res://Assets/Items/charm_crustacean_call.png"
+script = ExtResource("1")
+id = "recipe_crustacean_call"
+name = "Crustacean Call"
+result_id = "charm_crustacean_call"
+category = "spawn_rate"
+ingredients = {"shell": 2, "sand_crab": 2}
+description = "+40% crustaceans."
